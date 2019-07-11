@@ -1,29 +1,42 @@
+% !TeX TS-program = pdflatex
+
 % BU ECE template for MS thesis and PhD dissertation.
+% Additions from https://github.com/scivision/phd-thesis-dissertation/blob/master/thesis.tex
 %
 %==========================================================================%
-% MAIN PREAMBLE 
+% MAIN PREAMBLE
 %==========================================================================%
+\pdfminorversion=7
 \documentclass[12pt,letterpaper]{report}          % Single-sided printing for the library
-%\documentclass[12pt,twoside]{report} % Double-sided printing
+% \documentclass[12pt,twoside]{report} % Double-sided printing
 \usepackage[intlimits]{amsmath}
 \usepackage{amsfonts,amssymb}
 \DeclareSymbolFontAlphabet{\mathbb}{AMSb}
-%\usepackage{natbib}
+% \usepackage[T1]{fontenc}
+% \usepackage[intlimits]{mathtools}
+% \usepackage{mathrsfs} %enables formal \mathscr
+% \usepackage{textcomp} % \textdegree  %gensymb $\degree$
+
+
+% \usepackage{natbib}
 \usepackage{apalike}
 \usepackage{float}
-\usepackage[bf]{caption}       
+\usepackage[bf]{caption}
 \setcaptionmargin{0.5in}
 \usepackage{fancyhdr}
-%\usepackage{fancyheadings}
+% \usepackage{fancyheadings}
 \usepackage{fancybox}
 \usepackage{ifthen}
 \usepackage{bu_ece_thesis}
-\usepackage{url}
+\usepackage[hidelinks]{hyperref} %{url}
 \usepackage{lscape,afterpage}
 \usepackage{xspace}
-\usepackage{epstopdf} 
-\usepackage{subfig}
-\usepackage{pdfpages}
+\usepackage{epstopdf}
+\usepackage{rotating}
+% \usepackage{subfig}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{algorithm,algpseudocode}
 
 %==========================================================================%
 %%% graphicx and pdf creation
@@ -38,7 +51,7 @@
 %hypertexnames=false,%              % needed for correct links to figures !!!
 %breaklinks=true,%                  % breaks lines, but links are very small
 %linkbordercolor={0 0 1},%          % blue frames around links
-%pdfborder={0 0 112.0}]{hyperref}%  % border-width of frames 
+%pdfborder={0 0 112.0}]{hyperref}%  % border-width of frames
 %                                   % will be multiplied with 0.009 by ps2pdf
 %\hypersetup{
 %  pdfauthor   = {Joe Graduate <joe.graduate@bu.edu>},
@@ -55,48 +68,86 @@
 %\newcommand{\latex}{\LaTeX\xspace}
 %==========================================================================%
 
+% % % % %
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\usepackage{units} %necessary for \nicefrac
+\usepackage{epigraph}
+\usepackage[utf8]{inputenc}
+\usepackage[section]{placeins}
+\usepackage{tikz}
+%\usepackage[clean]{svg} doesn't work in linux or windows for this style...
+% % % % % % % % % %
+\usepackage{marginnote}
+% % % % % % % % % % % % % % % %
+\usepackage{harpoon} %my favorite vector
+\newcommand*{\vect}[1]{\overrightharp{\ensuremath{#1}}}
+% % % % % % % % % % % % % % %
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric,arrows}
+%
+\tikzstyle{startstop} = [rectangle, rounded corners, text centered, draw=black, fill=blue!10]
+\tikzstyle{process} = [rectangle, minimum width=2cm,  text centered, draw=black, fill=orange!10]
+\tikzstyle{decision} = [diamond, aspect=3, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!10]
+% define arrow style
+\tikzstyle{compute} = [rectangle, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=green!10]
+\tikzstyle{estimate} = [rectangle, rounded corners, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=yellow!10]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+% % % % % % % % % % %
+%\usetikzlibrary{matrix,positioning} % math matrices
+% % % % % % % % % % % % % % %
+\usepackage{enumitem}
+\usepackage{pdfpages}
+% % % % % % % % % % %
+
+
 %==========================================================================%
 % BEGIN
 %==========================================================================%
 \begin{document}
 
+\nolinenumbers
 % The preliminary pages
-\include{0_Prelim/prelim}        
+\include{0_prelim/main}
 \cleardoublepage
 
 % -------------------------------------
 % CHAPTER 1: INTRODUCTION
 % -------------------------------------
-\include{1_Intro/intro}
+\include{1_intro/main}
 \cleardoublepage
 
 % -------------------------------------
 % CHAPTER 2: THE BODY OF THESIS
 % -------------------------------------
-\include{2_Body/body}
+\include{2_body/main}
 \cleardoublepage
 
 % -------------------------------------
 % CHAPTER 3: THE BODY OF THESIS
 % -------------------------------------
-\include{3_Body/body}
+\include{3_body/main}
 \cleardoublepage
 
 % -------------------------------------
 % CHAPTER 3: CONCLUSION
 % -------------------------------------
-\include{4_Conclusion/conclusion}
+\include{4_conclusion/main}
 \cleardoublepage
 
 %\appendix
 \begin{appendices}
-\include{Appendix/Appendix}
+	\include{appendix/main}
 \end{appendices}
 %==========================================================================%
 % Bibliography
+\nolinenumbers
 \newpage
 \singlespace
-\bibliographystyle{apalike}
+\raggedright
+\bibliographystyle{apalike-refs}
 
 % each subdirectory can have its own BiBTeX file
 \bibliography{thesis}
@@ -104,7 +155,7 @@
 
 %==========================================================================%
 % Curriculum Vitae
-\include{0_Prelim/cv} 
+\include{0_prelim/cv}
 
 %==========================================================================%
 \end{document}
