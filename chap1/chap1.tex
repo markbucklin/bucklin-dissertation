@@ -35,8 +35,7 @@ Streaming processing addresses the issues of processing and storing pools of dat
 Additionally, I demonstate a strategy in the methods section by which incorporating this online processing stream into stimulus-response-type experiments could help correct limited sampling bias, enabling neural coding analysis in large populations of neurons {[}@ince\_presence\_2009{]}.
 This approach works when the experimental intention is to study neural coding in general, for which it's sufficient to have an arbitrary stimulus.
 
-\section{
-  Optical Imaging of Neural Activity}\label{optical-imaging-of-neural-activity}
+\section{Optical Imaging of Neural Activity}\label{optical-imaging-of-neural-activity}
 
 Optical techniques for observing neural activity have recently advanced owing to both an evolution of digital imaging technology, and the development of engineered proteins that act as fluorescent indicators of neural activity.
 Image sensors, like those found in scientific-CMOS (sCMOS) cameras are larger, faster, and more sensitive than prior scientific grade cameras.
@@ -47,8 +46,7 @@ Additionally, feeding a large set of neural response information to a machine le
 However, several major challenges currently antagonize the potential benefits of these new technologies:
 
 \begin{enumerate}
-	\def\labelenumi{\arabic{enumi}.
-	}
+	\def\labelenumi{\arabic{enumi}.}
 	\itemsep1pt\parskip0pt\parsep0pt
 	\item
 	      The increased size of raw data from a single imaging session can
@@ -83,8 +81,7 @@ However, motion induced by physiologic changes and animal movement necessitates 
 Moreover, the massive fluctuations in signal intensity from individual and spatially overlapping cells often breeds unstable solutions for alignment that radically complicate cell identification routines by disrupting temporal continuity.
 Implementing a reliable procedure for identifying and tracking the same cells in each frame throughout the sequence thus becomes non-trivial.
 
-\section{
-  Procedures for Calcium Imaging}\label{procedures-for-calcium-imaging}
+\section{Procedures for Calcium Imaging}\label{procedures-for-calcium-imaging}
 
 The general goal of processing image data from functional fluorescence imaging experiments is to restructure raw image data in a way that maps pixels in each image frame to distinct individual cells or subcellular components, called `Regions-Of-Interest' (ROI).
 Pixel-intensity values from mapped pixels are often reduced by combination to single dimensional `trace' time-series.
@@ -102,8 +99,7 @@ The linear combination is similar to the weighted image-segmentation method in t
 However, the procedure for computing the covariance matrix employed by PCA operates on as many pixels as exist in the image, multiplying each with every other pixel that creates a problem with np2 complexity, where p is the number of pixels in the image.
 I mention these issues inherent to PCA not because this project addresses them but because this project was initiated following substantial difficulty attempting to use PCA-based cell sorting methods with large datasets.
 
-\section{
-  Computer Software Environments for Image Processing}\label{computer-software-environments-for-image-processing}
+\section{Computer Software Environments for Image Processing}\label{computer-software-environments-for-image-processing}
 
 The widespread usage of MATLAB in neuroscience communities lends potential for greater usability and easier adaptation to software developed in this environment.
 While software development environments focused on ``ease-of-use'' traditionally presume crippling sacrifices to computational performance, this assumption is now less accurate.
@@ -118,8 +114,7 @@ Nevertheless, it remained in common use, and recent releases have added features
 This feature enables code that performs repeated operations using for-loops or while-loops nearly as fast as equivalent code written in C.
 Additionally, code can be compiled into executable format using the Matlab Compiler toolbox, or used to generate equivalent C or C++ code using Matlab Coder.
 
-\section{
-  Computational Resources for Processing Large Data Sets}\label{computational-resources-for-processing-large-data-sets}
+\section{Computational Resources for Processing Large Data Sets}\label{computational-resources-for-processing-large-data-sets}
 
 Routines for extracting the activity in each cell from a collection of raw imaging data rely on simultaneous access to many pixels separated over space and time (and consequently, are separated on a disk).
 For long recording sessions however, the size of the collection of stored image data dramatically grows.
