@@ -1,1 +1,8 @@
-*.bak*
+*.bak
+*.aux
+*.lof
+*.lot
+*.out
+*.toc
+*.synctex.gz
+main.pdf
