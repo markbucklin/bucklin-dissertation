@@ -1,7 +1,10 @@
-\chapter{
-  Introduction: Background and Literature Review} \label{introduction-background-and-literature-review} \thispagestyle{myheadings} 
+\documentclass[../main.tex]{subfiles}
+\begin{document}
 
-\section{Primary Goals}\label{primary-goals} 
+\chapter{
+  Introduction: Background and Literature Review} \label{introduction-background-and-literature-review} \thispagestyle{myheadings}
+
+\section{Primary Goals}\label{primary-goals}
 
 The function of the brain is to translate/encode sensory input into neural output, actuating an effect that promotes organism survival or the survival of offspring.
 It achieves this by communicating input through interconnected neurons via converging and diverging connections that comprise the neural network.
@@ -12,7 +15,7 @@ One might presume that the expansion of information provided by measuring activi
 Unfortunately, the correlation and information theoretic procedures traditionally used to make these associations suffer from a systematic bias that exponentially grows with the number responses considered for each stimulus (i.e., the number of included cells).
 The trial number necessary to overcome this bias becomes exponentially large although methods such as shuffling/resampling tests exist for bias correction.
 
-A systems neuroscience experiment benefits from online feedback in one or both of two ways: 
+A systems neuroscience experiment benefits from online feedback in one or both of two ways:
 
 \begin{enumerate}
 	\def\labelenumi{\arabic{enumi}.
@@ -34,7 +37,7 @@ Additionally, I demonstate a strategy in the methods section by which incorporat
 This approach works when the experimental intention is to study neural coding in general, for which it's sufficient to have an arbitrary stimulus.
 
 \section{
-  Optical Imaging of Neural Activity}\label{optical-imaging-of-neural-activity} 
+  Optical Imaging of Neural Activity}\label{optical-imaging-of-neural-activity}
 
 Optical techniques for observing neural activity have recently advanced owing to both an evolution of digital imaging technology, and the development of engineered proteins that act as fluorescent indicators of neural activity.
 Image sensors, like those found in scientific-CMOS (sCMOS) cameras are larger, faster, and more sensitive than prior scientific grade cameras.
@@ -42,7 +45,7 @@ Meanwhile, the latest generation of Genetically Encoded Calcium Indicators (GECI
 This combination of developments enables neuroscientists to open a wider channel to the brain than previously possible using conventional epifluorescence microscopy techniques that enable simultaneous recording from hundreds to thousands of neurons.
 Expanding the fraction of the observable neurons in an interconnected network could improve understanding of neural coding and provide insight into mechanistic properties of neural disease.
 Additionally, feeding a large set of neural response information to a machine learning algorithm in a neuroprosthetic application may provide improved predictive performance even when the exact mechanism of prediction is difficult to discern.
-However, several major challenges currently antagonize the potential benefits of these new technologies: 
+However, several major challenges currently antagonize the potential benefits of these new technologies:
 
 \begin{enumerate}
 	\def\labelenumi{\arabic{enumi}.
@@ -82,7 +85,7 @@ Moreover, the massive fluctuations in signal intensity from individual and spati
 Implementing a reliable procedure for identifying and tracking the same cells in each frame throughout the sequence thus becomes non-trivial.
 
 \section{
-  Procedures for Calcium Imaging}\label{procedures-for-calcium-imaging} 
+  Procedures for Calcium Imaging}\label{procedures-for-calcium-imaging}
 
 The general goal of processing image data from functional fluorescence imaging experiments is to restructure raw image data in a way that maps pixels in each image frame to distinct individual cells or subcellular components, called `Regions-Of-Interest' (ROI).
 Pixel-intensity values from mapped pixels are often reduced by combination to single dimensional `trace' time-series.
@@ -101,7 +104,7 @@ However, the procedure for computing the covariance matrix employed by PCA opera
 I mention these issues inherent to PCA not because this project addresses them but because this project was initiated following substantial difficulty attempting to use PCA-based cell sorting methods with large datasets.
 
 \section{
-  Computer Software Environments for Image Processing}\label{computer-software-environments-for-image-processing} 
+  Computer Software Environments for Image Processing}\label{computer-software-environments-for-image-processing}
 
 The widespread usage of MATLAB in neuroscience communities lends potential for greater usability and easier adaptation to software developed in this environment.
 While software development environments focused on ``ease-of-use'' traditionally presume crippling sacrifices to computational performance, this assumption is now less accurate.
@@ -117,7 +120,7 @@ This feature enables code that performs repeated operations using for-loops or w
 Additionally, code can be compiled into executable format using the Matlab Compiler toolbox, or used to generate equivalent C or C++ code using Matlab Coder.
 
 \section{
-  Computational Resources for Processing Large Data Sets}\label{computational-resources-for-processing-large-data-sets} 
+  Computational Resources for Processing Large Data Sets}\label{computational-resources-for-processing-large-data-sets}
 
 Routines for extracting the activity in each cell from a collection of raw imaging data rely on simultaneous access to many pixels separated over space and time (and consequently, are separated on a disk).
 For long recording sessions however, the size of the collection of stored image data dramatically grows.
@@ -147,7 +150,7 @@ However, the effect of doubling resolution on processing time when using the gra
 Identifying ROIs online and extracting the traces of neural activity allows us to discard acquired images and instead, only store the relevant pixels for later analysis.
 
 \subsection{
-	Graphics Processing Units for Video Processing}\label{graphics-processing-units-for-video-processing} 
+	Graphics Processing Units for Video Processing}\label{graphics-processing-units-for-video-processing}
 
 Graphics Processing Units were traditionally developed for the consumer gaming market.
 They are optimized for the process that involves translating a continuous stream of information into a two-dimensional image format for transfer to a computer monitor.
@@ -179,3 +182,5 @@ However, once data is available to the GPU, many complex operations can be perfo
 In total, this project employs advances in both software and hardware that facilitate rapid accurate image analysis of living organisms with the ultimate goals of simplifying the acquisition and analysis of neural activity indicators in both normal and pathological states.
 
 \clearpage
+
+\end{document}
