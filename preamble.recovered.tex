@@ -15,16 +15,14 @@
 % FIGURES/GRAPHICS
 \usepackage{graphicx}
 \usepackage{float}
-% \makeatletter
-% \let\@currsize\normalsize
-% \dev\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-% \dev\maxheight{\ifdim\Gin@nat@width>\textheight\textheight\else\Gin@nat@width\fi}
-% \makeatother
-% \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% \usepackage{rotating}
-% \usepackage{subfig}
-% \setcaptionmargin{0.5in}
-% \usepackage{psfrag}
+\usepackage{rotating}
+\usepackage{subfig}
+\setcaptionmargin{0.5in}
+\usepackage{psfrag}
+% \usepackage{thumbpdf}
+% \usepackage{epstopdf}
+% \epstopdfDeclareGraphicsRule{.pdf}{png}{.png}{convert #1 \OutputFile} % comment out for production
+% \usepackage[ps2pdf,bookmarks=true,bookmarksnumbered=true,hypertexnames=false,breaklinks=true,linkbordercolor={0 0 1},pdfborder={0 0 112.0}]{hyperref}
 
 % CAPTIONS
 \usepackage[bf]{caption}
@@ -49,6 +47,7 @@
 % \usepackage{natbib}
 \usepackage{apalike}
 \usepackage{fancyhdr}
+% \usepackage{fancyheadings}
 \usepackage{fancybox}
 \usepackage{ifthen}
 \usepackage{lscape,afterpage}
@@ -58,27 +57,13 @@
 
 % LINKS
 \usepackage[unicode=true]{hyperref}
-\hypersetup{breaklinks=true,bookmarks=true,pdfborder={0 0 0},colorlinks=false}
-% pdfauthor=\author,pdftitle=\title
 
-% FIG/TABLE/EQN REFERENcES
-\usepackage{cleveref}
-% \usepackage{listings}
-% \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{caption}
-% \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{subcaption}
 
 %==========================================================================%
 % customized commands can be placed here
 \newcommand{\figref}[1]{Figure~\ref{#1}}
 \newcommand{\chapref}[1]{Chapter~\ref{#1}}
-\newcommand{\secref}[1]{Section~\ref{#1}}
-
-\usepackage{xargs}
-\usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}
-\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
-\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
-\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
-\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+\newcommand{\latex}{\LaTeX\xspace}
 %==========================================================================%
 
 % % % % %
