@@ -2,20 +2,26 @@ indentPreamble: 1
 defaultIndent: "  "
 onlyOneBackup: 0
 maxNumberOfBackups: 2
+# indentAfterHeadings:
+noAdditionalIndent:
+    paragraph: 1
 indentAfterItems:
     itemize: 1
     enumerate: 0
     description: 0
     list: 0
-removeTrailingWhitespace:
-    beforeProcessing: 1
-# indentAfter
 indentRules:
     chapter: "  "
     section: "  "
     item: "    "
+removeTrailingWhitespace:
+    beforeProcessing: 1
 modifyLineBreaks:
-    preserveBlankLines: -1
+    removeParagraphLineBreaks:
+        all: 1
+        paragraphsStopAt:
+            comments: 1
+    preserveBlankLines: 1
     condenseMultipleBlankLinesInto: 1
     textWrapOptions:
         columns: 0
