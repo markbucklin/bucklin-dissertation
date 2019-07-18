@@ -1,8 +1,33 @@
+indentPreamble: 1
+defaultIndent: "  "
+onlyOneBackup: 0
+maxNumberOfBackups: 2
+indentAfterItems:
+    itemize: 1
+    enumerate: 0
+    description: 0
+    list: 0
+removeTrailingWhitespace:
+    beforeProcessing: 1
+# indentAfter
+indentRules:
+    chapter: "  "
+    section: "  "
+    item: "    "
 modifyLineBreaks:
+    preserveBlankLines: -1
+    condenseMultipleBlankLinesInto: 1
+    textWrapOptions:
+        columns: 0
+        separator: ""
+    BeginStartsOnOwnLine: 1
+    BodyStartsOnOwnLine: 1
+    EndStartsOnOwnLine: 1
+    EndFinishesWithLineBreak: 1
     oneSentencePerLine:
         manipulateSentences: 1
         removeSentenceLineBreaks: 1
-        textWrapSentences: 0
+        textWrapSentences: -1
         sentenceIndent: ""
         sentencesFollow:
             par: 1
@@ -10,7 +35,7 @@ modifyLineBreaks:
             fullStop: 1
             exclamationMark: 1
             questionMark: 1
-            rightBrace: 1
+            rightBrace: 0
             commentOnPreviousLine: 1
         sentencesBeginWith:
             A-Z: 1
@@ -24,10 +49,8 @@ modifyLineBreaks:
             other: "\;"
     items:
         ItemStartsOnOwnLine: 1
-    environments:
-        BeginStartsOnOwnLine: 1
-        BodyStartsOnOwnLine: 1
-        EndStartsOnOwnLine: 1
-        EndFinishesWithLineBreak: 1
-removeTrailingWhitespace:
-    beforeProcessing: 1
+    # environments:
+    #     BeginStartsOnOwnLine: 1
+    #     BodyStartsOnOwnLine: 1
+    #     EndStartsOnOwnLine: 1
+    #     EndFinishesWithLineBreak: 1
