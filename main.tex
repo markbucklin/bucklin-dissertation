@@ -1,7 +1,110 @@
 % !TeX TS-program = pdflatex
 
+% PREAMBLE BU ECE template for MS thesis and PhD dissertation. Additions from
+% https://github.com/scivision/phd-thesis-dissertation/blob/master/thesis.tex
 
-\include{preamble}
+% MAIN LAYOUT
+\pdfminorversion=7 \documentclass[12pt,letterpaper]{report}
+\usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{appendix}
+\usepackage{subfiles}
+
+% BOSTON UNIVERSITY THESIS/DISSERTATION
+\usepackage{bu_ece_thesis}
+
+% FIGURES/GRAPHICS
+\usepackage{graphicx} \usepackage{float}
+% \makeatletter \let\@currsize\normalsize
+% \dev\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+% \dev\maxheight{\ifdim\Gin@nat@width>\textheight\textheight\else\Gin@nat@width\fi}
+% \makeatother \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% \usepackage{rotating} \usepackage{subfig} \setcaptionmargin{0.5in}
+% \usepackage{psfrag}
+
+% CAPTIONS
+\usepackage[bf]{caption}
+% \usepackage{subcaption} \usepackage{floatrow}
+
+% GRAPHICS PATHS
+\graphicspath{ {figures/} {./figures/} {../figures/} }
+\DeclareGraphicsExtensions{.jpg,.png,.eps,.pdf}
+
+% NOMENCLATURE
+\usepackage[intoc, english]{nomencl}
+\makenomenclature
+
+% MATH and FONTS
+\usepackage[intlimits]{amsmath} \usepackage{amsfonts,amssymb}
+\DeclareSymbolFontAlphabet{\mathbb}{AMSb}
+% \usepackage[T1]{fontenc} \usepackage[intlimits]{mathtools}
+% \usepackage{mathrsfs} %enables formal \mathscr \usepackage{textcomp} %
+% \textdegree  %gensymb $\degree$
+
+% \usepackage{natbib}
+\usepackage{apalike} \usepackage{fancyhdr} \usepackage{fancybox}
+\usepackage{ifthen} \usepackage{lscape,afterpage} \usepackage{xspace}
+\usepackage{booktabs} \usepackage{algorithm,algpseudocode}
+
+% LINKS
+\usepackage[unicode=true]{hyperref}
+\hypersetup{breaklinks=true,bookmarks=true,pdfborder={0 0 0},colorlinks=false}
+% pdfauthor=\author,pdftitle=\title
+
+% FIG/TABLE/EQN REFERENcES
+\usepackage{cleveref}
+% \usepackage{listings}
+% \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{caption}
+% \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{subcaption}
+
+%==========================================================================%
+%customized commands can be placed here
+\newcommand{\figref}[1]{Figure~\ref{#1}}
+\newcommand{\chapref}[1]{Chapter~\ref{#1}}
+\newcommand{\secref}[1]{Section~\ref{#1}}
+
+\usepackage{xargs}
+\usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}
+\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
+\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
+\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
+\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
+%==========================================================================%
+
+% % % % %
+\DeclareMathOperator*{\argmin}{\arg\!\min}
+\DeclareMathOperator*{\argmax}{\arg\!\max}
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % %
+\usepackage{units} %necessary for \nicefrac \usepackage{epigraph}
+\usepackage[section]{placeins} \usepackage{tikz}
+
+\usepackage{flowchart}
+
+%\usepackage[clean]{svg} doesn't work in linux or windows for this style... % %
+%% % % % % % %
+\usepackage{marginnote}
+% % % % % % % % % % % % % % % %
+\usepackage{harpoon} %my favorite vector
+\newcommand*{\vect}[1]{\overrightharp{\ensuremath{#1}}}
+% % % % % % % % % % % % % % %
+\usetikzlibrary{shapes.geometric,arrows}
+%
+\tikzstyle{startstop} = [rectangle, rounded corners, text centered, draw=black,
+fill=blue!10] \tikzstyle{process} = [rectangle, minimum width=2cm,  text
+centered, draw=black, fill=orange!10] \tikzstyle{decision} = [diamond,
+aspect=3, minimum width=3cm, minimum height=1cm, text centered, draw=black,
+fill=red!10]
+% define arrow style
+\tikzstyle{compute} = [rectangle, minimum width=2cm, minimum height=1cm, text
+centered, draw=black, fill=green!10] \tikzstyle{estimate} = [rectangle, rounded
+corners, minimum width=2cm, minimum height=1cm, text centered, draw=black,
+fill=yellow!10] \tikzstyle{arrow} = [thick,->,>=stealth]
+% % % % % % % % % % %
+%\usetikzlibrary{matrix,positioning} % math matrices % % % % % % % % % % % % %
+%%
+\usepackage{enumitem} \usepackage{pdfpages}
+% % % % % % % % % % %
+
+% \include{preamble}
 
 \begin{document}
 
