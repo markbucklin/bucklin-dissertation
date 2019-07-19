@@ -1,0 +1,1 @@
+rg '^.*\\includegraphics\[\w*=\w*\]\{([^\}]*)\}.*$' --replace '$1' --no-heading --no-filename --no-line-number --color=never
