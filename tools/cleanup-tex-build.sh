@@ -6,12 +6,12 @@ TEXTEMPDIR="/tmp/tex-build-dump"
 mkdir -p "$TEXTEMPDIR"
 if [ $# -ge 1 ]; then
   for d in "${@}"; do
-    for f in aux toc lof log lot out ; do
+    for f in aux toc lof log lot out nlo ; do
       find "$d" -type f -name "*.$f" -exec mv -t "$TEXTEMPDIR" {} \;
     done
   done
 else
-  for f in aux toc lof log lot out ; do
+  for f in aux toc lof log lot out nlo ; do
     find . -type f -name "*.$f" -exec mv -t "$TEXTEMPDIR" {} \;
   done
 fi
