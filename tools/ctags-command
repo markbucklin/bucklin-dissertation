@@ -1,0 +1,1 @@
+ctags -f tags --sort=no --excmd=number main.tex chapters/* figures/* reference/* prelim/*
