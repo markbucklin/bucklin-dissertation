@@ -4,8 +4,11 @@
 % https://github.com/scivision/phd-thesis-dissertation/blob/master/thesis.tex
 
 % MAIN LAYOUT
-\pdfminorversion=7 \documentclass[12pt,letterpaper]{report}
-\usepackage[utf8]{inputenc} \usepackage[T1]{fontenc} \usepackage{appendix}
+\pdfminorversion=7
+\documentclass[12pt,letterpaper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{appendix}
 \usepackage{subfiles}
 
 % BOSTON UNIVERSITY THESIS/DISSERTATION
@@ -14,16 +17,9 @@
 % FIGURES/GRAPHICS
 \usepackage{graphicx}
 \usepackage{float}
-% \makeatletter \let\@currsize\normalsize
-% \dev\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-% \dev\maxheight{\ifdim\Gin@nat@width>\textheight\textheight\else\Gin@nat@width\fi}
-% \makeatother \setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% \usepackage{rotating} \usepackage{subfig} \setcaptionmargin{0.5in}
-% \usepackage{psfrag}
 
 % CAPTIONS
 \usepackage[bf]{caption}
-% \usepackage{subcaption} \usepackage{floatrow}
 
 % GRAPHICS PATHS
 \graphicspath{ {figures/} {./figures/} {../figures/} }
@@ -35,7 +31,8 @@
 \makenomenclature{}
 
 % MATH and FONTS
-\usepackage[intlimits]{amsmath} \usepackage{amsfonts,amssymb}
+\usepackage[intlimits]{amsmath}
+\usepackage{amsfonts,amssymb}
 \DeclareSymbolFontAlphabet{\mathbb}{AMSb}
 
 % \usepackage{natbib}
@@ -59,7 +56,6 @@
 % \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{caption}
 % \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{subcaption}
 %==========================================================================%
-%customized commands can be placed here
 \newcommand{\figref}[1]{Figure~\ref{#1}}
 \newcommand{\chapref}[1]{Chapter~\ref{#1}}
 \newcommand{\secref}[1]{Section~\ref{#1}}
@@ -73,7 +69,8 @@
 \DeclareMathOperator*{\argmin}{\arg\!\min}
 \DeclareMathOperator*{\argmax}{\arg\!\max}
 \usepackage{units}
-\usepackage[section]{placeins} \usepackage{tikz}
+\usepackage[section]{placeins}
+\usepackage{tikz}
 \usepackage{flowchart}
 \usepackage{marginnote}
 \usepackage{harpoon}
@@ -81,16 +78,14 @@
 % % % % % % % % % % % % % % %
 \usetikzlibrary{shapes.geometric,arrows}
 %
-\tikzstyle{startstop} = [rectangle, rounded corners, text centered, draw=black,
-fill=blue!10] \tikzstyle{process} = [rectangle, minimum width=2cm,  text
-centered, draw=black, fill=orange!10] \tikzstyle{decision} = [diamond,
-aspect=3, minimum width=3cm, minimum height=1cm, text centered, draw=black,
-fill=red!10]
+\tikzstyle{startstop} = [rectangle, rounded corners, text centered, draw=black, fill=blue!10]
+\tikzstyle{process} = [rectangle, minimum width=2cm,  text centered, draw=black, fill=orange!10]
+\tikzstyle{decision} = [diamond, aspect=3, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!10]
 % define arrow style
-\tikzstyle{compute} = [rectangle, minimum width=2cm, minimum height=1cm, text
-centered, draw=black, fill=green!10] \tikzstyle{estimate} = [rectangle, rounded
-corners, minimum width=2cm, minimum height=1cm, text centered, draw=black,
-fill=yellow!10] \tikzstyle{arrow} = [thick,->,>=stealth]
+\tikzstyle{compute} = [rectangle, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=green!10]
+\tikzstyle{estimate} = [rectangle, rounded corners, minimum width=2cm, minimum height=1cm, text centered, draw=black,
+fill=yellow!10]
+\tikzstyle{arrow} = [thick,->,>=stealth]
 % % % % % % % % % % %
 %\usetikzlibrary{matrix,positioning} % math matrices % % % % % % % % % % % % %
 %%
