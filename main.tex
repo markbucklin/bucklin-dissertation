@@ -12,7 +12,8 @@
 \usepackage{bu_ece_thesis}
 
 % FIGURES/GRAPHICS
-\usepackage{graphicx} \usepackage{float}
+\usepackage{graphicx}
+\usepackage{float}
 % \makeatletter \let\@currsize\normalsize
 % \dev\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 % \dev\maxheight{\ifdim\Gin@nat@width>\textheight\textheight\else\Gin@nat@width\fi}
@@ -30,19 +31,22 @@
 
 % NOMENCLATURE
 \usepackage[intoc, english]{nomencl}
-\makenomenclature
+\makenomenclature{}
+\makenomenclature{}
 
 % MATH and FONTS
 \usepackage[intlimits]{amsmath} \usepackage{amsfonts,amssymb}
 \DeclareSymbolFontAlphabet{\mathbb}{AMSb}
-% \usepackage[T1]{fontenc} \usepackage[intlimits]{mathtools}
-% \usepackage{mathrsfs} %enables formal \mathscr \usepackage{textcomp} %
-% \textdegree  %gensymb $\degree$
 
 % \usepackage{natbib}
-\usepackage{apalike} \usepackage{fancyhdr} \usepackage{fancybox}
-\usepackage{ifthen} \usepackage{lscape,afterpage} \usepackage{xspace}
-\usepackage{booktabs} \usepackage{algorithm,algpseudocode}
+\usepackage{apalike}
+\usepackage{fancyhdr}
+\usepackage{fancybox}
+\usepackage{ifthen}
+\usepackage{lscape,afterpage}
+\usepackage{xspace}
+\usepackage{booktabs}
+\usepackage{algorithm,algpseudocode}
 
 % LINKS
 \usepackage[unicode=true]{hyperref}
@@ -54,13 +58,11 @@
 % \usepackage{listings}
 % \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{caption}
 % \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{subcaption}
-
 %==========================================================================%
 %customized commands can be placed here
 \newcommand{\figref}[1]{Figure~\ref{#1}}
 \newcommand{\chapref}[1]{Chapter~\ref{#1}}
 \newcommand{\secref}[1]{Section~\ref{#1}}
-
 \usepackage{xargs}
 \usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
@@ -68,22 +70,13 @@
 \newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
 \newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
 %==========================================================================%
-
-% % % % %
 \DeclareMathOperator*{\argmin}{\arg\!\min}
 \DeclareMathOperator*{\argmax}{\arg\!\max}
-
-% % % % % % % % % % % % % % % % % % % % % % % % % % % %
-\usepackage{units} %necessary for \nicefrac \usepackage{epigraph}
+\usepackage{units}
 \usepackage[section]{placeins} \usepackage{tikz}
-
 \usepackage{flowchart}
-
-%\usepackage[clean]{svg} doesn't work in linux or windows for this style... % %
-%% % % % % % %
 \usepackage{marginnote}
-% % % % % % % % % % % % % % % %
-\usepackage{harpoon} %my favorite vector
+\usepackage{harpoon}
 \newcommand*{\vect}[1]{\overrightharp{\ensuremath{#1}}}
 % % % % % % % % % % % % % % %
 \usetikzlibrary{shapes.geometric,arrows}
@@ -101,7 +94,8 @@ fill=yellow!10] \tikzstyle{arrow} = [thick,->,>=stealth]
 % % % % % % % % % % %
 %\usetikzlibrary{matrix,positioning} % math matrices % % % % % % % % % % % % %
 %%
-\usepackage{enumitem} \usepackage{pdfpages}
+\usepackage{enumitem}
+\usepackage{pdfpages}
 % % % % % % % % % % %
 
 % \include{preamble}
@@ -112,33 +106,33 @@ fill=yellow!10] \tikzstyle{arrow} = [thick,->,>=stealth]
 
 % The preliminary pages
 \subfile{prelim/prelim}
-\cleardoublepage
+\cleardoublepage{}
 
 % CHAPTER 1: INTRODUCTION
 \chapter{Introduction: Background and Literature Review}
 \label{sec:introduction}
 \subfile{chapters/chap1}
-\cleardoublepage
+\cleardoublepage{}
 
 % CHAPTER 2: THE BODY OF THESIS
 \chapter{Neural Interfaces: Fabrication, programming, and assembly}
 \label{sec:neural-interfaces}
 \subfile{chapters/chap2}
-\cleardoublepage
+\cleardoublepage{}
 
 % CHAPTER 3: THE BODY OF THESIS
 \chapter{Neural Signals: Computational considerations, interpretation and usage}
 \label{sec:neural-signals}
 \thispagestyle{myheadings}
 \subfile{chapters/chap3}
-\cleardoublepage
+\cleardoublepage{}
 
 % CHAPTER 4: DISCUSSION
 \chapter{Discussion}
 \label{sec:discussion}
 \thispagestyle{myheadings}
 \subfile{chapters/chap4}
-\cleardoublepage
+\cleardoublepage{}
 
 %\appendix
 \begin{appendices}
@@ -148,12 +142,15 @@ fill=yellow!10] \tikzstyle{arrow} = [thick,->,>=stealth]
 % Bibliography
 % \nolinenumbers
 \newpage
-\singlespace
-\raggedright
+\singlespace{}
+\singlespace{}
+\raggedright{}
+\raggedright{}
 \bibliographystyle{apalike-refs}
 
 \bibliography{thesis}
-\cleardoublepage
+\cleardoublepage{}
+\cleardoublepage{}
 
 % Curriculum Vitae
 \include{prelim/cv}
