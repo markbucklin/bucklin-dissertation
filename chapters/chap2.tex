@@ -10,15 +10,15 @@ Nevertheless, they are included here because the issues they bring up will later
 The projects described in the following sections are also tied together by a common goal: to enable research in the neurosciences with translation potential for clinical applications.
 
 \section{
-  Animal Tracking}\label{animal-tracking}
+  Animal Tracking}\label{sec:animal-tracking}
 
-\subsection{PD mouse model:}\label{pd-mouse-model}
+\subsection{PD mouse model:}\label{sec:pd-mouse-model}
 
-You can induce a quantifiable PD-like state in mice with a unilateral injection of the neurotoxin 6-hydroxydopamine (6-OHDA) into the striatum, and subsequent administration of apomorphine to provoke side-biased motor deficits {[}@iancu\_behavioral\_2005{]}.
-Side-biased``turning'' behavior is quantified autonomously on two distinct platforms, a computer-vision system that allows free movement, and a virtual-reality spherical treadmill platform that simulates free movement.
+You can induce a quantifiable PD-like state in mice with a unilateral injection of the neurotoxin 6-hydroxydopamine (6-OHDA) into the striatum, and subsequent administration of apomorphine to provoke side-biased motor deficits \cite{iancu_behavioral_2005}
+Side-biased ``turning'' behavior is quantified autonomously on two distinct platforms, a computer-vision system that allows free movement, and a virtual-reality spherical treadmill platform that simulates free movement.
 
 \subsection{
-	Metrics of Behavior}\label{metrics-of-behavior}
+	Metrics of Behavior}\label{sec:metrics-of-behavior}
 
 Two testing platforms are used to assess changes in behavior over time.
 Behavior is analyzed and quantified in real-time, and are synchronized with electrophysiology and made available as stream of events synchronized with imaging and/or electrophysiology.
@@ -28,11 +28,12 @@ mice would turn in circles
 contralateral to the lesion when given intraperitoneal apomorphine.
 
 \subsection{
-	Behavior Box}\label{behavior-box}
+	Behavior Box}\label{sec:behavior-box}
 
 I built an experiment apparatus for mice to enable a study being run by Jia-Min Zhuo.
 The goal of the study was to elucidate the role of adult-born neurons on mouse behavior, specifically their performance in discrimination tasks.
-We called the apparatus the ``Behavior Box'' and modeled it after a commercially available but grossly over-priced box that itself came from other labs {[}@clelland2009, @creer2010{]}.
+We called the apparatus the ``Behavior Box'' and modeled it after a commercially available but grossly over-priced box that itself came from other labs (see \cite{McLelland2015}).
+%\cite{creer2010}
 
 The chamber was constructed with black plastic walls, extruded aluminum framing, and a perforated metal mesh floor 1 cm above a plastic waste tray.
 A 10-inch infrared touchscreen (ITouch Systems) was mounted over a 10-inch LCD monitor forming one wall of the chamber.
@@ -46,7 +47,7 @@ I developed the program in MATLAB, and the main components of its function are d
 
 \begin{figure}
 	\includegraphics[width=15cm]{task-schematic.jpg}
-	\caption{behaivorbox schematic}
+	\caption{behavior-box schematic}
 	\label{fig:behaivorbox schematic}
 \end{figure}
 
@@ -65,11 +66,12 @@ The approach also enables suggestions and autocomplete options for users new to 
 
 The FrameSynx toolbox for MATLAB was built to synchronize continuous image acquisition with experiments conducted in the neuroscience laboratory setting.
 While the experiments are conducted in separate software (and potentially on a different computer), FrameSynx listens for messages to start/stop the experiment, start a trial, etc. and responds accordingly by controlling one or multiple cameras and illumination devices, and synchronizing this information with the data acquired.
-The major contribution to the ``Behavior Box'' package, and also to later image processing packages is the procedure for definition and storage and of experimental data files, which will be touched on briefly in {[}@sec:data-file{]}
+The major contribution to the ``Behavior Box'' package, and also to later image processing packages is the procedure for definition and storage and of experimental data files, which will be touched on briefly in chapter 3.
+% todo
 
 \subsection{Using Computer Vision to track Position and Orientation}\label{sec:using-computer-vision-to-track-position-and-orientation}
 
-\subsection{Mouse in a Bowl}\label{mouse-in-a-bowl}
+\subsection{Mouse in a Bowl}\label{sec:mouse-in-a-bowl}
 
 A webcam-based motion tracking box constructed to analyze the movement of our unilaterally lesioned PD mouse model.
 Video is recorded at 15 frames per second and processed on-line or off-line using a function written in MATLAB.
@@ -120,9 +122,9 @@ The advantage of this apparatus over the virtual-reality system is that it allow
 		Automated animal Tracking for ``Mouse in a bowl'' type experiments: (a-d) video overlay showing tracked points} \label{fig:Sampling}
 \end{figure}
 
-\subsection{Spherical Treadmill}\label{spherical-treadmill}
+\subsection{Spherical Treadmill}\label{sec:spherical-treadmill}
 
-A virtual reality system was assembled, adopting methods from the Harvey lab lab {[}@harvey\_intracellular\_2009{]}.
+A virtual reality system was assembled, adopting methods from the Harvey lab lab \cite{harvey_intracellular_2009}.
 This system allows placement of a head-restrained mouse on an 8-inch diameter polystyrene foam ball supported by a cushion of compressed air, surrounded by a toroidal projection screen.
 Ball rotation is tracked with two optical computer mice placed orthogonal to each other.
 Movement vectors are fed into a virtual-reality engine that updates the image projected onto a toroidal screen surrounding the ball, simulating movement through any arbitrary virtual world.
@@ -151,7 +153,7 @@ The disadvantage is the time and potential confounds involved with training indi
 \end{figure}
 
 \subsection{
-	Headplate Holder}\label{headplate-holder}
+	Headplate Holder}\label{sec:headplate-holder}
 
 \begin{figure}[htb]
 	\begin{minipage}[t]{0.32\linewidth}\centering \includegraphics[width=4.5cm]{photo-front.jpg} \centerline{(a)}
@@ -167,12 +169,12 @@ The disadvantage is the time and potential confounds involved with training indi
 \end{figure}
 
 \subsection{
-	Motion Sensors}\label{motion-sensors}
+	Motion Sensors}\label{sec:motion-sensors}
 
 Motion sensing was implemented using a linux computer and standard mice at first, and later using precision laser navigation sensors for ``gaming'' mice and custom firmware written to work with any arduino-compatible microcontroller.
 
 \subsection{
-	Generic USB Computer Mouse with Minimal Linux}\label{generic-usb-computer-mouse-with-minimal-linux}
+	Generic USB Computer Mouse with Minimal Linux}\label{sec:generic-usb-computer-mouse-with-minimal-linux}
 
 Run ``mouse\_relay.py'' on any computer running linux to send xy-data from 2 USB optical computer mice to another computer over an RS-232 serial-port connection.
 The receiving computer (in this implementation) uses MATLAB to read the values and translate the xy-values from 2 mice on the surface of a sphere into 3 values corresponding to rotation of that sphere around 3 orthogonal axes (XYZ) with their origin at the sphere's center.
@@ -191,7 +193,7 @@ A single reading is received at the other end of the serial connection looking s
 	s1x34y-3
 \end{quote}
 
-\subsection{Navigation Sensor Chip with Arduino}\label{navigation-sensor-chip-with-arduino}
+\subsection{Navigation Sensor Chip with Arduino}\label{sec:navigation-sensor-chip-with-arduino}
 
 The system was later improved.
 %\begin{Shaded}%\begin{Highlighting}[]%\NormalTok{> datastring = s + }\StringTok{'x'}\NormalTok{+dx + %}\StringTok{'y'}\NormalTok{+dy + %}\StringTok{'}\CharTok{\textbackslash{}n}\StringTok{'}%\end{Highlighting}%\end{Shaded}
@@ -218,14 +220,14 @@ Works with ADNS library to pass {[}dx,dy{]} measurements from two ADNS-9800 lase
 \end{figure}
 
 \section{
-  Microscopes}\label{microscopes}
+  Microscopes}\label{sec:microscopes}
 
 This section describes the background in microscopy in the neurosciences, and also how it relates to imaging in healthcare and electrophysiology in neuroscience.
 It will also describe the basic elements necessary for the construction of a microscope in a laboratory where calcium imaging in an animal is available.
 It will also refer to later sections which cover the design and construction of mechanical elements for animal handling and optical access (i.e.~the headplate and a chronic optical window).
 
 \subsection{
-	Background: Brain Imaging and Microscopy in Neuroscience}\label{background-brain-imaging-and-microscopy-in-neuroscience}
+	Background: Brain Imaging and Microscopy in Neuroscience}\label{sec:background-brain-imaging-and-microscopy-in-neuroscience}
 
 Optical imaging has traditionally involved wide-field imaging or two photon imaging, each with their own distinctive advantages and disadvantages.
 In recent years, two photon microscopy has been a preeminent choice for imaging in tissue, because of its high spatial resolution, and tissue penetrating features.
@@ -245,7 +247,7 @@ Additionally, recording sessions may be less sensitive to fluorophore bleaching 
 Thus, wide-field imaging offers an advantage if the objective is to simultaneously recording hundreds of neurons in the brain of a living and behaving animal with high temporal fidelity.
 
 \subsection{
-	Cameras for Widefield Microscopy}\label{cameras-for-widefield-microscopy}
+	Cameras for Widefield Microscopy}\label{sec:cameras-for-widefield-microscopy}
 
 Traditional widefield microscope or macroscope builds incorporate `scientific grade' cameras.
 Compared to cameras built for other markets (e.g.~consumer, industrial, studio, etc.)
@@ -260,10 +262,10 @@ See @discussion-cost-consumer for details.
 
 The in-vivo instrinsic-signal or fluorescent-dye imaging camera of 1 decade ago had a 0.5``-1'' monochrome CCD sensor with 0.1-1 MegaPixels, a large well-depth, and moderately low noise at speeds around 30 to 60 fps.
 Connection was often LVDS, with custom electrial connectors unique to each camera.
-A particularly popular and long-running model was the Dalsa 1M30, followed by the 1M60 in later years {[}@takahashi\_vivo\_2006{]}.
+A particularly popular and long-running model was the Dalsa 1M30, followed by the 1M60 in later years \cite{takahashi_vivo_2006}.
 
 \subsection{
-	Microscope Construction}\label{microscope-construction}
+	Microscope Construction}\label{sec:microscope-construction}
 
 \begin{figure}[htb]
 	\begin{minipage}[t]{0.49\linewidth}\centering \includegraphics[height=8cm]{widefield_microscope_diagram.png} \medskip \centerline{(a)}
