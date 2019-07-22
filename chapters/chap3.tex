@@ -112,7 +112,14 @@ These functions run on images representing the image intensity, and also on imag
 The combination of outputs from these operations indicate both when image intensities are significantly high relative to past distribution, and also when intensities are changing significantly faster than learned from their past distribution.
 
 \begin{listing}[ht]
-\inputminted{matlab}{updateStatisticStructure.m}
+\inputminted[
+frame=lines,
+framesep=2mm,
+bgcolor=LightGray,
+baselinestretch=1.0,
+fontsize=10pt
+]
+{matlab}{updateStatisticStructure.m}
 \caption{Incremental update of the statistics structure (min, max, and first 4 central moments)}
 \label{listing:update-statistic}
 \end{listing}
@@ -120,7 +127,14 @@ The combination of outputs from these operations indicate both when image intens
 This type of function is also easily trasnalted to stencil functions on for computation on the GPU.
 
 \begin{listing}[ht]
-\inputminted{matlab}{updateStatisticsGPU.m}
+\inputminted[
+frame=lines,
+framesep=2mm,
+bgcolor=LightGray,
+baselinestretch=1.0,
+fontsize=10pt
+]
+{matlab}{updateStatisticsGPU.m}
 \caption{Incremental update of the statistics structure programmed to run as pixel-wise CUDA kernel on GPU}
 \label{listing:update-statistic-gpu}
 \end{listing}
@@ -148,7 +162,14 @@ Additionally, spatial moments can indicate the subcellular distribution of activ
 In this context, the first spatial moment M\textsubscript{00} indicates the mean signal intensity.
 
 \begin{listing}[ht]
-\inputminted{matlab}{pointwiseMutualInformationRunGpuKernel.m}
+\inputminted[
+frame=lines,
+framesep=2mm,
+bgcolor=LightGray,
+baselinestretch=1.0,
+fontsize=10pt
+]
+{matlab}{pointwiseMutualInformationRunGpuKernel.m}
 \caption{Incremental update of point-wise normalized mutual information, assessed in the local neighborhood of each pixel}
 \label{listing:npmi}
 \end{listing}
