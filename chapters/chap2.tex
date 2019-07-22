@@ -11,16 +11,14 @@ Each project is similar in that they are outside the realm of optical imaging of
 Nevertheless, they are included here because the issues they bring up will later inform the approach I take in the work described in later chapters.
 The projects described in the following sections are also tied together by a common goal: to enable research in the neurosciences with translation potential for clinical applications.
 
-\section{
-  Animal Tracking}\label{sec:animal-tracking}
+\section{Animal Tracking}\label{sec:animal-tracking}
 
 \subsection{PD mouse model:}\label{sec:pd-mouse-model}
 
 You can induce a quantifiable PD-like state in mice with a unilateral injection of the neurotoxin 6-hydroxydopamine (6-OHDA) into the striatum, and subsequent administration of apomorphine to provoke side-biased motor deficits \cite{iancu_behavioral_2005}
 Side-biased ``turning'' behavior is quantified autonomously on two distinct platforms, a computer-vision system that allows free movement, and a virtual-reality spherical treadmill platform that simulates free movement.
 
-\subsection{
-	Metrics of Behavior}\label{sec:metrics-of-behavior}
+\subsection{Metrics of Behavior}\label{sec:metrics-of-behavior}
 
 Two testing platforms are used to assess changes in behavior over time.
 Behavior is analyzed and quantified in real-time, and are synchronized with electrophysiology and made available as stream of events synchronized with imaging and/or electrophysiology.
@@ -29,8 +27,7 @@ For our unilaterally lesioned mouse model of PD the most readily observable impa
 mice would turn in circles
 contralateral to the lesion when given intraperitoneal apomorphine.
 
-\subsection{
-	Behavior Box}\label{sec:behavior-box}
+\subsection{Behavior Box}\label{sec:behavior-box}
 
 I built an experiment apparatus for mice to enable a study being run by Jia-Min Zhuo.
 The goal of the study was to elucidate the role of adult-born neurons on mouse behavior, specifically their performance in discrimination tasks.
@@ -46,6 +43,7 @@ A web camera was fixed above the chamber to record and monitor mouse activity.
 My contribution to this project was the program that facilitated interaction between all the system components.
 This program controlled and recorded experiment progress.
 I developed the program in MATLAB, and the main components of its function are described below.
+This system would eventually be used for a study investigating the development of adult-born neurons in the hippocampus (\cite{Zhuo_2016}).
 
 \begin{figure}
 	\includegraphics[width=15cm]{task-schematic.jpg}
@@ -53,8 +51,7 @@ I developed the program in MATLAB, and the main components of its function are d
 	\label{fig:behaivorbox schematic}
 \end{figure}
 
-\subsection{
-	IR Touchscreen}\label{sec:ir-touchscreen}
+\subsection{IR Touchscreen}\label{sec:ir-touchscreen}
 
 The IR touchscreen provided a robust measure of the location of any contact with the animal's paws or nose.
 The screen was more reliable than either \emph{resistive} or \emph{capacitive} touchscreens, which are much more common in devices like POS systems and mobile phones respectively.
@@ -63,8 +60,7 @@ The scientists users interact with the device through command-line manipulation 
 This approach provides access to features for easily customizable control of physical components including the infrared touchscreen and LCD display along with speakers, water-ports, lights, essentially anything that can be controlled electronically.
 The approach also enables suggestions and autocomplete options for users new to the environment.
 
-\subsection{
-	FrameSynx Toolbox}\label{sec:framesynx-toolbox}
+\subsection{FrameSynx Toolbox}\label{sec:framesynx-toolbox}
 
 The FrameSynx toolbox for MATLAB was built to synchronize continuous image acquisition with experiments conducted in the neuroscience laboratory setting.
 While the experiments are conducted in separate software (and potentially on a different computer), FrameSynx listens for messages to start/stop the experiment, start a trial, etc. and responds accordingly by controlling one or multiple cameras and illumination devices, and synchronizing this information with the data acquired.
@@ -81,6 +77,7 @@ Briefly, this function converts each frame to a black and white image (logical m
 Orientation is determined by the index of maximum of a radon transform of the binary image.
 Processing is accomplished at a rate of 15-16 fps, using a single core, or 64 fps using parallel processing on a quad-core processor with multi-threading enabled.
 The advantage of this apparatus over the virtual-reality system is that it allows free movement of an untrained mouse, with real-time movement metrics at nearly the same rate as the spherical treadmill.
+This apparatus would go on to be used to investigate the oscillatory dynamics of cholinergig interneurons in the striatum and their association with parkinson's-like motor deficits [\cite{Kondabolu_2016}].
 
 \begin{figure}[htb]
 	\begin{minipage}[t]{0.32\linewidth}\centering
@@ -154,8 +151,7 @@ The disadvantage is the time and potential confounds involved with training indi
 	\label{fig:Spherical treadmill}
 \end{figure}
 
-\subsection{
-	Headplate Holder}\label{sec:headplate-holder}
+\subsection{Headplate Holder}\label{sec:headplate-holder}
 
 \begin{figure}[htb]
 	\begin{minipage}[t]{0.32\linewidth}\centering \includegraphics[width=4.5cm]{photo-front.jpg} \centerline{(a)}
@@ -170,13 +166,11 @@ The disadvantage is the time and potential confounds involved with training indi
 	\label{fig:Spherical treadmill}
 \end{figure}
 
-\subsection{
-	Motion Sensors}\label{sec:motion-sensors}
+\subsection{Motion Sensors}\label{sec:motion-sensors}
 
 Motion sensing was implemented using a linux computer and standard mice at first, and later using precision laser navigation sensors for ``gaming'' mice and custom firmware written to work with any arduino-compatible microcontroller.
 
-\subsection{
-	Generic USB Computer Mouse with Minimal Linux}\label{sec:generic-usb-computer-mouse-with-minimal-linux}
+\subsection{Generic USB Computer Mouse with Minimal Linux}\label{sec:generic-usb-computer-mouse-with-minimal-linux}
 
 Run ``mouse\_relay.py'' on any computer running linux to send xy-data from 2 USB optical computer mice to another computer over an RS-232 serial-port connection.
 The receiving computer (in this implementation) uses MATLAB to read the values and translate the xy-values from 2 mice on the surface of a sphere into 3 values corresponding to rotation of that sphere around 3 orthogonal axes (XYZ) with their origin at the sphere's center.
@@ -221,15 +215,13 @@ Works with ADNS library to pass {[}dx,dy{]} measurements from two ADNS-9800 lase
 	\label{fig:motion sensors}
 \end{figure}
 
-\section{
-  Microscopes}\label{sec:microscopes}
+\section{Microscopes}\label{sec:microscopes}
 
 This section describes the background in microscopy in the neurosciences, and also how it relates to imaging in healthcare and electrophysiology in neuroscience.
 It will also describe the basic elements necessary for the construction of a microscope in a laboratory where calcium imaging in an animal is available.
 It will also refer to later sections which cover the design and construction of mechanical elements for animal handling and optical access (i.e.~the headplate and a chronic optical window).
 
-\subsection{
-	Background: Brain Imaging and Microscopy in Neuroscience}\label{sec:background-brain-imaging-and-microscopy-in-neuroscience}
+\subsection{Background: Brain Imaging and Microscopy in Neuroscience}\label{sec:background-brain-imaging-and-microscopy-in-neuroscience}
 
 Optical imaging has traditionally involved wide-field imaging or two photon imaging, each with their own distinctive advantages and disadvantages.
 In recent years, two photon microscopy has been a preeminent choice for imaging in tissue, because of its high spatial resolution, and tissue penetrating features.
@@ -248,8 +240,7 @@ Because a single photon microscope does not rely on scanning features, it can be
 Additionally, recording sessions may be less sensitive to fluorophore bleaching than other techniques, which makes it possible to perform sustained illumination and subsequent imaging for an extended period of time - a desired feature for analyzing neural networks during some behavior paradigms (e.g., repeated trial learning paradigms).
 Thus, wide-field imaging offers an advantage if the objective is to simultaneously recording hundreds of neurons in the brain of a living and behaving animal with high temporal fidelity.
 
-\subsection{
-	Cameras for Widefield Microscopy}\label{sec:cameras-for-widefield-microscopy}
+\subsection{Cameras for Widefield Microscopy}\label{sec:cameras-for-widefield-microscopy}
 
 Traditional widefield microscope or macroscope builds incorporate `scientific grade' cameras.
 Compared to cameras built for other markets (e.g.~consumer, industrial, studio, etc.)
@@ -266,8 +257,7 @@ The in-vivo instrinsic-signal or fluorescent-dye imaging camera of 1 decade ago 
 Connection was often LVDS, with custom electrial connectors unique to each camera.
 A particularly popular and long-running model was the Dalsa 1M30, followed by the 1M60 in later years \cite{takahashi_vivo_2006}.
 
-\subsection{
-	Microscope Construction}\label{sec:microscope-construction}
+\subsection{Microscope Construction}\label{sec:microscope-construction}
 
 \begin{figure}[htb]
 	\begin{minipage}[t]{0.49\linewidth}\centering \includegraphics[height=8cm]{widefield_microscope_diagram.png} \medskip \centerline{(a)}
@@ -302,24 +292,27 @@ A particularly popular and long-running model was the Dalsa 1M30, followed by th
 \end{figure}
 
 \begin{figure}[htb]
-	\begin{minipage}[t]{0.32\linewidth}\centering
+	\begin{subfigure}[t]{0.32\textwidth}\centering
 		\includegraphics[width=4cm]{setup4-front.jpg}
-		\centerline{(a)}
-	\end{minipage}
+		% \centerline{(a)}
+        \caption{front}
+	\end{subfigure}
 	\hfill
-	\begin{minipage}[t]{0.32\linewidth}\centering
+	\begin{subfigure}[t]{0.32\textwidth}\centering
 		\includegraphics[width=4cm]{setup4-side.jpg}
-		\centerline{(b)}
-	\end{minipage}
-	\begin{minipage}[t]{0.32\linewidth}\centering
+		% \centerline{(b)}
+        \caption{close up}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.32\textwidth}\centering
 		\includegraphics[width=4cm]{setup4-closeup.jpg}
-		\centerline{(c)}
-	\end{minipage}
-	\caption{
+		% \centerline{(c)}
+        \caption{side}
+	\end{subfigure}
+	\caption[Widefield fluorescence microscope reconfigured (Setup 3)]{
 		Widefield fluorescence microscope reconfigured Setup 3.
-		Multiple iterations are shown, with later iterations offering improved compatibility with usage of off-the-shelf components.
-		(a) front; (b) close up; (c) side}
-	\label{fig:motion sensors}
+		Multiple iterations are shown, with later iterations offering improved compatibility with usage of off-the-shelf components.}
+		% (a) front; (b) close up; (c) side}
+	\label{fig:microscope-3}
 \end{figure}
 
 %You will also be using a lot of citations. Here is the format required in the dissertation: \cite{lamport1985:latex},\cite{Debr01}.

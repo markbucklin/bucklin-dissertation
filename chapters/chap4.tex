@@ -11,8 +11,42 @@ This dissertation presents straightforward and reproducible methods for assembli
 In some ways, the recommended procedures deviate from standard practice or the most obvious approaches.
 In this section, the newer approaches are compared and contrasted with current or traditional ones.
 
-\section{
-  State of current methods}
+The long-term goal is to improve image quality data analysis in a finite and manageable manner that becomes (perhaps) as elegant, unique, and chaotic as the human brain itself.
+
+\section{Primary Goals}\label{sec:primary-goals}
+
+The function of the brain is to translate/encode sensory input into neural output, actuating an effect that promotes organism survival or the survival of offspring.
+It achieves this by communicating input through interconnected neurons via converging and diverging connections that comprise the neural network.
+One way to study the brain is by testing and observing the properties of individual neurons and the response to changing conditions at the direct connections they form with others.
+Another approach is to observe a collection of neurons and measure their response to variable conditions in their external environment either by recording or stimulating variations in sensory input or measuring an organism's physical/behavioral response.
+
+One might presume that the expansion of information provided by measuring activity from a larger number of cells in a network would simplify analysis in stimulus-response type experiments and afford insight about underlying functional mechanisms.
+Unfortunately, the correlation and information theoretic procedures traditionally used to make these associations suffer from a systematic bias that exponentially grows with the number responses considered for each stimulus (i.e., the number of included cells).
+The trial number necessary to overcome this bias becomes exponentially large although methods such as shuffling/resampling tests exist for bias correction.
+
+A systems neuroscience experiment benefits from online feedback in one or both of two ways:
+
+\begin{enumerate}
+	\def\labelenumi{\arabic{enumi}.
+	}
+	\item
+	      It informs the user regarding the current number of trials, i.e.,
+	      repeated presentations of the stimulus will be sufficient to overcome
+	      limited sampling bias in an experiment attempting to learn the neural
+	      response/pattern associated with a specific stimulus.
+	      This could be done by testing pattern hypotheses online against subsets of collected data and then assessing their stability.
+	\item
+	      Online pattern recognition feedback maximizes the information in the
+	      response to a stimulus either by directing modification of the
+	      stimulus, or directing modification of the field-of-view.
+\end{enumerate}
+
+Streaming processing addresses the issues of processing and storing pools of data from large networks on the scale that is necessary for deep learning type methods to be effective.
+Additionally, I demonstate a strategy in the methods section by which incorporating this online processing stream into stimulus-response-type experiments could help correct limited sampling bias, enabling neural coding analysis in large populations of neurons {[}@ince\_presence\_2009{]}.
+This approach works when the experimental intention is to study neural coding in general, for which it's sufficient to have an arbitrary stimulus.
+
+
+\section{State of current methods}
 \label{sec:state-of-current-methods}
 
 At the start of the work described here, we found ourselves with technology providing “neural signals” that vastly exceeded our expectations and the assumptions of the tools we applied to work with it.
@@ -23,8 +57,7 @@ This improved signal-to-noise ratio opens the door for new opportunities and fac
 The abundance of signals available from our research animals not only makes old routines inefficient, but paradoxically, also insufficient.
 Such an abundance of data factors at our finger tips requires a level of discipline in study design to make the scientific method work that was previously unnecessary as the difficulty in finding signals was inherently “self regulating” and inherently limiting.
 
-\subsection{
-	Signal and Noise in Neural Imaging Data}
+\subsection{Signal and Noise in Neural Imaging Data}
 \label{sec:signal-and-noise-in-neural-imaging-data}
 
 Traditional noise in neural signals can be roughly categorized as having origin in physiology or technology.
@@ -37,8 +70,7 @@ The noise level in the signals gathered by a combination of GCaMP6 and a sCMOS c
 The problem of visualization of these signals persists however, as the dynamic range of signal varies tremendously over space and time, and requires some treatment prior to being displayed on our currently limited computer monitors.
 Previously common methods, particularly intrinsic-signal imaging, provided very small signals that required “averaging over time” before any specific or reproducible response could be ascertained.
 
-\subsection{
-	Correlation, Confounding Signals, and Non-linear dyanamics}
+\subsection{Correlation, Confounding Signals, and Non-linear dyanamics}
 \label{sec:correlation-confounding-signals-and-non-linear-dyanamics}
 
 \subsection{Motion Artifact}
@@ -51,8 +83,7 @@ The quality of cheaply available image sensors has risen drastically and are rea
 A workable interface can be readily established and the stream of information they provide once switched on is virtually unlimited.
 In the stark contrast however, storage for this never-ending data stream is both finite in its capacity, and cumulative in its consumption of available storage devices.
 
-\subsection{
-	Fields sharing these challenges}
+\subsection{Fields sharing these challenges}
 \label{sec:fields-sharing-this-challenges}
 
 Scientists often view themselves as working inside laboratory full of sensors, being “data-rich” but “space-poor”.
@@ -61,8 +92,7 @@ Massive investment has been poured into managing this issue for commercial purpo
 The volume of recordable traffic bouncing through choke points of the internet exceeds the capacity of any government to store for more than about 24 hours.
 Likewise, the massive volume of video data acquired by video surveillance systems in China requires a similar solution to one desired by scientists and physicians to resolve our data acquisition challenges.
 
-\subsection{
-	Technological Opportunities to Expect}
+\subsection{Technological Opportunities to Expect}
 \label{sec:technological-opportunities-to-expect}
 
 Current solutions proposed by commercial and governmental giants are not radical.
@@ -75,8 +105,25 @@ Early results with these approaches suggest an orders of magnitude improvement i
 These tools are being developed both with and without the contribution of physicians and scientists.
 It would be prudent however, to take advantage of new developments by orienting these tools to the specific needs of scientists and clinicians.
 
-\section{
-  Clinical translation potential}
+
+\section{Incomplete synthesis of actionable knowledge}\label{incomplete-synthesis-of-actionable-knowledge}
+
+As humans we enjoy dealing in and acting on information with great
+\emph{certainty}. We have phenomenal acuity for predicting the future,
+far surpassing that of any other species. Science, the practice of
+\emph{knowing} has without question accelerated our individual and
+pan-species capability in this regard, and yet, science deals with
+surprisingly high levels of \emph{uncertainty}. One might argue that
+trading, measuring, and learning to affect uncertainty is the general
+bread and butter of science. Another could say that, while that is true,
+the standards for what is a reasonable level of uncertainty are
+substantially below what they should be.
+
+% \subsection{Answerable questions}\label{answerable-questions}
+% \subsection{Questionable answers}\label{questionable-answers}
+
+
+\section{Clinical translation potential}
 \label{sec:clinical-translation-potential}
 
 Devices that rely on optogenetics to deliver stimulation to neurons inherently share the same hurdles to clinical translation.
@@ -92,8 +139,7 @@ In order to succeed, we must do so together.
 Without each other, our therapeutics would never reach their ultimate “target audience”, the patient.
 In this scenario, we share both successes and setbacks in the same meaningful way whether such events occur within our own labs or others located elsewhere.
 
-\section{
-  Cranial Window}
+\section{Cranial Window}
 \label{sec:cranial-window}
 
 The two-stage cranial implant device described here was developed to enable reliable, long-term optical access and intermittent physical access to mouse neocortex.
@@ -114,8 +160,7 @@ The current asymmetry of learning/training time negatively impacts on the  desir
 Common standards applied across projects with common themes can be facilitatied by employing rigorous adherence to non-proprietary open source conventions that includes (bt is not limited to) optical parts (lens threads), file formats, widely available software libraries in standard programming languages, and ease of file transmission that are web-based.
 We are well advised to borrow from related sectors with better developed solutions such as surveillance, media streaming for web/entertainment, sports, astronomy/telescopes, medical imaging and even automotive applications.
 
-\subsection{
-	Critical Elements}
+\subsection{Critical Elements}
 \label{sec:critical-elements}
 
 In assessing the design presented here, we highlight a few critical elements that facilitate the maintenance of the long-term optical quality.
@@ -145,8 +190,7 @@ Several attempts to test variations from the described procedures indicated that
 Implementing the procedures as described or an effective alternative solution should mitigate the primary obstacle to long-term imaging in mice and other rodents by reducing the need to pre-terminate imaging experiments due to light-path disruption by tissue ingrowth.
 This capability will drastically reduce wasted time and resources for experiments of any duration and facilitate previously infeasible research that require longer-term observations including aging or progressive chronic neurological disorders.
 
-\subsection{
-	Staging Implant Installation \& Tissue Access}
+\subsection{Staging Implant Installation \& Tissue Access}
 \label{sec:staging-implant-installation-tissue-access}
 
 Configuring the implant as described to enable a staged installation of multiple parts enables surgical procedures to be easily spread across multiple days.
@@ -158,8 +202,7 @@ The process may be comparable to a previously reported method of removing the en
 With this newer system however, the methods used to detach and reattach the cranial window are relatively faster, simpler and carry less risk of tissue damage.
 Additionallly, the described methodd provide full cranial access without compromising the image field, an advantage not provided by a fixed access port.
 
-\subsection{
-	Design Adaptation}
+\subsection{Design Adaptation}
 \label{sec:design-adaptation}
 
 The specific designs described in this report work well and have much to offer.
@@ -176,8 +219,7 @@ We also found that adjusting features to address one aspect of functionality may
 For example, the inclusion of a thin skirt extending below the optical insert that was incorporated to protect against tissue growth within the image field also promotes physical conformity of the brain to the optical window interface over time.
 This conformity results in a flat imaging plane that is optimal for wide-field imaging and was previously unachievable.
 
-\subsection{
-	Rapid fabrication}
+\subsection{Rapid fabrication}
 \label{sec:rapid-fabrication}
 The rapid iterative process used here was made possible by using a combination of widely available rapid prototyping procedures, 3D-printing and laser-cutting.
 Major progress of manufacturing and its increased versatility, providing better quality, customization, lower cost and shorter production time.
@@ -191,8 +233,8 @@ In addition:
 	\item	The design principles that evolved from the initial development are robust and can be applied to new developments or refinements while preserving the successful qualities of the original implant
 	\item	CAD designs of these reported systems are open source accessible and can be modified and extended by evolving demands and technologies We, the authors, also call for replication, adaptation, and evaluation (i.e., continued open/shared development).
 \end{itemize}
-\subsection{
-	Future improvements} The current project primarily explores the ability to mold precise and complex features using silicone elastomer to discover configurations to improve image performance using encapsulated electrodes and optical guides.
+\subsection{Future improvements}\label{sec:future-improvements}
+The current project primarily explores the ability to mold precise and complex features using silicone elastomer to discover configurations to improve image performance using encapsulated electrodes and optical guides.
 These approaches replace combination optical + integrated electrode window and do not require optogenetics stimulation.
 More significantly, the encapsulation of carbon, metal colloidal particles or quantum dots into polymer hydrogel networks imparts exclusive thermal, sonic, optical, electrical or magnetic properties.
 Specifically, the polymer interface may provides a means for directly penetrating neurons to gain electrophysiological recording or facilitate drug infusions, allowing recording and/or manipulation during imaging session.
