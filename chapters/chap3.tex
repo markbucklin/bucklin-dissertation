@@ -111,6 +111,21 @@ This is illustrated below, including the normalization functions which convert t
 These functions run on images representing the image intensity, and also on images taken from sequential differences indicating the temporal derivative of image intensity.
 The combination of outputs from these operations indicate both when image intensities are significantly high relative to past distribution, and also when intensities are changing significantly faster than learned from their past distribution.
 
+\begin{listing}[ht]
+\inputminted{matlab}{updateStatisticStructure.m}
+\caption{Incremental update of the statistics structure (min, max, and first 4 central moments)}
+\label{listing:update-statistic}
+\end{listing}
+
+This type of function is also easily trasnalted to stencil functions on for computation on the GPU.
+
+\begin{listing}[ht]
+\inputminted{matlab}{updateStatisticsGPU.m}
+\caption{Incremental update of the statistics structure programmed to run as pixel-wise CUDA kernel on GPU}
+\label{listing:update-statistic-gpu}
+\end{listing}
+
+
 \subsection{Surface Classification: Peaks, Edges, Curvature}\label{sec:surface-classification-peaks-edges-curvature}
 
 Edge-finding methods are employed for establishing boundaries between cells, and first and second-order gradients are used to compute local measures of curvature from an eigenvalue decomposition of the local Hessian matrix.
@@ -132,12 +147,17 @@ The weights given by this function can take on values between -1 and 1, and can 
 Additionally, spatial moments can indicate the subcellular distribution of activity across the identified region.
 In this context, the first spatial moment M\textsubscript{00} indicates the mean signal intensity.
 
+\begin{listing}[ht]
+\inputminted{matlab}{pointwiseMutualInformationRunGpuKernel.m}
+\caption{Incremental update of point-wise normalized mutual information, assessed in the local neighborhood of each pixel}
+\label{listing:npmi}
+\end{listing}
+
 \subsection{User Interface for Parameter Tuning}\label{sec:user-interface-for-parameter-tuning}
 
 Some system-objects also incorporate a user interface to aid in parameter selection for tuning.
 
-\subsection{Image Processing: Tone mapping and
-	Filtering}\label{sec:image-processing-tonemapping-and-filtering}
+\subsection{Image Processing: Tone mapping and Filtering}\label{sec:image-processing-tonemapping-and-filtering}
 \begin{figure}[htb]\centering
 	\includegraphics[height=12cm]{sw-video-processing-feature-generation.png}
 	\caption{Feature generation showing complex-valued moving average of distance of each pixel to bounding box corners (post segmentation)}
@@ -153,10 +173,6 @@ Some system-objects also incorporate a user interface to aid in parameter select
 	\caption{Feature generation of single motion-compensated frame using complex-valued normalized pointwise mutual information of each pixel with its local neghborhood}
 \end{figure}
 
-\begin{figure}[htb]\centering
-	\includegraphics[width=12cm]{sw-sequence-bw.png}
-	\caption{Normalized differential skewness}
-\end{figure}
 
 % \begin{figure}[htb]\centering
 % 	\includegraphics[height=12cm]{trgb-013.png}
@@ -166,6 +182,12 @@ Some system-objects also incorporate a user interface to aid in parameter select
 \begin{figure}[htb]\centering
 	\includegraphics[width=12cm]{statistics_of_128_frames_contrast_enhanced.jpg}
 	\caption{Pixel-wise statistics of 128 frames (min, max, mean, standard deviation, skewness, kurtosis)}
+\end{figure}
+
+
+\begin{figure}[htb]\centering
+	\includegraphics[width=12cm]{sw-sequence-bw.png}
+	\caption{Normalized differential skewness}
 \end{figure}
 
 \clearpage

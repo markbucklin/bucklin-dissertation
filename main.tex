@@ -88,12 +88,32 @@
 \tikzstyle{estimate} = [rectangle, rounded corners, minimum width=2cm, minimum height=1cm, text centered, draw=black,
 fill=yellow!10]
 \tikzstyle{arrow} = [thick,->,>=stealth]
-% % % % % % % % % % %
 %\usetikzlibrary{matrix,positioning} % math matrices % % % % % % % % % % % % %
-%%
 \usepackage{enumitem}
 \usepackage{pdfpages}
-% % % % % % % % % % %
+
+% CODE HIGHLIGHTING
+
+\usepackage{minted}
+\usemintedstyle{monokai}
+\renewcommand\listoflistingscaption{List of source codes}
+
+% \inputminted{octave}{BitXorMatrix.m}
+
+% \inputminted[firstline=2, lastline=12]{octave}{BitXorMatrix.m}
+
+% \begin{minted}
+% [
+% frame=lines,
+% framesep=2mm,
+% baselinestretch=1.2,
+% bgcolor=LightGray,
+% fontsize=\footnotesize,
+% linenos
+% ]
+% {python}
+
+
 
 % \include{preamble}
 
