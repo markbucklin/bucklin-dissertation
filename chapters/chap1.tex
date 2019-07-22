@@ -146,8 +146,7 @@ Pixels are typically binned down 2x2, and frame rate is often reduced to work wi
 However, the effect of doubling resolution on processing time when using the graphics card is virtually negligible.
 Identifying ROIs online and extracting the traces of neural activity allows us to discard acquired images and instead, only store the relevant pixels for later analysis.
 
-\subsection{
-	Graphics Processing Units for Video Processing}\label{sec:graphics-processing-units-for-video-processing}
+\subsection{Graphics Processing Units for Video Processing}\label{sec:graphics-processing-units-for-video-processing}
 
 Graphics Processing Units were traditionally developed for the consumer gaming market.
 They are optimized for the process that involves translating a continuous stream of information into a two-dimensional image format for transfer to a computer monitor.
@@ -157,14 +156,10 @@ However, they are equally efficient at performing the same procedure type in rev
 These features render them popular for video processing and computer vision applications.
 
 All GPU architectures consists of a hierarchy of parallel processing elements.
-NVIDIA's CUDA architecture refers to the lowest level processing element as ``CUDA Cores'' and the highest level as ``Symmetric Multiprocessors.
-'' Typically, data is distributed across
-cores and multiprocessors by specifying a layout in C-code using
-different terminology, ``threads'' and ``blocks.'' Blocks are then
-termed to be organized in a ``grid.'' Adapting traditional image
-processing or computer vision algorithms to quickly run on a GPU
-involves efficiently distributing threads and ideally minimizes
-communication between blocks.
+NVIDIA's CUDA architecture refers to the lowest level processing element as ``CUDA Cores'' and the highest level as ``Symmetric Multiprocessors.''
+Typically, data is distributed across cores and multiprocessors by specifying a layout in C-code using
+different terminology, ``threads'' and ``blocks.'' Blocks are then termed to be organized in a ``grid.''
+Adapting traditional image processing or computer vision algorithms to quickly run on a GPU involves efficiently distributing threads and ideally minimizes communication between blocks.
 
 MATLAB makes processing data using the GPU seemingly trivial by overloading a large number of built in functions.
 Performance varies however.

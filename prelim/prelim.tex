@@ -54,7 +54,6 @@
 % The acknowledgment page should go here. Use something like
 % \newpage\section*{Acknowledgments} followed by your text.
 \newpage
-\section*{\centerline{Acknowledgments}}
 \input{prelim/acknowledgements}
 \cleardoublepage{}
 
@@ -67,7 +66,7 @@
 % the word "Abstract" at the beginning and single spaces its text.
 
 \begin{abstractpage}
-    \input{prelim/abstract}
+\input{prelim/abstract}
 \end{abstractpage}
 \cleardoublepage{}
 
@@ -92,18 +91,8 @@
 \cleardoublepage{}
 
 % List of Abbrevs is NOT optional (Martha Wellman likes all abbrevs listed)
-\chapter*{List of Abbreviations}
-\begin{center}
-    \begin{tabular}{lll}
-        \hspace*{2em}    & \hspace*{1in} & \hspace*{4.5in}                        \\
-        CAD              & \dotfill      & Computer-Aided Design                  \\
-        DOG              & \dotfill      & Difference Of Gaussian (distributions) \\
-        FWHM             & \dotfill      & Full-Width at Half Maximum             \\
-        LGN              & \dotfill      & Lateral Geniculate Nucleus             \\
-        PDF              & \dotfill      & Probability Distribution Function      \\
-        $\mathbb{R}^{2}$ & \dotfill      & the Real plane                         \\
-    \end{tabular}
-\end{center}
+\newpage
+\input{prelim/abbreviations}
 \cleardoublepage{}
 
 % END OF THE PRELIMINARY PAGES

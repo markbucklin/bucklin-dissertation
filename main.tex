@@ -28,15 +28,11 @@
 % NOMENCLATURE
 \usepackage[intoc, english]{nomencl}
 \makenomenclature{}
-\makenomenclature{}
 
 % MATH and FONTS
 \usepackage[intlimits]{amsmath}
 \usepackage{amsfonts,amssymb}
 \DeclareSymbolFontAlphabet{\mathbb}{AMSb}
-
-% \usepackage{natbib}
-\usepackage{apalike}
 \usepackage{fancyhdr}
 \usepackage{fancybox}
 \usepackage{ifthen}
@@ -44,6 +40,11 @@
 \usepackage{xspace}
 \usepackage{booktabs}
 \usepackage{algorithm,algpseudocode}
+
+% \usepackage{natbib}
+% \usepackage{biblatex}
+% \addbibresource{thesis.bib}
+\usepackage{apalike}
 
 % LINKS
 \usepackage[unicode=true]{hyperref}
@@ -118,7 +119,7 @@ fill=yellow!10]
 
 %\appendix
 \begin{appendices}
-	\subfile{appendix/appendix1}
+\subfile{appendix/appendix1}
 \end{appendices}
 
 % Bibliography
@@ -127,7 +128,7 @@ fill=yellow!10]
 \singlespace{}
 \raggedright{}
 \bibliographystyle{apalike-refs}
-
+\addcontentsline{toc}{chapter}{References}
 \bibliography{thesis}
 \cleardoublepage{}
 
