@@ -35,6 +35,20 @@ McLelland, A.~E., Winkler, C.~E., and Martin-Iverson, M.~T. (2015).
   10.1016/j.jneumeth.2015.01.006},
   \url{https://doi.org/10.1016%2Fj.jneumeth.2015.01.006}.
 
+\bibitem[Mohammed et~al., 2016]{mohammed2016integrative}
+Mohammed, A.~I., Gritton, H.~J., Tseng, H.-a., Bucklin, M.~E., Yao, Z., and
+  Han, X. (2016).
+\newblock An integrative approach for analyzing hundreds of neurons in task
+  performing mice using wide-field calcium imaging.
+\newblock {\em Scientific reports}, 6:20986.
+
+\bibitem[Romano et~al., 2019]{romano2019teensy}
+Romano, M., Bucklin, M., Gritton, H., Mehrotra, D., Kessel, R., and Han, X.
+  (2019).
+\newblock A teensy microcontroller-based interface for optical imaging camera
+  control during behavioral experiments.
+\newblock {\em Journal of Neuroscience Methods}, 320:107--115.
+
 \bibitem[Takahashi et~al., 2006]{takahashi_vivo_2006}
 Takahashi, E., Takano, T., Nomura, Y., Okano, S., Nakajima, O., and Sato, M.
   (2006).

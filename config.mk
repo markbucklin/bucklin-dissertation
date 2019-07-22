@@ -1,2 +1,3 @@
 CTAGS_OPTIONS= --language-force=tex -R *
-BIBTEX_FILES = reference/lit.bib
+BIBTEX_FILES = thesis.bib reference/lit.bib
+

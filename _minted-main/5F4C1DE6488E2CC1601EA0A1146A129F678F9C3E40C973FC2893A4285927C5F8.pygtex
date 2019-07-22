@@ -1,0 +1,159 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{function}\PYG{+w}{ }[NPMI, Hab, P] \PYG{p}{=}\PYG{+w}{ }\PYG{n+nf}{pointwiseMutualInformationRunGpuKernel}\PYG{p}{(}Q, P, Qmin, radialDisplacement\PYG{p}{)}
+\PYG{p}{[}\PYG{n}{numRows}\PYG{p}{,} \PYG{n}{numCols}\PYG{p}{,} \PYG{n}{numFrames}\PYG{p}{,} \PYG{n}{numChannels}\PYG{p}{]} \PYG{p}{=} \PYG{n+nb}{size}\PYG{p}{(}\PYG{n}{Q}\PYG{p}{);}
+\PYG{n}{rowSubs} \PYG{p}{=} \PYG{n}{int32}\PYG{p}{(}\PYG{n}{gpuArray}\PYG{p}{.}\PYG{n}{colon}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{numRows}\PYG{p}{)}\PYG{o}{\PYGZsq{}}\PYG{p}{);}
+\PYG{n}{colSubs} \PYG{p}{=} \PYG{n}{int32}\PYG{p}{(}\PYG{n}{gpuArray}\PYG{p}{.}\PYG{n}{colon}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{numCols}\PYG{p}{));}
+\PYG{n}{frameSubs} \PYG{p}{=} \PYG{n}{int32}\PYG{p}{(}\PYG{n+nb}{reshape}\PYG{p}{(}\PYG{n}{gpuArray}\PYG{p}{.}\PYG{n}{colon}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{numFrames}\PYG{p}{),} \PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{numFrames}\PYG{p}{));}
+\PYG{n}{chanSubs} \PYG{p}{=} \PYG{n+nb}{reshape}\PYG{p}{(}\PYG{n}{int32}\PYG{p}{(}\PYG{n}{gpuArray}\PYG{p}{.}\PYG{n}{colon}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{numChannels}\PYG{p}{)),} \PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{numChannels}\PYG{p}{);}
+\PYG{k}{if} \PYG{n+nb}{isempty}\PYG{p}{(}\PYG{n}{radialDisplacement}\PYG{p}{)}
+	\PYG{n}{radialDisplacement} \PYG{p}{=} \PYG{l+m+mf}{2.}\PYGZca{}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{:}\PYG{l+m+mi}{5}\PYG{p}{);}
+\PYG{k}{end}
+\PYG{n}{neighborDisplacement} \PYG{p}{=} \PYG{c}{...}
+	\PYG{n}{int32}\PYG{p}{(}\PYG{n+nb}{bsxfun}\PYG{p}{(@}\PYG{n}{times}\PYG{p}{,} \PYG{c}{...}
+	\PYG{p}{[} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1} \PYG{l+m+mi}{0} \PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1} \PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1} \PYG{l+m+mi}{0} \PYG{l+m+mi}{1} \PYG{p}{;} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1} \PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1} \PYG{l+m+mi}{0} \PYG{l+m+mi}{0} \PYG{l+m+mi}{1} \PYG{l+m+mi}{1} \PYG{l+m+mi}{1}\PYG{p}{]}\PYG{o}{\PYGZsq{}}\PYG{p}{,} \PYG{c}{...}
+	\PYG{n}{double}\PYG{p}{(}\PYG{n+nb}{reshape}\PYG{p}{(}\PYG{n}{radialDisplacement}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+m+mi}{1}\PYG{p}{,[]))));}
+\PYG{c}{\PYGZpc{} end}
+\PYG{c}{\PYGZpc{} numNeighbors = size(neighborDisplacement,1);}
+\PYG{n}{numNeighbors} \PYG{p}{=} \PYG{n+nb}{numel}\PYG{p}{(}\PYG{n}{neighborDisplacement}\PYG{p}{)}\PYG{o}{/}\PYG{l+m+mi}{2}\PYG{p}{;}
+\PYG{n}{neighborSubs} \PYG{p}{=} \PYG{n}{int32}\PYG{p}{(}\PYG{n+nb}{reshape}\PYG{p}{(}\PYG{n}{gpuArray}\PYG{p}{.}\PYG{n}{colon}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{numNeighbors}\PYG{p}{),} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{numNeighbors}\PYG{p}{));}
+\PYG{n}{neighborRowSubs} \PYG{p}{=} \PYG{n}{int32}\PYG{p}{(}\PYG{n+nb}{reshape}\PYG{p}{(}\PYG{n}{neighborDisplacement}\PYG{p}{(:,}\PYG{l+m+mi}{1}\PYG{p}{,:),} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{numNeighbors}\PYG{p}{));}
+\PYG{n}{neighborColSubs} \PYG{p}{=} \PYG{n}{int32}\PYG{p}{(}\PYG{n+nb}{reshape}\PYG{p}{(}\PYG{n}{neighborDisplacement}\PYG{p}{(:,}\PYG{l+m+mi}{2}\PYG{p}{,:),} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{numNeighbors}\PYG{p}{));}
+
+\PYG{n}{carryOverCoeff} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(.}\PYG{l+m+mi}{5}\PYG{p}{);}
+
+\PYG{k}{if} \PYG{n+nb}{isempty}\PYG{p}{(}\PYG{n}{Qmin}\PYG{p}{)}
+	\PYG{n}{Qmin} \PYG{p}{=} \PYG{n}{gpuArray}\PYG{p}{.}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n}{numRows}\PYG{p}{,}\PYG{n}{numCols}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}single\PYGZsq{}}\PYG{p}{)} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{o}{/}\PYG{l+m+mi}{4}\PYG{p}{;}\PYG{c}{\PYGZpc{}1/8}
+\PYG{k}{else}
+	\PYG{n}{Qmin} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{n}{Qmin}\PYG{p}{);}
+\PYG{k}{end}
+\PYG{k}{if} \PYG{n+nb}{isempty}\PYG{p}{(}\PYG{n}{P}\PYG{p}{)}
+	\PYG{n}{N} \PYG{p}{=} \PYG{n}{gpuArray}\PYG{p}{.}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{l+s}{\PYGZsq{}single\PYGZsq{}}\PYG{p}{);}
+	\PYG{n}{Pa} \PYG{p}{=} \PYG{n}{gpuArray}\PYG{p}{.}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n}{numRows}\PYG{p}{,}\PYG{n}{numCols}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}single\PYGZsq{}}\PYG{p}{);}
+	\PYG{n}{Pb} \PYG{p}{=} \PYG{n}{gpuArray}\PYG{p}{.}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n}{numRows}\PYG{p}{,}\PYG{n}{numCols}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}single\PYGZsq{}}\PYG{p}{);}
+	\PYG{n}{Pab} \PYG{p}{=} \PYG{n}{gpuArray}\PYG{p}{.}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n}{numRows}\PYG{p}{,}\PYG{n}{numCols}\PYG{p}{,}\PYG{n}{numNeighbors}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}single\PYGZsq{}}\PYG{p}{);}
+\PYG{k}{else}
+	\PYG{n}{N} \PYG{p}{=} \PYG{n}{P}\PYG{p}{.}\PYG{n}{N}\PYG{p}{;}
+	\PYG{n}{Pa} \PYG{p}{=} \PYG{n}{P}\PYG{p}{.}\PYG{n}{a}\PYG{p}{;}
+	\PYG{n}{Pb} \PYG{p}{=} \PYG{n}{P}\PYG{p}{.}\PYG{n}{b}\PYG{p}{;}
+	\PYG{n}{Pab} \PYG{p}{=} \PYG{n}{P}\PYG{p}{.}\PYG{n}{ab}\PYG{p}{;}
+\PYG{k}{end}
+
+
+
+\PYG{c}{\PYGZpc{} ============================================================}
+\PYG{c}{\PYGZpc{} CALL SUB\PYGZhy{}FUNCTION USING GPU/ARRAYFUN (COMPILES CUDA KERNEL)}
+\PYG{c}{\PYGZpc{} ============================================================}
+\PYG{p}{[}\PYG{n}{NPMI}\PYG{p}{,} \PYG{n}{Hab}\PYG{p}{,} \PYG{n}{Pa8}\PYG{p}{,} \PYG{n}{Pb8}\PYG{p}{,} \PYG{n}{Pab}\PYG{p}{]} \PYG{p}{=} \PYG{n}{arrayfun}\PYG{p}{(} \PYG{p}{@}\PYG{n}{pointwiseMutualInformationKernel}\PYG{p}{,}\PYG{c}{...}
+	\PYG{n}{Qmin}\PYG{p}{,} \PYG{n}{rowSubs}\PYG{p}{,} \PYG{n}{colSubs}\PYG{p}{,} \PYG{n}{neighborSubs}\PYG{p}{,} \PYG{n}{neighborRowSubs}\PYG{p}{,} \PYG{n}{neighborColSubs}\PYG{p}{,} \PYG{n}{chanSubs}\PYG{p}{);}
+
+\PYG{n}{N} \PYG{p}{=} \PYG{n}{N} \PYG{o}{+} \PYG{n}{single}\PYG{p}{(}\PYG{n}{numFrames}\PYG{p}{);}
+\PYG{n}{Pa} \PYG{p}{=} \PYG{n}{mean}\PYG{p}{(}\PYG{n}{Pa8}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{);}
+\PYG{n}{Pb} \PYG{p}{=} \PYG{n}{mean}\PYG{p}{(}\PYG{n}{Pb8}\PYG{p}{,}\PYG{l+m+mi}{3}\PYG{p}{);}
+
+\PYG{n}{P}\PYG{p}{.}\PYG{n}{N} \PYG{p}{=} \PYG{n}{N}\PYG{p}{;}
+\PYG{n}{P}\PYG{p}{.}\PYG{n}{a} \PYG{p}{=} \PYG{n}{Pa}\PYG{p}{;}
+\PYG{n}{P}\PYG{p}{.}\PYG{n}{b} \PYG{p}{=} \PYG{n}{Pb}\PYG{p}{;}
+\PYG{n}{P}\PYG{p}{.}\PYG{n}{ab} \PYG{p}{=} \PYG{n}{Pab}\PYG{p}{;}
+\PYG{k}{	function}\PYG{+w}{ }[npmi,hab,pa,pb,pab] \PYG{p}{=}\PYG{+w}{ }\PYG{n+nf}{pointwiseMutualInformationKernel}\PYG{p}{(}qmin0, rowIdx, colIdx, neigIdx, dRow, dCol, chanIdx\PYG{p}{)}
+
+\PYG{+w}{		}\PYG{c}{\PYGZpc{} NEIGHBOR SUBSCRIPTS}
+		\PYG{c}{\PYGZpc{} 		neighborRowIdx = max(1,min(numRows, rowIdx + dRow));}
+		\PYG{c}{\PYGZpc{} 		neighborColIdx = max(1,min(numCols, colIdx + dCol));}
+		\PYG{n}{neighborRowIdx} \PYG{p}{=} \PYG{n}{rowIdx} \PYG{o}{+} \PYG{n}{dRow}\PYG{p}{;}
+		\PYG{n}{neighborColIdx} \PYG{p}{=} \PYG{n}{colIdx} \PYG{o}{+} \PYG{n}{dCol}\PYG{p}{;}
+
+		\PYG{k}{if} \PYG{p}{(}\PYG{n}{neighborRowIdx} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{p}{(}\PYG{n}{neighborColIdx} \PYG{o}{\PYGZgt{}} \PYG{l+m+mi}{0}\PYG{p}{)} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{p}{(}\PYG{n}{neighborRowIdx} \PYG{o}{\PYGZlt{}}\PYG{p}{=} \PYG{n}{numRows}\PYG{p}{)} \PYG{o}{\PYGZam{}\PYGZam{}} \PYG{p}{(}\PYG{n}{neighborColIdx} \PYG{o}{\PYGZlt{}}\PYG{p}{=} \PYG{n}{numCols}\PYG{p}{)}
+
+			\PYG{c}{\PYGZpc{} GET CURRENT CENTRAL PIXEL PROBABILITY}
+			\PYG{n}{pa} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{n}{Pa}\PYG{p}{(}\PYG{n}{rowIdx}\PYG{p}{,} \PYG{n}{colIdx}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{chanIdx}\PYG{p}{))}\PYG{o}{*}\PYG{n}{carryOverCoeff}\PYG{p}{;}
+
+			\PYG{c}{\PYGZpc{} GET NEIGHBOR\PYGZhy{}PIXEL PROBABILITY}
+			\PYG{n}{pb} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{n}{Pb}\PYG{p}{(}\PYG{n}{neighborRowIdx}\PYG{p}{,} \PYG{n}{neighborColIdx}\PYG{p}{,} \PYG{l+m+mi}{1}\PYG{p}{,} \PYG{n}{chanIdx}\PYG{p}{))}\PYG{o}{*}\PYG{n}{carryOverCoeff}\PYG{p}{;}
+
+			\PYG{c}{\PYGZpc{} GET JOINT PROBABILITY WITH NEIGHBOR\PYGZhy{}PIXEL}
+			\PYG{n}{pab} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{n}{Pab}\PYG{p}{(}\PYG{n}{rowIdx}\PYG{p}{,} \PYG{n}{colIdx}\PYG{p}{,} \PYG{n}{neigIdx}\PYG{p}{,} \PYG{n}{chanIdx}\PYG{p}{))}\PYG{o}{*}\PYG{n}{carryOverCoeff}\PYGZca{}\PYG{l+m+mi}{2}\PYG{p}{;}
+
+			\PYG{c}{\PYGZpc{} TURN PRIOR PROBABILITIES INTO SUMS}
+			\PYG{n}{n} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{n}{N}\PYG{p}{);}
+			\PYG{c}{\PYGZpc{} 			if n\PYGZgt{}16}
+			\PYG{c}{\PYGZpc{} 				n = n*carryOverCoeff;}
+			\PYG{c}{\PYGZpc{} 			end}
+			\PYG{n}{sa} \PYG{p}{=} \PYG{n}{pa} \PYG{o}{*} \PYG{n}{n}\PYG{p}{;}
+			\PYG{n}{sb} \PYG{p}{=} \PYG{n}{pb} \PYG{o}{*} \PYG{n}{n}\PYG{p}{;}
+			\PYG{n}{sna} \PYG{p}{=} \PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{n}{sa}\PYG{p}{;}
+			\PYG{n}{snb} \PYG{p}{=} \PYG{n}{n} \PYG{o}{\PYGZhy{}} \PYG{n}{sb}\PYG{p}{;}
+			\PYG{n}{sab} \PYG{p}{=} \PYG{n}{pab} \PYG{o}{*} \PYG{n}{n}\PYG{p}{;}
+
+			\PYG{c}{\PYGZpc{} UPDATE POINT\PYGZhy{}WISE PROBABILITIES RELATIVE TO CENTER\PYGZhy{}DERIVED THRESHOLD}
+			\PYG{n}{k} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+			\PYG{k}{while} \PYG{n}{k} \PYG{o}{\PYGZlt{}} \PYG{n}{numFrames}
+				\PYG{n}{k} \PYG{p}{=} \PYG{n}{k} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+
+				\PYG{n}{fa} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{n}{Q}\PYG{p}{(}\PYG{n}{rowIdx}\PYG{p}{,} \PYG{n}{colIdx}\PYG{p}{,} \PYG{n}{k}\PYG{p}{,} \PYG{n}{chanIdx}\PYG{p}{));}
+				\PYG{n}{fb} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{n}{Q}\PYG{p}{(}\PYG{n}{neighborRowIdx}\PYG{p}{,} \PYG{n}{neighborColIdx}\PYG{p}{,} \PYG{n}{k}\PYG{p}{,} \PYG{n}{chanIdx}\PYG{p}{));}
+
+				\PYG{c}{\PYGZpc{} 				qmin = max( max( fa/2, fb/2), qmin0); \PYGZpc{} SYMMETRIC}
+				\PYG{n}{qmin} \PYG{p}{=} \PYG{n}{max}\PYG{p}{(} \PYG{n}{fa}\PYG{o}{/}\PYG{l+m+mi}{4}\PYG{p}{,} \PYG{n}{qmin0}\PYG{p}{);} \PYG{c}{\PYGZpc{} ASYMMETRIC}
+
+				\PYG{n}{a} \PYG{p}{=} \PYG{n}{fa} \PYG{o}{\PYGZgt{}}\PYG{p}{=} \PYG{n}{qmin}\PYG{p}{;}
+				\PYG{n}{b} \PYG{p}{=} \PYG{n}{fb} \PYG{o}{\PYGZgt{}}\PYG{p}{=} \PYG{n}{qmin}\PYG{p}{;}
+
+				\PYG{n}{sa} \PYG{p}{=} \PYG{n}{sa} \PYG{o}{+} \PYG{n}{single}\PYG{p}{(} \PYG{n}{a} \PYG{p}{);}
+				\PYG{n}{sb} \PYG{p}{=} \PYG{n}{sb} \PYG{o}{+} \PYG{n}{single}\PYG{p}{(} \PYG{n}{b} \PYG{p}{);}
+				\PYG{n}{sna} \PYG{p}{=} \PYG{n}{sna} \PYG{o}{+} \PYG{n}{single}\PYG{p}{(} \PYG{o}{\PYGZti{}}\PYG{n}{a} \PYG{p}{);}
+				\PYG{n}{snb} \PYG{p}{=} \PYG{n}{snb} \PYG{o}{+} \PYG{n}{single}\PYG{p}{(} \PYG{o}{\PYGZti{}}\PYG{n}{b} \PYG{p}{);}
+				\PYG{n}{sab} \PYG{p}{=} \PYG{n}{sab} \PYG{o}{+} \PYG{n}{single}\PYG{p}{(} \PYG{n}{a} \PYG{o}{\PYGZam{}} \PYG{n}{b} \PYG{p}{);}
+
+				\PYG{n}{n} \PYG{p}{=} \PYG{n}{n} \PYG{o}{+} \PYG{l+m+mi}{1}\PYG{p}{;}
+
+			\PYG{k}{end}
+
+			\PYG{c}{\PYGZpc{} INDIVIDUAL PROBABILITIES}
+			\PYG{n}{pa} \PYG{p}{=} \PYG{n}{sa}\PYG{o}{/}\PYG{n}{n}\PYG{p}{;}
+			\PYG{n}{pb} \PYG{p}{=} \PYG{n}{sb}\PYG{o}{/}\PYG{n}{n}\PYG{p}{;}
+			\PYG{n}{pna} \PYG{p}{=} \PYG{n}{sna}\PYG{o}{/}\PYG{n}{n}\PYG{p}{;}
+			\PYG{n}{pnb} \PYG{p}{=} \PYG{n}{snb}\PYG{o}{/}\PYG{n}{n}\PYG{p}{;}
+
+			\PYG{c}{\PYGZpc{} JOINT PROBABILITY}
+			\PYG{n}{pab} \PYG{p}{=} \PYG{n}{sab}\PYG{o}{/}\PYG{n}{n}\PYG{p}{;}
+
+			\PYG{c}{\PYGZpc{} MUTUAL INFORMATION}
+			\PYG{n}{pmi} \PYG{p}{=} \PYG{n+nb}{log2}\PYG{p}{(}\PYG{n}{pab}\PYG{o}{/}\PYG{p}{(}\PYG{n}{pa}\PYG{o}{*}\PYG{n}{pb}\PYG{p}{));}
+			\PYG{n}{npmi} \PYG{p}{=} \PYG{n}{pmi}\PYG{o}{/\PYGZhy{}}\PYG{n+nb}{log2}\PYG{p}{(}\PYG{n}{pab}\PYG{p}{);}
+
+			\PYG{c}{\PYGZpc{} CHECK THAT COMPUTED PMI IS VALID}
+			\PYG{k}{if} \PYG{n+nb}{isnan}\PYG{p}{(}\PYG{n}{pmi}\PYG{p}{)} \PYG{o}{||} \PYG{n+nb}{isnan}\PYG{p}{(}\PYG{n}{npmi}\PYG{p}{)}
+				\PYG{n}{pmi} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+				\PYG{n}{npmi} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+			\PYG{k}{elseif} \PYG{n+nb}{isinf}\PYG{p}{(}\PYG{n}{pmi}\PYG{p}{)} \PYG{o}{||} \PYG{n+nb}{isinf}\PYG{p}{(}\PYG{n}{npmi}\PYG{p}{)}
+				\PYG{n}{pmi} \PYG{p}{=} \PYG{n+nb}{sign}\PYG{p}{(}\PYG{n}{pmi}\PYG{p}{);}
+				\PYG{n}{npmi} \PYG{p}{=} \PYG{n+nb}{sign}\PYG{p}{(}\PYG{n}{pmi}\PYG{p}{);}
+			\PYG{k}{end}
+
+			\PYG{c}{\PYGZpc{} JOINT ENTROPY \PYGZhy{}\PYGZgt{}(try ratio of individual entropies)}
+			\PYG{n}{c} \PYG{p}{=} \PYG{n+nb}{eps}\PYG{p}{(}\PYG{n}{pa}\PYG{p}{);}
+			\PYG{n}{ha} \PYG{p}{=} \PYG{o}{\PYGZhy{}} \PYG{p}{(} \PYG{n}{pa}\PYG{o}{*}\PYG{n+nb}{log2}\PYG{p}{(}\PYG{n}{pa}\PYG{o}{+}\PYG{n}{c}\PYG{p}{)} \PYG{o}{+} \PYG{n}{pna}\PYG{o}{*}\PYG{n+nb}{log2}\PYG{p}{(}\PYG{n}{pna}\PYG{o}{+}\PYG{n}{c}\PYG{p}{)} \PYG{p}{);}
+			\PYG{n}{hb} \PYG{p}{=} \PYG{o}{\PYGZhy{}} \PYG{p}{(} \PYG{n}{pb}\PYG{o}{*}\PYG{n+nb}{log2}\PYG{p}{(}\PYG{n}{pb}\PYG{o}{+}\PYG{n}{c}\PYG{p}{)} \PYG{o}{+} \PYG{n}{pnb}\PYG{o}{*}\PYG{n+nb}{log2}\PYG{p}{(}\PYG{n}{pnb}\PYG{o}{+}\PYG{n}{c}\PYG{p}{)} \PYG{p}{);}
+			\PYG{n}{hab} \PYG{p}{=} \PYG{n}{ha} \PYG{o}{+} \PYG{n}{hb} \PYG{o}{\PYGZhy{}} \PYG{n}{pmi}\PYG{p}{;}
+
+		\PYG{k}{else}
+			\PYG{c}{\PYGZpc{} SET EDGES/OUT\PYGZhy{}OF\PYGZhy{}BOUNDS TO ZEROs}
+			\PYG{n}{npmi} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+			\PYG{n}{hab} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+			\PYG{n}{pa} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+			\PYG{n}{pb} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+			\PYG{n}{pab} \PYG{p}{=} \PYG{n}{single}\PYG{p}{(}\PYG{l+m+mi}{0}\PYG{p}{);}
+
+		\PYG{k}{end}
+
+
+	\PYG{k}{end}
+
+
+
+
+
+
+
+\PYG{k}{end}
+\end{Verbatim}

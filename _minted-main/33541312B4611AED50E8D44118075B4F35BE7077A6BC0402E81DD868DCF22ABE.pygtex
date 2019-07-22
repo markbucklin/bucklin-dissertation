@@ -1,0 +1,94 @@
+\begin{Verbatim}[commandchars=\\\{\}]
+\PYG{k}{function}\PYG{+w}{ }stat \PYG{p}{=}\PYG{+w}{ }\PYG{n+nf}{updateStatisticStructure}\PYG{p}{(}stat, Finput\PYG{p}{)}
+\PYG{c}{\PYGZpc{} updateStatisticStructure \PYGZhy{} updates a structure of cumulative sequential pixel statistics}
+\PYG{c}{\PYGZpc{}}
+\PYG{c}{\PYGZpc{} Syntax:}
+\PYG{c}{\PYGZpc{}			\PYGZgt{}\PYGZgt{} stat = updateStatisticStructure(stat, Finput)}
+\PYG{c}{\PYGZpc{}}
+
+
+
+
+\PYG{c}{\PYGZpc{} GET/ENSURE DATA INPUT IS IN EXPECTED FORMAT (NUMERIC\PYGZhy{}ARRAY \PYGZam{} FLOATING\PYGZhy{}POINT)}
+\PYG{n}{useFloat} \PYG{p}{=} \PYG{n}{true}\PYG{p}{;}
+\PYG{n}{F} \PYG{p}{=} \PYG{n}{ignition}\PYG{p}{.}\PYG{n}{shared}\PYG{p}{.}\PYG{n}{formatVideoNumericArray}\PYG{p}{(}\PYG{n}{Finput}\PYG{p}{,} \PYG{n}{useFloat}\PYG{p}{);}
+
+\PYG{c}{\PYGZpc{} GET DIMENSIONS OF INPUT}
+\PYG{p}{[}\PYG{n}{numRows}\PYG{p}{,} \PYG{n}{numCols}\PYG{p}{,} \PYG{n}{numChannels}\PYG{p}{,} \PYG{n}{numFrames}\PYG{p}{]} \PYG{p}{=} \PYG{n+nb}{size}\PYG{p}{(}\PYG{n}{F}\PYG{p}{);}
+\PYG{n}{frameDim} \PYG{p}{=} \PYG{l+m+mi}{4}\PYG{p}{;}
+
+
+\PYG{c}{\PYGZpc{} INITIALIZE STAT STRUCTURE}
+\PYG{k}{if} \PYG{p}{(}\PYG{n}{nargin} \PYG{o}{\PYGZlt{}} \PYG{l+m+mi}{2}\PYG{p}{)}
+	\PYG{n}{stat} \PYG{p}{=} \PYG{n}{struct}\PYG{p}{.}\PYG{n}{empty}\PYG{p}{();}
+\PYG{k}{end}
+\PYG{k}{if} \PYG{n+nb}{isempty}\PYG{p}{(}\PYG{n}{stat}\PYG{p}{)}
+	
+	\PYG{k}{if} \PYG{n}{isa}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}gpuArray\PYGZsq{}}\PYG{p}{)}
+		\PYG{n}{initZeroPixel} \PYG{p}{=} \PYG{n}{gpuArray}\PYG{p}{.}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{floatClassName}\PYG{p}{);}
+		\PYG{n}{initZeroFrame} \PYG{p}{=} \PYG{n}{gpuArray}\PYG{p}{.}\PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n}{numRows}\PYG{p}{,} \PYG{n}{numCols}\PYG{p}{,} \PYG{n}{numChannels}\PYG{p}{,} \PYG{n}{floatClassName}\PYG{p}{);}
+	\PYG{k}{else}
+		\PYG{n}{initZeroPixel} \PYG{p}{=} \PYG{n+nb}{zeros}\PYG{p}{(}\PYG{l+m+mi}{1}\PYG{p}{,}\PYG{n}{floatClassName}\PYG{p}{);}
+		\PYG{n}{initZeroFrame} \PYG{p}{=} \PYG{n+nb}{zeros}\PYG{p}{(}\PYG{n}{numRows}\PYG{p}{,} \PYG{n}{numCols}\PYG{p}{,} \PYG{n}{numChannels}\PYG{p}{,} \PYG{n}{floatClassName}\PYG{p}{);}
+	\PYG{k}{end}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{N} \PYG{p}{=} \PYG{n}{initZeroPixel}\PYG{p}{;}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{Min} \PYG{p}{=} \PYG{n}{min}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,} \PYG{p}{[],} \PYG{n}{frameDim}\PYG{p}{);}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{Max} \PYG{p}{=} \PYG{n}{max}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,} \PYG{p}{[],} \PYG{n}{frameDim}\PYG{p}{);}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M1} \PYG{p}{=} \PYG{n}{initZeroFrame}\PYG{p}{;}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M2} \PYG{p}{=} \PYG{n}{initZeroFrame}\PYG{p}{;}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M3} \PYG{p}{=} \PYG{n}{initZeroFrame}\PYG{p}{;}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M4} \PYG{p}{=} \PYG{n}{initZeroFrame}\PYG{p}{;}
+\PYG{k}{end}
+
+
+\PYG{c}{\PYGZpc{} STATISTIC CONTRIBUTION COUNTS/WEIGHTS}
+\PYG{n}{na} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{N}\PYG{p}{;}
+\PYG{n}{nb} \PYG{p}{=} \PYG{n}{numFrames}\PYG{p}{;}
+\PYG{n}{n} \PYG{p}{=} \PYG{n}{na} \PYG{o}{+} \PYG{n}{nb}\PYG{p}{;}
+
+\PYG{c}{\PYGZpc{} UPDATE MAX \PYGZam{} MIN}
+\PYG{n}{stat}\PYG{p}{.}\PYG{n}{Min} \PYG{p}{=} \PYG{n}{min}\PYG{p}{(}\PYG{n}{min}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,} \PYG{p}{[],} \PYG{n}{frameDim}\PYG{p}{),} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{Min}\PYG{p}{);}
+\PYG{n}{stat}\PYG{p}{.}\PYG{n}{Max} \PYG{p}{=} \PYG{n}{max}\PYG{p}{(}\PYG{n}{max}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,} \PYG{p}{[],} \PYG{n}{frameDim}\PYG{p}{),} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{Max}\PYG{p}{);}
+
+\PYG{c}{\PYGZpc{} UPDATE CENTRAL MOMENTS}
+\PYG{k}{if} \PYG{n}{nb} \PYG{o}{==} \PYG{l+m+mi}{1} \PYG{c}{\PYGZpc{} Run faster implementation if only updating with 1 frame}
+	\PYG{n}{d} \PYG{p}{=} \PYG{n}{cast}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,} \PYG{n}{floatClassName}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M1}\PYG{p}{;}
+	\PYG{n}{dk} \PYG{p}{=} \PYG{n}{d}\PYG{o}{./}\PYG{n}{n}\PYG{p}{;}
+	\PYG{n}{dk2} \PYG{p}{=} \PYG{n}{dk}\PYG{o}{.\PYGZca{}}\PYG{l+m+mi}{2}\PYG{p}{;}
+	\PYG{n}{s} \PYG{p}{=} \PYG{n}{d}\PYG{o}{.*}\PYG{n}{dk}\PYG{o}{.*}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{1}\PYG{p}{);}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M1} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M1} \PYG{o}{+} \PYG{n}{dk}\PYG{p}{;}
+	\PYG{n}{m2} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M2}\PYG{p}{;}
+	\PYG{n}{m3} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M3}\PYG{p}{;}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M4} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M4} \PYG{o}{+} \PYG{n}{s}\PYG{o}{.*}\PYG{n}{dk2}\PYG{o}{.*}\PYG{p}{(}\PYG{n}{n}\PYGZca{}\PYG{l+m+mi}{2}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{3}\PYG{o}{*}\PYG{n}{n}\PYG{o}{+}\PYG{l+m+mi}{3}\PYG{p}{)} \PYG{o}{+} \PYG{l+m+mi}{6}\PYG{o}{*}\PYG{n}{dk2}\PYG{o}{.*}\PYG{n}{m2} \PYG{o}{\PYGZhy{}} \PYG{l+m+mf}{4.}\PYG{o}{*}\PYG{n}{dk}\PYG{o}{.*}\PYG{n}{m3}\PYG{p}{;}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M3} \PYG{p}{=} \PYG{n}{m3} \PYG{o}{+} \PYG{n}{s}\PYG{o}{.*}\PYG{n}{dk}\PYG{o}{.*}\PYG{p}{(}\PYG{n}{n}\PYG{o}{\PYGZhy{}}\PYG{l+m+mi}{2}\PYG{p}{)} \PYG{o}{\PYGZhy{}} \PYG{l+m+mf}{3.}\PYG{o}{*}\PYG{n}{dk}\PYG{o}{.*}\PYG{n}{m2}\PYG{p}{;}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M2} \PYG{p}{=} \PYG{n}{m2} \PYG{o}{+} \PYG{n}{s}\PYG{p}{;}
+	
+\PYG{k}{else}	\PYG{c}{\PYGZpc{} Not optimized, but easier to follow}
+	\PYG{n}{m1a} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M1}\PYG{p}{;}
+	\PYG{n}{m2a} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M2}\PYG{p}{;}
+	\PYG{n}{m3a} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M3}\PYG{p}{;}
+	\PYG{n}{m4a} \PYG{p}{=} \PYG{n}{stat}\PYG{p}{.}\PYG{n}{M4}\PYG{p}{;}
+	
+	\PYG{n}{m1b} \PYG{p}{=} \PYG{n}{cast}\PYG{p}{(}\PYG{n}{mean}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,} \PYG{n}{frameDim}\PYG{p}{,} \PYG{l+s}{\PYGZsq{}default\PYGZsq{}}\PYG{p}{),} \PYG{n}{floatClassName}\PYG{p}{);}
+	\PYG{n}{m2b} \PYG{p}{=} \PYG{n}{moment}\PYG{p}{(}\PYG{n}{cast}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,}\PYG{n}{floatClassName}\PYG{p}{),} \PYG{l+m+mi}{2}\PYG{p}{,} \PYG{n}{frameDim}\PYG{p}{);}
+	\PYG{n}{m3b} \PYG{p}{=} \PYG{n}{moment}\PYG{p}{(}\PYG{n}{cast}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,}\PYG{n}{floatClassName}\PYG{p}{),} \PYG{l+m+mi}{3}\PYG{p}{,} \PYG{n}{frameDim}\PYG{p}{);}
+	\PYG{n}{m4b} \PYG{p}{=} \PYG{n}{moment}\PYG{p}{(}\PYG{n}{cast}\PYG{p}{(}\PYG{n}{F}\PYG{p}{,}\PYG{n}{floatClassName}\PYG{p}{),} \PYG{l+m+mi}{4}\PYG{p}{,} \PYG{n}{frameDim}\PYG{p}{);}
+	
+	\PYG{n}{d} \PYG{p}{=} \PYG{n+nb}{bsxfun}\PYG{p}{(@}\PYG{n}{minus}\PYG{p}{,} \PYG{n}{m1b} \PYG{p}{,} \PYG{n}{m1a}\PYG{p}{);}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M1} \PYG{p}{=} \PYG{n+nb}{bsxfun}\PYG{p}{(@}\PYG{n}{plus}\PYG{p}{,} \PYG{n}{m1a} \PYG{p}{,} \PYG{n+nb}{bsxfun}\PYG{p}{(@}\PYG{n}{times}\PYG{p}{,} \PYG{n}{d}\PYG{p}{,} \PYG{p}{(}\PYG{n}{nb}\PYG{o}{/}\PYG{n}{n}\PYG{p}{)));} \PYG{c}{\PYGZpc{} 				dk = d.*(Nb/N);}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M2} \PYG{p}{=} \PYG{n}{m2a}  \PYG{o}{+}  \PYG{n}{m2b}  \PYG{o}{+}  \PYG{p}{(}\PYG{n}{d}\PYG{o}{.\PYGZca{}}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{.*}\PYG{p}{(}\PYG{n}{na}\PYG{o}{*}\PYG{n}{nb}\PYG{o}{/}\PYG{n}{n}\PYG{p}{);} \PYG{c}{\PYGZpc{} dk2 = (d.\PYGZca{}2).*Na.*Nb./N}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M3} \PYG{p}{=} \PYG{n}{m3a}  \PYG{o}{+}  \PYG{n}{m3b}  \PYG{o}{+}  \PYG{p}{(}\PYG{n}{d}\PYG{o}{.\PYGZca{}}\PYG{l+m+mi}{3}\PYG{p}{)}\PYG{o}{.*}\PYG{p}{(}\PYG{n}{na}\PYG{o}{*}\PYG{n}{nb}\PYG{o}{*}\PYG{p}{(}\PYG{n}{na}\PYG{o}{\PYGZhy{}}\PYG{n}{nb}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n}{n}\PYGZca{}\PYG{l+m+mi}{2}\PYG{p}{))}  \PYG{c}{...}
+		\PYG{o}{+}  \PYG{l+m+mi}{3}\PYG{o}{*}\PYG{p}{(}\PYG{n}{na}\PYG{o}{.*}\PYG{n}{m2b} \PYG{o}{\PYGZhy{}} \PYG{n}{nb}\PYG{o}{.*}\PYG{n}{m2a}\PYG{p}{)}\PYG{o}{.*}\PYG{n}{d}\PYG{o}{./}\PYG{n}{n}\PYG{p}{;}
+	\PYG{n}{stat}\PYG{p}{.}\PYG{n}{M4} \PYG{p}{=} \PYG{n}{m4a}  \PYG{o}{+}  \PYG{n}{m4b}  \PYG{o}{+}  \PYG{p}{(}\PYG{n}{d}\PYG{o}{.\PYGZca{}}\PYG{l+m+mi}{4}\PYG{p}{)}\PYG{o}{.*}\PYG{p}{((}\PYG{n}{na}\PYG{o}{*}\PYG{n}{nb}\PYG{o}{*}\PYG{p}{(}\PYG{n}{na}\PYG{o}{\PYGZhy{}}\PYG{n}{nb}\PYG{p}{)}\PYGZca{}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{/}\PYG{p}{(}\PYG{n}{n}\PYGZca{}\PYG{l+m+mi}{3}\PYG{p}{))}  \PYG{c}{...}
+		\PYG{o}{+}  \PYG{l+m+mi}{6}\PYG{o}{*}\PYG{p}{(}\PYG{n}{m2b}\PYG{o}{.*}\PYG{n}{na}\PYGZca{}\PYG{l+m+mi}{2} \PYG{o}{+} \PYG{n}{m2a}\PYG{o}{.*}\PYG{n}{nb}\PYG{o}{.\PYGZca{}}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{.*}\PYG{p}{((}\PYG{n}{d}\PYG{o}{.\PYGZca{}}\PYG{l+m+mi}{2}\PYG{p}{)}\PYG{o}{./}\PYG{p}{(}\PYG{n}{n}\PYGZca{}\PYG{l+m+mi}{2}\PYG{p}{))}  \PYG{c}{...}
+		\PYG{o}{+}  \PYG{l+m+mi}{4}\PYG{o}{*}\PYG{p}{(}\PYG{n}{m3b}\PYG{o}{.*}\PYG{n}{na}  \PYG{o}{\PYGZhy{}}  \PYG{n}{m3a}\PYG{o}{.*}\PYG{n}{nb}\PYG{p}{)}\PYG{o}{.*}\PYG{p}{(}\PYG{n}{d}\PYG{o}{./}\PYG{n}{n}\PYG{p}{);}
+\PYG{k}{end}
+
+\PYG{c}{\PYGZpc{} UPDATE SAMPLE COUNT}
+\PYG{n}{stat}\PYG{p}{.}\PYG{n}{N} \PYG{p}{=} \PYG{n}{n}\PYG{p}{;}
+
+
+
+
+\PYG{k}{end}
+\end{Verbatim}

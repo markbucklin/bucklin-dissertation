@@ -6,45 +6,45 @@ A level-1 auxiliary file: prelim/cv.aux
 Database file #1: thesis.bib
 Warning--empty year in harvey_intracellular_2009
 Warning--empty journal in harvey_intracellular_2009
-You've used 6 entries,
+You've used 8 entries,
             2234 wiz_defined-function locations,
-            587 strings with 6087 characters,
-and the built_in function-call counts, 6129 in all, are:
-= -- 499
-> -- 188
+            601 strings with 6621 characters,
+and the built_in function-call counts, 7200 in all, are:
+= -- 591
+> -- 254
 < -- 41
-+ -- 152
-- -- 255
-* -- 526
-:= -- 1338
-add.period$ -- 18
-call.type$ -- 6
-change.case$ -- 64
-chr.to.int$ -- 6
-cite$ -- 8
-duplicate$ -- 364
-empty$ -- 425
-format.name$ -- 74
-if$ -- 1081
++ -- 180
+- -- 279
+* -- 623
+:= -- 1519
+add.period$ -- 24
+call.type$ -- 8
+change.case$ -- 86
+chr.to.int$ -- 8
+cite$ -- 10
+duplicate$ -- 402
+empty$ -- 501
+format.name$ -- 100
+if$ -- 1287
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 6
-newline$ -- 33
-num.names$ -- 18
-pop$ -- 88
+missing$ -- 8
+newline$ -- 43
+num.names$ -- 24
+pop$ -- 116
 preamble$ -- 1
-purify$ -- 64
+purify$ -- 86
 quote$ -- 0
-skip$ -- 98
+skip$ -- 118
 stack$ -- 0
-substring$ -- 587
-swap$ -- 5
+substring$ -- 655
+swap$ -- 7
 text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 36
+type$ -- 48
 warning$ -- 2
-while$ -- 35
+while$ -- 42
 width$ -- 0
-write$ -- 92
+write$ -- 118
 (There were 2 warnings)
