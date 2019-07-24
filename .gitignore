@@ -11,3 +11,6 @@ main.nlo
 .examples
 .*
 *.nlo
+*.bbl
+*.blg
+*.lol
