@@ -126,19 +126,47 @@ fontsize=10pt
 
 This type of function is also easily trasnalted to stencil functions on for computation on the GPU.
 
+% \begin{listing}[ht]
+% \inputminted[
+% frame=lines,
+% framesep=2mm,
+% bgcolor=black,
+% baselinestretch=1.0,
+% fontsize=10pt
+% ]
+% {matlab}{updateStatisticsGPU.m}
+% \caption{Incremental update of the statistics structure programmed to run as pixel-wise CUDA kernel on GPU}
+% \label{listing:update-statistic-gpu}
+% \end{listing}
+
 \begin{listing}[ht]
-\inputminted[
-frame=lines,
-framesep=2mm,
-bgcolor=black,
-baselinestretch=1.0,
-fontsize=10pt
-]
-{matlab}{updateStatisticsGPU.m}
+\begin{minted}{matlab}
+function [fmin,fmax,m1,m2,m3,m4,n] = statUpdateKernel(f,fmin,fmax,m1,m2,m3,m4,n)
+
+    % update sample count for this pixel
+    n = n + 1;
+
+    % precompute & cache some values for speed
+    d = f - m1;
+    dk = d/n;
+    dk2 = dk^2;
+    s = d*dk*(n-1);
+
+    % update central moments
+    m1 = m1 + dk;
+    m4 = m4 + s*dk2*(n.^2-3*n+3) + 6*dk2*m2 - 4*dk*m3;
+    m3 = m3 + s*dk*(n-2) - 3*dk*m2;
+    m2 = m2 + s;
+
+    % update min & max
+    fmin = min(fmin, f);
+    fmax = max(fmax, f);
+
+end
+\end{minted}
 \caption{Incremental update of the statistics structure programmed to run as pixel-wise CUDA kernel on GPU}
 \label{listing:update-statistic-gpu}
 \end{listing}
-
 
 \subsection{Surface Classification: Peaks, Edges, Curvature}\label{sec:surface-classification-peaks-edges-curvature}
 
