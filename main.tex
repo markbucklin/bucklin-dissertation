@@ -42,10 +42,13 @@
 \usepackage{booktabs}
 \usepackage{algorithm,algpseudocode}
 
+% \usepackage{biblatex}
+% \addbibresource{thesis.bib}
+% \addbibresource{ref.bib}
+
 % \usepackage{natbib}
-\usepackage{biblatex}
-\addbibresource{thesis.bib}
 % \usepackage{apalike}
+% \bibliographystyle{plain}
 
 % LINKS
 \usepackage[unicode=true]{hyperref}
@@ -54,13 +57,24 @@
 
 % FIG/TABLE/EQN REFERENcES
 \usepackage{cleveref}
-% \usepackage{listings}
+\usepackage{listings}
 % \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{caption}
 % \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{subcaption}
 %==========================================================================%
 \newcommand{\figref}[1]{Figure~\ref{#1}}
 \newcommand{\chapref}[1]{Chapter~\ref{#1}}
 \newcommand{\secref}[1]{Section~\ref{#1}}
+\usepackage{enumitem}
+\usepackage{pdfpages}
+
+% CODE HIGHLIGHTING
+\usepackage[]{minted}
+\usemintedstyle{monokai}
+\setminted{bgcolor=darkgray,breaklines=true,fontsize=\footnotesize}
+\renewcommand\listoflistingscaption{List of source code}
+
+
+
 \usepackage{xargs}
 \usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}
 \newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
@@ -89,29 +103,6 @@
 fill=yellow!10]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 %\usetikzlibrary{matrix,positioning} % math matrices % % % % % % % % % % % % %
-\usepackage{enumitem}
-\usepackage{pdfpages}
-
-% CODE HIGHLIGHTING
-
-\usepackage{minted}
-\usemintedstyle{monokai}
-\renewcommand\listoflistingscaption{List of source codes}
-
-% \inputminted{octave}{BitXorMatrix.m}
-
-% \inputminted[firstline=2, lastline=12]{octave}{BitXorMatrix.m}
-
-% \begin{minted}
-% [
-% frame=lines,
-% framesep=2mm,
-% baselinestretch=1.2,
-% bgcolor=LightGray,
-% fontsize=\footnotesize,
-% linenos
-% ]
-% {python}
 
 
 
@@ -143,13 +134,17 @@ fill=yellow!10]
 \subfile{appendix/appendix1}
 \end{appendices}
 
-% Bibliography
-% \nolinenumbers
-\newpage
+% References/Sources
+\cleardoublepage
+\phantomsection
 \singlespace{}
 \raggedright{}
-\bibliographystyle{apalike}
-\addcontentsline{toc}{chapter}{References}
+% \renewcommand{\refname}{\section{Sources}} % Using "Sources" as the title of the section
+% \addcontentsline{toc}{chapter}{Bibliography}
+% \addcontentsline{toc}{chapter}{References}
+% \printbibliography{thesis}
+
+\bibliographystyle{plain}
 \bibliography{thesis}
 \cleardoublepage{}
 
