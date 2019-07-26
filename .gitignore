@@ -14,3 +14,4 @@ main.nlo
 *.bbl
 *.blg
 *.lol
+_minted-main/*
