@@ -9,7 +9,15 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{appendix}
-\usepackage{subfiles}
+% \usepackage{subfiles}
+
+% BIBLIOGRAPHY/REFERENCES
+% \usepackage{biblatex}
+% \addbibresource{thesis.bib}
+% \addbibresource{ref.bib}
+% \usepackage{natbib}
+% \usepackage{apalike}
+% \bibliographystyle{plain}
 
 % BOSTON UNIVERSITY THESIS/DISSERTATION
 \usepackage{bu_ece_thesis}
@@ -17,18 +25,19 @@
 % FIGURES/GRAPHICS
 \usepackage{graphicx}
 \usepackage{float}
+\graphicspath{ {figures/} {./figures/} {../figures/} }
+\DeclareGraphicsExtensions{.jpg,.png,.eps,.pdf}
 
 % CAPTIONS
 \usepackage[bf]{caption}
 \usepackage{subcaption}
-
-% GRAPHICS PATHS
-\graphicspath{ {figures/} {./figures/} {../figures/} }
-\DeclareGraphicsExtensions{.jpg,.png,.eps,.pdf}
+% \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{caption}
+% \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{subcaption}
 
 % NOMENCLATURE
 \usepackage[intoc, english]{nomencl}
 \makenomenclature{}
+% todo
 
 % MATH and FONTS
 \usepackage[intlimits]{amsmath}
@@ -42,13 +51,6 @@
 \usepackage{booktabs}
 \usepackage{algorithm,algpseudocode}
 
-% \usepackage{biblatex}
-% \addbibresource{thesis.bib}
-% \addbibresource{ref.bib}
-
-% \usepackage{natbib}
-% \usepackage{apalike}
-% \bibliographystyle{plain}
 
 % LINKS
 \usepackage[unicode=true]{hyperref}
@@ -58,8 +60,6 @@
 % FIG/TABLE/EQN REFERENcES
 \usepackage{cleveref}
 \usepackage{listings}
-% \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{caption}
-% \usepackage[format=hang,justification=raggedright,singlelinecheck=0,labelsep=period]{subcaption}
 %==========================================================================%
 \newcommand{\figref}[1]{Figure~\ref{#1}}
 \newcommand{\chapref}[1]{Chapter~\ref{#1}}
@@ -73,66 +73,140 @@
 \setminted{bgcolor=darkgray,breaklines=true,fontsize=\footnotesize}
 \renewcommand\listoflistingscaption{List of source code}
 
-
-
-\usepackage{xargs}
-\usepackage[colorinlistoftodos,prependcaption,textsize=small]{todonotes}
-\newcommandx{\unsure}[2][1=]{\todo[linecolor=red,backgroundcolor=red!25,bordercolor=red,#1]{#2}}
-\newcommandx{\change}[2][1=]{\todo[linecolor=blue,backgroundcolor=blue!25,bordercolor=blue,#1]{#2}}
-\newcommandx{\info}[2][1=]{\todo[linecolor=OliveGreen,backgroundcolor=OliveGreen!25,bordercolor=OliveGreen,#1]{#2}}
-\newcommandx{\improvement}[2][1=]{\todo[linecolor=Plum,backgroundcolor=Plum!25,bordercolor=Plum,#1]{#2}}
-%==========================================================================%
-\DeclareMathOperator*{\argmin}{\arg\!\min}
-\DeclareMathOperator*{\argmax}{\arg\!\max}
+% CHARTS
 \usepackage{units}
 \usepackage[section]{placeins}
-\usepackage{tikz}
 \usepackage{flowchart}
-\usepackage{marginnote}
-\usepackage{harpoon}
-\newcommand*{\vect}[1]{\overrightharp{\ensuremath{#1}}}
-% % % % % % % % % % % % % % %
-\usetikzlibrary{shapes.geometric,arrows}
-%
-\tikzstyle{startstop} = [rectangle, rounded corners, text centered, draw=black, fill=blue!10]
-\tikzstyle{process} = [rectangle, minimum width=2cm,  text centered, draw=black, fill=orange!10]
-\tikzstyle{decision} = [diamond, aspect=3, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=red!10]
-% define arrow style
-\tikzstyle{compute} = [rectangle, minimum width=2cm, minimum height=1cm, text centered, draw=black, fill=green!10]
-\tikzstyle{estimate} = [rectangle, rounded corners, minimum width=2cm, minimum height=1cm, text centered, draw=black,
-fill=yellow!10]
-\tikzstyle{arrow} = [thick,->,>=stealth]
-%\usetikzlibrary{matrix,positioning} % math matrices % % % % % % % % % % % % %
-
-
 
 % \include{preamble}
 
 \begin{document}
 
-% \nolinenumbers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% PRELIMINARY PAGES
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \include{prelim/prelim}
+\input{prelim/titleauthorinfo}
 
-% The preliminary pages
-\subfile{prelim/prelim}
+% According to the BU guide the preliminary pages consist of:
+% title, copyright (optional), approval,  acknowledgments (opt.),
+% abstract, preface (opt.), Table of contents, List of tables (if
+% any), List of illustrations (if any). The \tableofcontents,
+% \listoffigures, and \listoftables commands can be used in the
+% appropriate places. For other things like preface, do it manually
+% with something like \newpage\section*{Preface}.
+
+% This is an additional page to print a boxed-in title, author name and
+% degree statement so that they are visible through the opening in BU
+% covers used for reports. This makes a nicely bound copy. Uncomment only
+% if you are printing a hardcopy for such covers. Leave commented out
+% when producing PDF for library submission.
+%\buecethesistitleboxpage
+
+% Make the titlepage based on the above information.  If you need
+% something special and can't use the standard form, you can specify
+% the exact text of the titlepage yourself.  Put it in a titlepage
+% environment and leave blank lines where you want vertical space.
+% The spaces will be adjusted to fill the entire page.
+\maketitle
+\cleardoublepage{}
+
+% The copyright page is blank except for the notice at the bottom. You
+% must provide your name in capitals.
+\copyrightpage
+\cleardoublepage{}
+
+% Now include the approval page based on the readers information
+\approvalpage
+\cleardoublepage{}
+
+% Here goes your favorite quote. This page is optional.
+% \newpage
+%\thispagestyle{empty}
+% \input{prelim/quote}
+% \cleardoublepage{}
+
+\newpage
+\input{prelim/dedication}
+\cleardoublepage{}
+
+% The acknowledgment page should go here. Use something like
+% \newpage\section*{Acknowledgments} followed by your text.
+\newpage
+\input{prelim/acknowledgements}
+\cleardoublepage{}
+
+% The abstractpage environment sets up everything on the page except
+% the text itself.  The title and other header material are put at the
+% top of the page, and the supervisors are listed at the bottom.  A
+% new page is begun both before and after.  Of course, an abstract may
+% be more than one page itself.  If you need more control over the
+% format of the page, you can use the abstract environment, which puts
+% the word "Abstract" at the beginning and single spaces its text.
+
+\begin{abstractpage}
+\input{prelim/abstract}
+\end{abstractpage}
+\cleardoublepage{}
+
+\newpage
+\input{prelim/preface}
+\cleardoublepage{}
+% Now you can include a preface. Again, use something like
+% \newpage\section*{Preface} followed by your text
+
+% Table of contents comes after preface
+\tableofcontents
+\cleardoublepage{}
+
+% If you do not have tables, comment out the following lines
+% \newpage
+% \listoftables
+% \cleardoublepage{}
+
+% If you have figures, uncomment the following line
+\newpage
+\listoffigures
+\cleardoublepage{}
+
+% List of Code
+\newpage
+\listoflistings
+\cleardoublepage{}
+
+% List of Abbrevs is NOT optional (Martha Wellman likes all abbrevs listed)
+\newpage
+\input{prelim/abbreviations}
+\cleardoublepage{}
+
+\newpage
+\endofprelim
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% CHAPTERS (MAIN BODY OF DOCUMENT)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % CHAPTER 1: INTRODUCTION
-\subfile{chapters/chap1}
+\include{chapters/chap1}
 
 % CHAPTER 2: THE BODY OF THESIS
-\subfile{chapters/chap2}
+\include{chapters/chap2}
 
 % CHAPTER 3: THE BODY OF THESIS
-\subfile{chapters/chap3}
+\include{chapters/chap3}
 
 % CHAPTER 4: DISCUSSION
-\subfile{chapters/chap4}
+\include{chapters/chap4}
 
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nocite{*}
 
 %\appendix
 % \begin{appendices}
-% \subfile{appendix/appendix1}
+% \include{appendix/appendix1}
 % \end{appendices}
 
 % References/Sources
