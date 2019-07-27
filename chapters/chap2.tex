@@ -46,9 +46,9 @@ I developed the program in MATLAB, and the main components of its function are d
 This system would eventually be used for a study investigating the development of adult-born neurons in the hippocampus \cite{Zhuo_2016}.
 
 \begin{figure}
-	\includegraphics[width=15cm]{task-schematic.jpg}
-	\caption{behavior-box schematic}
-	\label{fig:behaivorbox schematic}
+	\includegraphics[width=15cm]{figures/task-schematic.jpg}
+	\caption{Behavior-box schematic}
+	\label{fig:behaviorbox-schematic}
 \end{figure}
 
 \subsection{IR Touchscreen}\label{sec:ir-touchscreen}
@@ -80,45 +80,43 @@ The advantage of this apparatus over the virtual-reality system is that it allow
 This apparatus would go on to be used to investigate the oscillatory dynamics of cholinergig interneurons in the striatum and their association with parkinson's-like motor deficits \cite{Kondabolu_2016}.
 
 \begin{figure}[htb]
-	\begin{minipage}[t]{0.32\linewidth}\centering
-		\includegraphics[width=4cm]{01raw.jpg}
-		\centerline{(a)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.32\linewidth}\centering
+		\includegraphics[width=4cm]{figures/01raw.jpg}
+		\caption{Raw frame of video being tracked}
+	\end{subfigure}
 	\hfill
-	\begin{minipage}[t]{0.32\linewidth}\centering
-		\includegraphics[width=4cm]{02black-and-white.jpg}
-		\centerline{(b)}
-	\end{minipage}
-	\begin{minipage}[t]{0.32\linewidth}\centering
-		\includegraphics[width=4cm]{03twoframes.jpg}
-		\centerline{(c)}
-	\end{minipage}
-	\caption{
-		Automated animal Tracking for ``Mouse in a bowl'' type experiments (a) Raw frame of video being tracked;
-		(b) area of detected mouse; (c) overlay of 3 consecutive frames of mouse between each}
-	\label{fig:Sampling}
+	\begin{subfigure}[t]{0.32\linewidth}\centering
+		\includegraphics[width=4cm]{figures/02black-and-white.jpg}
+		\caption{Area of detected mouse}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.32\linewidth}\centering
+		\includegraphics[width=4cm]{figures/03twoframes.jpg}
+		\caption{Overlay of 3 consecutive frames of mouse between each}
+	\end{subfigure}
+	\caption{Automated animal Tracking for ``Mouse in a bowl'' type experiments }
+	\label{fig:mouse-in-bowl-1}
 \end{figure}
 
 \begin{figure}[htb]
-	\begin{minipage}[t]{0.24\linewidth}\centering
-		\includegraphics[height=3cm]{07mousedata1close.jpg}
-		\centerline{(a)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.24\linewidth}\centering
+		\includegraphics[height=3cm]{figures/07mousedata1close.jpg}
+		\caption{(a)}
+	\end{subfigure}
 	\hfill
-	\begin{minipage}[t]{0.24\linewidth}\centering
-		\includegraphics[width=3cm]{06mousedata1.jpg}
-		\centerline{(b)}
-	\end{minipage}
-	\begin{minipage}[t]{0.24\linewidth}\centering
-		\includegraphics[width=3cm]{08mousedata2.jpg}
-		\centerline{(c)}
-	\end{minipage}
-	\begin{minipage}[t]{0.24\linewidth}\centering
-		\includegraphics[width=3cm]{09mousedata1fiberon1.jpg}
-		\centerline{(d)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.24\linewidth}\centering
+		\includegraphics[width=3cm]{figures/06mousedata1.jpg}
+		\caption{(b)}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.24\linewidth}\centering
+		\includegraphics[width=3cm]{figures/08mousedata2.jpg}
+		\caption{(c)}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.24\linewidth}\centering
+		\includegraphics[width=3cm]{figures/09mousedata1fiberon1.jpg}
+		\caption{(d)}
+	\end{subfigure}
 	\caption{
-		Automated animal Tracking for ``Mouse in a bowl'' type experiments: (a-d) video overlay showing tracked points} \label{fig:Sampling}
+		Automated animal Tracking for ``Mouse in a bowl'' type experiments: (a-d) video overlay showing tracked points} \label{fig:mouse-in-bowl-2}
 \end{figure}
 
 \subsection{Spherical Treadmill}\label{sec:spherical-treadmill}
@@ -132,38 +130,44 @@ This behavioral apparatus has the advantage of allowing trivial measurement of t
 The disadvantage is the time and potential confounds involved with training individual mice to use the system.
 
 \begin{figure}[htb]
-	\begin{minipage}[t]{0.32\linewidth}\centering
-		\includegraphics[height=3.5cm]{01-treadmill-mouse-running.jpg}
-		\centerline{(a)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.32\linewidth}\centering
+		\includegraphics[height=3.5cm]{figures/01-treadmill-mouse-running.jpg}
+		\caption{(a)}
+	\end{subfigure}
 	\hfill
-	\begin{minipage}[t]{0.15\linewidth}\centering
-		\includegraphics[height=3.5cm]{01-water-port.jpg}
-		\centerline{(b)}
-	\end{minipage}
-	\begin{minipage}[t]{0.45\linewidth}\centering
-		\includegraphics[height=3.5cm]{03-water-delivery-zoom.jpg}
-		\centerline{(c)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.15\linewidth}\centering
+		\includegraphics[height=3.5cm]{figures/01-water-port.jpg}
+		\caption{(b)}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.45\linewidth}\centering
+		\includegraphics[height=3.5cm]{figures/03-water-delivery-zoom.jpg}
+		\caption{(c)}
+	\end{subfigure}
 	\caption{
 		Spherical treadmill (a) Mouse running on a treadmill equpipped with virtual reality;
 		(b) water port; (c) application of the water delivery system }
-	\label{fig:Spherical treadmill}
+	\label{fig:spherical-treadmill}
 \end{figure}
 
 \subsection{Headplate Holder}\label{sec:headplate-holder}
 
 \begin{figure}[htb]
-	\begin{minipage}[t]{0.32\linewidth}\centering \includegraphics[width=4.5cm]{photo-front.jpg} \centerline{(a)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.32\linewidth}\centering
+      \includegraphics[width=4.5cm]{figures/photo-front.jpg}
+      \caption{(a)}
+	\end{subfigure}
 	\hfill
-	\begin{minipage}[t]{0.32\linewidth}\centering \includegraphics[width=4.5cm]{photo-top.jpg} \centerline{(b)}
-	\end{minipage}
-	\begin{minipage}[t]{0.32\linewidth}\centering \includegraphics[width=4.5cm]{photo-bottom.jpg} \centerline{(c)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.32\linewidth}\centering
+      \includegraphics[width=4.5cm]{figures/photo-top.jpg}
+      \caption{(b)}
+	\end{subfigure}
+	\begin{subfigure}[t]{0.32\linewidth}\centering
+      \includegraphics[width=4.5cm]{figures/photo-bottom.jpg}
+      \caption{(c)}
+	\end{subfigure}
 	\caption{Headplate holder (a) front view;
 		(b) top view; (c) bottom view}
-	\label{fig:Spherical treadmill}
+	\label{fig:headplate-holder}
 \end{figure}
 
 \subsection{Motion Sensors}\label{sec:motion-sensors}
@@ -198,23 +202,21 @@ This driver passes {[}dx,dy{]} measurements from two ADNS-9800 laser mouse senso
 The library has been put to use in multiple systems and enjoys collaborative devleopment from a small number of other researchers \cite{romano2019teensy}
 
 \begin{figure}[htb]
-	\begin{minipage}[t]{0.45\linewidth}\centering
-		\includegraphics[height=4.5cm]{01-motion-sensors-installed.jpg}
-		\centerline{(a)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.45\linewidth}\centering
+		\includegraphics[height=4.5cm]{figures/01-motion-sensors-installed.jpg}
+        \caption{mention sensors installed}
+	\end{subfigure}
 	\hfill
-	\begin{minipage}[t]{0.45\linewidth}\centering
-		\includegraphics[height=4.5cm]{02-motion-sensors.jpg}
-		\centerline{(b)}
-	\end{minipage}
-	\begin{minipage}[t]{\linewidth}\centering
-		\includegraphics[height=7cm]{striatum_figure2.png}
-		\centerline{(c)}
-	\end{minipage}
-	\caption{
-		Motion sensors (a) mention sensors installed;
-		(b) motion sensors; (c) tracking mouse movement}
-	\label{fig:motion sensors}
+	\begin{subfigure}[t]{0.45\linewidth}\centering
+		\includegraphics[height=4.5cm]{figures/02-motion-sensors.jpg}
+        \caption{motion sensors}
+	\end{subfigure}
+	\begin{subfigure}[t]{\linewidth}\centering
+		\includegraphics[height=7cm]{figures/striatum_figure2.png}
+        \caption{tracking mouse movement}
+	\end{subfigure}
+	\caption{Motion sensor installation on a spherical treadmill}
+	\label{fig:motion-sensors-on-spherical-treadmill}
 \end{figure}
 
 \section{Microscopes}\label{sec:microscopes}
@@ -250,7 +252,7 @@ Unlike consumer or studio cameras which are invaribaly configured for RGB color,
 Of much greater importance, one must consider the unique connectivity and control interface that scientific cameras come with.
 Standards exist, but are typically unique to this segment of the industry, with poorly defined specifications for translation to other electronic communication and connection interface standards, such as those used in studio and broadcast video, or those used with consumer cameras.
 The trait that is the most worthy of consideration, however, is the cost.
-See @discussion-cost-consumer for details.
+% See @discussion-cost-consumer for details.
 
 The in-vivo instrinsic-signal or fluorescent-dye imaging camera of 1 decade ago had a 0.5``-1'' monochrome CCD sensor with 0.1-1 MegaPixels, a large well-depth, and moderately low noise at speeds around 30 to 60 fps.
 Connection was often LVDS, with custom electrial connectors unique to each camera.
@@ -259,58 +261,56 @@ A particularly popular and long-running model was the Dalsa 1M30, followed by th
 \subsection{Microscope Construction}\label{sec:microscope-construction}
 
 \begin{figure}[htb]
-	\begin{minipage}[t]{0.49\linewidth}\centering \includegraphics[height=8cm]{widefield_microscope_diagram.png} \medskip \centerline{(a)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.49\linewidth}\centering
+        \includegraphics[height=8cm]{figures/widefield_microscope_diagram.png} \medskip
+        \caption{Schematic showing relation of microscope and mouse on spherical treadmill}
+	\end{subfigure}
 	\hfill
-	\begin{minipage}[t]{0.49\linewidth}\centering \includegraphics[height=8cm]{setup1.jpg} \medskip \centerline{(b)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.49\linewidth}\centering
+        \includegraphics[height=8cm]{figures/setup1.jpg} \medskip
+        \caption{Setup 1: the LED used for extending to the left (black covering to block light)}
+	\end{subfigure}
 	\caption{Basic configuration for a widefield epifluorescence microscope for in-vivo imaging.
 		This first configuration used a phase contrast lens borrowed from an inverted microscope (not recommended).
-		(a) Schematic showing relation of microscope and mouse on spherical treadmill; (b) Setup 1: the LED used for extending to the left (black covering to block light)}
-	\label{fig:Sampling}
+		}
+	\label{fig:microscope-1}
 \end{figure}
 
 \begin{figure}[htb]
-	\begin{minipage}[t]{0.45\linewidth}\centering
-		\includegraphics[height=10cm]{setup3-front.jpg}
-		\centerline{(a)}
-	\end{minipage}
+	\begin{subfigure}[t]{0.45\linewidth}\centering
+		\includegraphics[height=10cm]{figures/setup3-front.jpg}
+		\caption{front}
+	\end{subfigure}
 	\hfill
-	\begin{minipage}[t]{0.45\linewidth}\centering
-		\includegraphics[height=10cm]{setup3-side.jpg}
-		\centerline{(b)}
-	\end{minipage}
-	\begin{minipage}[t]{\linewidth}\centering
-		\includegraphics[width=7cm]{setup3-closeup.jpg}
-		\centerline{(c)}
-	\end{minipage}
-	\caption{
-		Microscope Setup 2 (a) front;
-		(b) close up; (c) side}
-	\label{fig:motion sensors}
+	\begin{subfigure}[t]{0.45\linewidth}\centering
+		\includegraphics[height=10cm]{figures/setup3-side.jpg}
+		\caption{close up}
+	\end{subfigure}
+	\begin{subfigure}[t]{\linewidth}\centering
+		\includegraphics[width=7cm]{figures/setup3-closeup.jpg}
+		\caption{side}
+	\end{subfigure}
+	\caption{Widefield fluorescence microscope (Setup 2)}
+	\label{fig:microscope-2}
 \end{figure}
 
 \begin{figure}[htb]
 	\begin{subfigure}[t]{0.32\textwidth}\centering
-		\includegraphics[width=4cm]{setup4-front.jpg}
-		% \centerline{(a)}
+		\includegraphics[width=4cm]{figures/setup4-front.jpg}
         \caption{front}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[t]{0.32\textwidth}\centering
-		\includegraphics[width=4cm]{setup4-side.jpg}
-		% \centerline{(b)}
+		\includegraphics[width=4cm]{figures/setup4-side.jpg}
         \caption{close up}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.32\textwidth}\centering
-		\includegraphics[width=4cm]{setup4-closeup.jpg}
-		% \centerline{(c)}
+		\includegraphics[width=4cm]{figures/setup4-closeup.jpg}
         \caption{side}
 	\end{subfigure}
 	\caption[Widefield fluorescence microscope reconfigured (Setup 3)]{
 		Widefield fluorescence microscope reconfigured Setup 3.
 		Multiple iterations are shown, with later iterations offering improved compatibility with usage of off-the-shelf components.}
-		% (a) front; (b) close up; (c) side}
 	\label{fig:microscope-3}
 \end{figure}
 
