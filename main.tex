@@ -8,7 +8,7 @@
 \documentclass[12pt,letterpaper]{report}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{appendix}
+\usepackage[toc,page]{appendix}
 % \usepackage{subfiles}
 
 % BIBLIOGRAPHY/REFERENCES
@@ -200,25 +200,44 @@
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% BIBLIOGRAPHY
+% APPENDIX
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\nocite{*}
 
 % \appendix
 \begin{appendices}
-\include{appendix/appendix1}
+\chapter{Published Abstracts}
+\label{sec:published-abstracts}
+\thispagestyle{myheadings}
+\input{appendix/published/ali}
+\input{appendix/published/kk}
+\input{appendix/published/jm}
+\input{appendix/published/mr}
+\input{appendix/published/hg}
+% \section{Project contribution 1 (2016)}
+% \includepdf[pages=-,templatesize={120mm}{175mm},scale=0.85]{appendix/ali.pdf}
+% \section{Project contribution 2 (2016)}
+% \includepdf[pages=-,templatesize={120mm}{175mm},scale=0.85]{appendix/kk.pdf}
+% \section{Project contribution 3 (2016)}
+% \includepdf[pages=-,templatesize={120mm}{175mm},scale=0.85]{appendix/jm.pdf}
+% \section{Project contribution 4 (2019)}
+% \includepdf[pages=-,templatesize={120mm}{175mm},scale=0.85]{appendix/mr.pdf}
+% \section{Project contribution 5 (2019)}
+% \includepdf[pages={1-17},templatesize={120mm}{175mm},scale=.85]{appendix/hg.pdf}
 \end{appendices}
 
-% References/Sources
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% BIBLIOGRAPHY
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\nocite{*}
 \cleardoublepage
 \phantomsection
 \singlespace{}
 \raggedright{}
-% \renewcommand{\refname}{\section{Sources}} % Using "Sources" as the title of the section
+% \renewcommand{\refname}{\section{Bibliography}} % Using "Sources" as the title of the section
 % \addcontentsline{toc}{chapter}{Bibliography}
 % \addcontentsline{toc}{chapter}{References}
 % \printbibliography{thesis}
-
+\thispagestyle{myheadings}
 \bibliographystyle{apalike}
 \bibliography{thesis}
 % \thebibliography{thesis}
