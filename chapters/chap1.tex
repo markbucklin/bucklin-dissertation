@@ -14,7 +14,7 @@ Image sensors, like those found in scientific-CMOS (sCMOS) cameras are larger, f
 Meanwhile, the latest generation of Genetically Encoded Calcium Indicators (GECIs), collectively called GCaMP6, report fluctuations in neural activation with extremely high fidelity.
 This combination of developments enables neuroscientists to open a wider channel to the brain than previously possible using conventional epifluorescence microscopy techniques that enable simultaneous recording from hundreds to thousands of neurons.
 Expanding the fraction of the observable neurons in an interconnected network could improve understanding of neural coding and provide insight into mechanistic properties of neural disease.
-Additionally, feeding a large set of neural response information to a machine learning algorithm in a neuroprosthetic application may provide improved predictive performance even when the exact mechanism of prediction is difficult to discern.
+Additionally, feeding a large set of neural response information to a machine learning algorithm in a neuro-prosthetic application may provide improved predictive performance even when the exact mechanism of prediction is difficult to discern.
 However, several major challenges currently antagonize the potential benefits of these new technologies:
 
 \begin{enumerate}
@@ -38,7 +38,7 @@ However, several major challenges currently antagonize the potential benefits of
 \end{enumerate}
 
 In the chapters that follow I provide background on the general procedure for offline video processing.
-I also discuss some of the issues that limit execution of these procedures on a large dataset, and the variety of approaches that I and others have attempted to address this issue.
+I also discuss some of the issues that limit execution of these procedures on a large data-set, and the variety of approaches that I and others have attempted to address this issue.
 I then introduce the streaming approach that is capable of directly processing video during acquisition and extracting signals, thereby saving relevant signals only while also discarding or compressing the raw video.
 This approach relies on GPU programming and therefore I also provide background on the application of graphics cards for computationally demanding tasks.
 Using a graphics card for programming in the MATLAB environment is also discussed.
@@ -68,8 +68,8 @@ One approach is to use image-segmentation routines for computer vision that seek
 The other common approach is to perform an eigenvalue decomposition on the covariance matrix from a stack of image frames (also called spectral decomposition, or Principal Component Analysis, PCA), resulting in an assembly of basis vectors that define the weighting coefficients for each pixel.
 Multiplying the basis-vectors (i.e., ``components'') with all frames produces a one-dimensional trace for each component.
 The linear combination is similar to the weighted image-segmentation method in that it assigns fractional coefficients to pixels.
-However, the procedure for computing the covariance matrix employed by PCA operates on as many pixels as exist in the image, multiplying each with every other pixel that creates a problem with np2 complexity, where p is the number of pixels in the image.
-I mention these issues inherent to PCA not because this project addresses them but because this project was initiated following substantial difficulty attempting to use PCA-based cell sorting methods with large datasets.
+However, the procedure for computing the covariance matrix employed by PCA operates on as many pixels as exist in the image, multiplying each with every other pixel that creates a problem with NP2 complexity, where p is the number of pixels in the image.
+I mention these issues inherent to PCA not because this project addresses them but because this project was initiated following substantial difficulty attempting to use PCA-based cell sorting methods with large data-sets.
 
 \section{Computer Software Environments for Image Processing}\label{sec:computer-software-environments-for-image-processing}
 
@@ -84,7 +84,7 @@ efficient.
 While MATLAB has traditionally been considered the standard across neuroscience research labs, it is well recognized that its performance was lackluster for ``vectorized'' routines as compared to applications developed using lower-level languages like FORTRAN, C, and C++.
 Nevertheless, it remained in common use, and recent releases have added features that can drastically mitigate its poor performance issues, particularly through the development of a ``Just-In-Time'' compiler that automatically optimizes the deployment of computation accelerator resources for standard MATLAB functions.
 This feature enables code that performs repeated operations using for-loops or while-loops nearly as fast as equivalent code written in C.
-Additionally, code can be compiled into executable format using the Matlab Compiler toolbox, or used to generate equivalent C or C++ code using Matlab Coder.
+Additionally, code can be compiled into executable format using the MATLAB Compiler toolbox, or used to generate equivalent C or C++ code using MATLAB Coder.
 
 \section{Computational Resources for Processing Large Data Sets}\label{sec:computational-resources-for-processing-large-data-sets}
 

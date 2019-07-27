@@ -42,7 +42,7 @@ A systems neuroscience experiment benefits from online feedback in one or both o
 \end{enumerate}
 
 Streaming processing addresses the issues of processing and storing pools of data from large networks on the scale that is necessary for deep learning type methods to be effective.
-Additionally, I demonstate a strategy in the methods section by which incorporating this online processing stream into stimulus-response-type experiments could help correct limited sampling bias, enabling neural coding analysis in large populations of neurons.
+Additionally, I demonstrate a strategy in the methods section by which incorporating this online processing stream into stimulus-response-type experiments could help correct limited sampling bias, enabling neural coding analysis in large populations of neurons.
 This approach works when the experimental intention is to study neural coding in general, for which it's sufficient to have an arbitrary stimulus.
 
 
@@ -53,7 +53,7 @@ The earliest version of the software mentioned in \chapref{sec:neural-signals} w
 \section{State of current methods}\label{sec:state-of-current-methods}
 
 At the start of the work described here, we found ourselves with technology providing “neural signals” that vastly exceeded our expectations and the assumptions of the tools we applied to work with it.
-In the past, fluctations in optical imaging data were dominated by “noise.
+In the past, fluctuations in optical imaging data were dominated by “noise.
 ” The form of noise depended on the process; all types of imaging, intrinsic signal, fluorescent dye, etc., had relatively small fluctuations resulting from neural activity.
 With new engineered molecules, like GCaMP6, and new images sensors, like those dubbed scientific CMOS, these sources of noise were comparatively small.
 This improved signal-to-noise ratio opens the door for new opportunities and facilitates change to traditional analytic routines.
@@ -69,7 +69,7 @@ Technological noise is usually broken down into sensor noise sources:  read nois
 A third type of “noise” could arguably be categorized as either, as it lies at the interface of technology and biology.
 For example, the complex interactions of exogenous calcium-binding proteins like GCaMP with the endogenous calcium handling proteins of a neuron potentially creates noise at the technology-biology interface.
 By strict definition, however, only the sensor noise should termed noise, as other sources are mostly predictable and unpredictable and can be systematically neutralized or accommodated prior to data analysis.
-The noise level in the signals gathered by a combination of GCaMP6 and a sCMOS camera is miniscule relative to the signals indicating fluctuation in calcium concentration.
+The noise level in the signals gathered by a combination of GCaMP6 and a sCMOS camera is minuscule relative to the signals indicating fluctuation in calcium concentration.
 The problem of visualization of these signals persists however, as the dynamic range of signal varies tremendously over space and time, and requires some treatment prior to being displayed on our currently limited computer monitors.
 Previously common methods, particularly intrinsic-signal imaging, provided very small signals that required “averaging over time” before any specific or reproducible response could be ascertained.
 
@@ -84,7 +84,7 @@ In the stark contrast however, storage for this never-ending data stream is both
 \label{sec:fields-sharing-this-challenges}
 
 Scientists often view themselves as working inside laboratory full of sensors, being “data-rich” but “space-poor”.
-For better or worse, scientists are not alone in dealing with this inherent technologic problem.
+For better or worse, scientists are not alone in dealing with this inherent technological problem.
 Massive investment has been poured into managing this issue for commercial purposes, and – perhaps unsettlingly – for governmental surveillance purposes.
 The volume of recordable traffic bouncing through choke points of the internet exceeds the capacity of any government to store for more than about 24 hours.
 Likewise, the massive volume of video data acquired by video surveillance systems in China requires a similar solution to one desired by scientists and physicians to resolve our data acquisition challenges.
@@ -96,8 +96,8 @@ Current solutions proposed by commercial and governmental giants are not radical
 They include calls for standardization in data format that could enable solutions for efficient transmission and storage to be shared by improving common tools.
 Common streaming formats allow compression and storage to be abstracted from each application.
 Databases are being developed to take advantage of heterogeneous computational architectures and distributed storage spaces.
-Traditional document-based or relational databases are outperformed by graph-based “triple-store” databases, timeseries databases, and by databases programmed for specific architecture, including GPU-databases.
-These technologic developments are targeted at the bottlenecks currently restricting access to data.
+Traditional document-based or relational databases are outperformed by graph-based “triple-store” databases, time-series databases, and by databases programmed for specific architecture, including GPU-databases.
+These technological developments are targeted at the bottlenecks currently restricting access to data.
 Early results with these approaches suggest an orders of magnitude improvement in throughput.
 These tools are being developed both with and without the contribution of physicians and scientists.
 It would be prudent however, to take advantage of new developments by orienting these tools to the specific needs of scientists and clinicians.
@@ -148,24 +148,24 @@ Additionally, the core design can be rapidly adapted to improve its performance 
 
 \subsection{“Biomimicry” in visual processing}
 This section describes how computer image and video processing relate to visual processing in the mammalian brain.
-The overall goal is to emphasize the advantage and importance of biomimetic development.
-Neuromorphic computing with “on chip” image processing repsents an improvement over “edge computing”.
-Event-based image sensors such as the “artificial retina”or tittto attempt to replicate physiologic environments  wherein event streams are demanded that are asynchronous and threshold-based.
-Convolutional neural-nets and deep learning for specific tasks have secveal but also have substantial technlgoic similarities differences.
-Genetic programming approaches to procedure optimization will hopefully minimize latency whle maximizing sensitivity and accuracy at minimal  computational cost, energy expenditure (i.e., with high metabolic efficiency) that facilitates visual stream processing amenable to feature extraction with motion estimation and compensation.
+The overall goal is to emphasize the advantage and importance of bio-mimetic development.
+Neuromorphic computing with “on chip” image processing represents an improvement over “edge computing”.
+Event-based image sensors such as the “artificial retina”or DVS attempt to replicate physiologic environments  wherein event streams are demanded that are asynchronous and threshold-based.
+Convolutional neural-nets and deep learning for specific tasks have %todo but also have substantial technological similarities differences.
+Genetic programming approaches to procedure optimization will hopefully minimize latency while maximizing sensitivity and accuracy at minimal  computational cost, energy expenditure (i.e., with high metabolic efficiency) that facilitates visual stream processing amenable to feature extraction with motion estimation and compensation.
 The current asymmetry of learning/training time negatively impacts on the  desired inference computation time.
-Common standards applied across projects with common themes can be facilitatied by employing rigorous adherence to non-proprietary open source conventions that includes (bt is not limited to) optical parts (lens threads), file formats, widely available software libraries in standard programming languages, and ease of file transmission that are web-based.
+Common standards applied across projects with common themes can be facilitated by employing rigorous adherence to non-proprietary open source conventions that includes (but is not limited to) optical parts (lens threads), file formats, widely available software libraries in standard programming languages, and ease of file transmission that are web-based.
 We are well advised to borrow from related sectors with better developed solutions such as surveillance, media streaming for web/entertainment, sports, astronomy/telescopes, medical imaging and even automotive applications.
 
 \subsection{Critical Elements}
 \label{sec:critical-elements}
 
 In assessing the design presented here, we highlight a few critical elements that facilitate the maintenance of the long-term optical quality.
-The Methods section describes the specifics of surgical procedures for headplate installation and insert attachment.
+The Methods section describes the specifics of surgical procedures for head-plate installation and insert attachment.
 These procedures were established after testing the variable formulations in protocol.
 First, the design of the silicone insert must incorporate a mechanical barrier that fits along the edges of the craniotomy.
 To be effective, the barrier must be continuous along the circumference, and extend as far as the inside surface of the skull.
-Achieving this tight fit without agressively impinging on the brain requires some sort of fine height adjustment capability.
+Achieving this tight fit without aggressively impinging on the brain requires some sort of fine height adjustment capability.
 The silicone insert must be attached at the correct height during the installation procedure, or shortly thereafter.
 The insert must be slightly depressed until full contact is made across the entire window.
 However, pressing beyond this distance quickly exerts an untoward increase in intracranial pressure that promotes both inflammation and adverse outcomes.
@@ -197,7 +197,7 @@ Importantly, this system affords the capability to image the first tissue interv
 Similarly, designing a system installed in multiple stages enables trivial and repeatable tissue access at later time points by simply reversing the insert attachment procedure.
 The process may be comparable to a previously reported method of removing the entire cranial glass window to access the tissue.
 With this newer system however, the methods used to detach and reattach the cranial window are relatively faster, simpler and carry less risk of tissue damage.
-Additionallly, the described methodd provide full cranial access without compromising the image field, an advantage not provided by a fixed access port.
+Additionally, the described method provide full cranial access without compromising the image field, an advantage not provided by a fixed access port.
 
 \subsection{Design Adaptation}
 \label{sec:design-adaptation}
@@ -206,12 +206,12 @@ The specific designs described in this report work well and have much to offer.
 The potential for fast and unrestricted adaptation is the greatest asset of the underlying system.
 Most users will find greater utility in adopting components of the design and fabrication process that can be readily customized to fit their exact needs.
 The design can also be rapidly transformed to accommodate various applications or to modify its performance in response to new technologies and demands.
-This rapid adaptability was a primary goal of this projec, and informed our design and engineering decisions throughout developement.
+This rapid adaptability was a primary goal of this project, and informed our design and engineering decisions throughout development.
 Anyone with access to common laboratory equipment and moderate engineering and fabrication skills can produce a system to fit their particular needs.
 As an inherent aspect of any design process, the adaptation of the original design evolved over the course of prototyping and testing.
 In presenting two designs in this report, our intention was to demonstrate the technical feasibility of continuous development of a “future-proof” system.
-The original system was adapted to accomodate the continuous evolution of image sensor technology, particularly the growth in size and resolution, expanding the field of view and allowing simultaneous access to cellular interactions across multiple brain regions using wide-field imaging.
-We found that subtle dimensional changes, and the addition of miniscule features exert a large impact on the success of any design.
+The original system was adapted to accommodate the continuous evolution of image sensor technology, particularly the growth in size and resolution, expanding the field of view and allowing simultaneous access to cellular interactions across multiple brain regions using wide-field imaging.
+We found that subtle dimensional changes, and the addition of minuscule features exert a large impact on the success of any design.
 We also found that adjusting features to address one aspect of functionality may have unintended effects.
 For example, the inclusion of a thin skirt extending below the optical insert that was incorporated to protect against tissue growth within the image field also promotes physical conformity of the brain to the optical window interface over time.
 This conformity results in a flat imaging plane that is optimal for wide-field imaging and was previously unachievable.
@@ -235,8 +235,8 @@ The current project primarily explores the ability to mold precise and complex f
 These approaches replace combination optical + integrated electrode window and do not require optogenetics stimulation.
 More significantly, the encapsulation of carbon, metal colloidal particles or quantum dots into polymer hydrogel networks imparts exclusive thermal, sonic, optical, electrical or magnetic properties.
 Specifically, the polymer interface may provides a means for directly penetrating neurons to gain electrophysiological recording or facilitate drug infusions, allowing recording and/or manipulation during imaging session.
-In the near future, improvments in window thickness and chromatic aberration wil enhance both wider-field and 2-photon imaging, aprocess that will be enhanced by improved and lenses and embeded, integrated electronic components, such as LEDs for illumination or stimulation, or sensors.
-These mbedded devices will facilitate positioning, especially in combination with kinematic headplates that alow for repeatable head positioning and newer fabrication materials.
+In the near future, improvements in window thickness and chromatic aberration will enhance both wider-field and 2-photon imaging, a process that will be enhanced by improved and lenses and embedded, integrated electronic components, such as LEDs for illumination or stimulation, or sensors.
+These embedded devices will facilitate positioning, especially in combination with kinematic head-plates that allow for repeatable head positioning and newer fabrication materials.
 
 % \clearpage
 

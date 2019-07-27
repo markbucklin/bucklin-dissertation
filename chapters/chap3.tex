@@ -21,7 +21,7 @@ Most system objects, each representing one step in the serial processing and sig
 Built-in MATLAB functions that execute on the GPU can be profiled with benchmarking functions like \emph{gputimeit()}, or with the \emph{tic/toc} functions.
 When execution isn't fast enough, they need to be replaced with custom functions.
 The custom functions typically achieve the speed up necessary by enabling the operation to carried out on several frames at once.
-This reduces the over-head costs inposed for each function call by spreading it over several frames.
+This reduces the over-head costs imposed for each function call by spreading it over several frames.
 This solution is not ideal, as it increases the latency of solutions, however does not preclude implementation in real-time system if the procedures are adapted to run on a real-time hybrid system-on-module like NVIDIA's Tegra X1, which should involve minimal effort once a standard set of successful procedures is realized.
 The current implementation tests the processing time of each stage of the process to ensure that the sum is less than the acquisition time for each frame dictated by the inverse of the frame-rate (30-50 milliseconds).
 
@@ -60,7 +60,7 @@ The displacement of each frame is found to sub-pixel precision, then used with a
 A number of statistics for each pixel are updated online and can be used for normalization and segmentation procedures later in the process.
 These include the minimum and maximum pixel intensity, and the first four central moments, which are easily converted to the mean, variance, skewness, and kurtosis.
 The formulas for making these calculations are given below, and are performed in a highly efficient manner as data are kept local to each processing core, and repeat computations are minimized.
-Code implementing these incrental pixel-wise statistic updates in MATLAB is shown in below \ref{lst:update-statistic-gpu}.
+Code implementing these incremental pixel-wise statistic updates in MATLAB is shown in below \ref{lst:update-statistic-gpu}.
 
 Furthermore, the value used to update each central moment at each point in time can be used as a measure of change in the distribution of each pixel caused by the current pixel intensity, as explained next.
 
@@ -79,7 +79,7 @@ The combination of outputs from these operations indicate both when image intens
 
 
 \begin{listing}[ht]
-\begin{minted}{matlab}
+\begin{minted}{MATLAB}
 function [fmin,fmax,m1,m2,m3,m4,n] = statUpdateKernel(f,fmin,fmax,m1,m2,m3,m4,n)
 
     % update sample count for this pixel
@@ -149,7 +149,7 @@ Some system-objects also incorporate a user interface to aid in parameter select
 
 \begin{figure}[htb]\centering
 	\includegraphics[height=12cm]{figures/sw-video-processing-feature-pointwise-mutual-information.png}
-	\caption{Feature generation of single motion-compensated frame using complex-valued normalized pointwise mutual information of each pixel with its local neghborhood}
+	\caption{Feature generation of single motion-compensated frame using complex-valued normalized pointwise mutual information of each pixel with its local neighborhood}
 \end{figure}
 
 
