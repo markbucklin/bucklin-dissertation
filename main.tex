@@ -12,8 +12,11 @@
 % \usepackage{subfiles}
 
 % BIBLIOGRAPHY/REFERENCES
-% \usepackage{biblatex}
+% \usepackage[style=numeric,bibstyle=authortitle,sorting=nty]{biblatex}
 % \addbibresource{thesis.bib}
+% \usepackage{xpatch}
+% \usepackage{url}
+% \usepackage{biblatex}
 % \addbibresource{ref.bib}
 % \usepackage{natbib}
 % \usepackage{apalike}
@@ -49,7 +52,7 @@
 \usepackage{lscape,afterpage}
 \usepackage{xspace}
 \usepackage{booktabs}
-\usepackage{algorithm,algpseudocode}
+% \usepackage{algorithm,algpseudocode}
 
 
 % LINKS
@@ -203,6 +206,8 @@
 
 % BIBLIOGRAPHY
 \nocite{*}
+% \printbibheading
+% \printbibliography[title={Bibliography}]
 \input{post/bibliography}
 
 % CURRICULUM-VITA
