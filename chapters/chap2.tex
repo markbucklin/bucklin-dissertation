@@ -15,7 +15,7 @@ The projects described in the following sections are also tied together by a com
 
 \subsection{PD mouse model:}\label{sec:pd-mouse-model}
 
-You can induce a quantifiable PD-like state in mice with a unilateral injection of the neurotoxin 6-hydroxydopamine (6-OHDA) into the striatum, and subsequent administration of apomorphine to provoke side-biased motor deficits \cite{iancu_behavioral_2005}
+You can induce a quantifiable PD-like state in mice with a unilateral injection of the neurotoxin 6-hydroxydopamine (6-OHDA) into the striatum, and subsequent administration of apomorphine to provoke side-biased motor deficits \cite{Iancu_2005}
 Side-biased ``turning'' behavior is quantified autonomously on two distinct platforms, a computer-vision system that allows free movement, and a virtual-reality spherical treadmill platform that simulates free movement.
 
 \subsection{Metrics of Behavior}\label{sec:metrics-of-behavior}
@@ -31,8 +31,7 @@ contralateral to the lesion when given intraperitoneal apomorphine.
 
 I built an experiment apparatus for mice to enable a study being run by Jia-Min Zhuo.
 The goal of the study was to elucidate the role of adult-born neurons on mouse behavior, specifically their performance in discrimination tasks.
-We called the apparatus the ``Behavior Box'' and modeled it after a commercially available but grossly over-priced box that itself came from other labs (see \cite{McLelland2015}).
-%\cite{creer2010}
+We called the apparatus the ``Behavior Box'' and modeled it after a commercially available but grossly over-priced box that itself came from other labs (see \cite{McLelland_2015}).
 
 The chamber was constructed with black plastic walls, extruded aluminum framing, and a perforated metal mesh floor 1 cm above a plastic waste tray.
 A 10-inch infrared touchscreen (ITouch Systems) was mounted over a 10-inch LCD monitor forming one wall of the chamber.
@@ -67,7 +66,7 @@ While the experiments are conducted in separate software (and potentially on a d
 The major contribution to the ``Behavior Box'' package, and also to later image processing packages is the procedure for definition and storage and of experimental data files, which will be touched on briefly in chapter 3.
 % todo
 
-\subsection{Using Computer Vision to track Position and Orientation}\label{sec:using-computer-vision-to-track-position-and-orientation}
+\section{Using Computer Vision to track Position and Orientation}\label{sec:using-computer-vision-to-track-position-and-orientation}
 
 \subsection{Mouse in a Bowl}\label{sec:mouse-in-a-bowl}
 
@@ -100,28 +99,29 @@ This apparatus would go on to be used to investigate the oscillatory dynamics of
 \begin{figure}[htb]
 	\begin{subfigure}[t]{0.24\linewidth}\centering
 		\includegraphics[height=3cm]{figures/07mousedata1close.jpg}
-		\caption{(a)}
+		\caption{}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[t]{0.24\linewidth}\centering
 		\includegraphics[width=3cm]{figures/06mousedata1.jpg}
-		\caption{(b)}
+		\caption{}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.24\linewidth}\centering
 		\includegraphics[width=3cm]{figures/08mousedata2.jpg}
-		\caption{(c)}
+		\caption{}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.24\linewidth}\centering
 		\includegraphics[width=3cm]{figures/09mousedata1fiberon1.jpg}
-		\caption{(d)}
+		\caption{}
 	\end{subfigure}
 	\caption{
 		Automated animal Tracking for ``Mouse in a bowl'' type experiments: (a-d) video overlay showing tracked points} \label{fig:mouse-in-bowl-2}
 \end{figure}
+% todo
 
 \subsection{Spherical Treadmill}\label{sec:spherical-treadmill}
 
-A virtual reality system was assembled, adopting methods from the Harvey lab lab \cite{harvey_intracellular_2009}.
+A virtual reality system was assembled, adopting methods from the Harvey lab lab \cite{Harvey_2009}.
 This system allows placement of a head-restrained mouse on an 8-inch diameter polystyrene foam ball supported by a cushion of compressed air, surrounded by a toroidal projection screen.
 Ball rotation is tracked with two optical computer mice placed orthogonal to each other.
 Movement vectors are fed into a virtual-reality engine that updates the image projected onto a toroidal screen surrounding the ball, simulating movement through any arbitrary virtual world.
@@ -132,21 +132,19 @@ The disadvantage is the time and potential confounds involved with training indi
 \begin{figure}[htb]
 	\begin{subfigure}[t]{0.32\linewidth}\centering
 		\includegraphics[height=3.5cm]{figures/01-treadmill-mouse-running.jpg}
-		\caption{(a)}
+		\caption{Mouse running on a treadmill equpipped with virtual reality}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[t]{0.15\linewidth}\centering
 		\includegraphics[height=3.5cm]{figures/01-water-port.jpg}
-		\caption{(b)}
+		\caption{Water port}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.45\linewidth}\centering
 		\includegraphics[height=3.5cm]{figures/03-water-delivery-zoom.jpg}
-		\caption{(c)}
+		\caption{Application of the water delivery system}
 	\end{subfigure}
-	\caption{
-		Spherical treadmill (a) Mouse running on a treadmill equpipped with virtual reality;
-		(b) water port; (c) application of the water delivery system }
-	\label{fig:spherical-treadmill}
+	\caption{Spherical treadmill system and water deliver mechanism}
+	\label{fig:spherical-treadmill-water-delivery}
 \end{figure}
 
 \subsection{Headplate Holder}\label{sec:headplate-holder}
@@ -154,19 +152,22 @@ The disadvantage is the time and potential confounds involved with training indi
 \begin{figure}[htb]
 	\begin{subfigure}[t]{0.32\linewidth}\centering
       \includegraphics[width=4.5cm]{figures/photo-front.jpg}
-      \caption{(a)}
+      \caption{Front}
 	\end{subfigure}
 	\hfill
 	\begin{subfigure}[t]{0.32\linewidth}\centering
       \includegraphics[width=4.5cm]{figures/photo-top.jpg}
-      \caption{(b)}
+      \caption{Top}
 	\end{subfigure}
 	\begin{subfigure}[t]{0.32\linewidth}\centering
       \includegraphics[width=4.5cm]{figures/photo-bottom.jpg}
-      \caption{(c)}
+      \caption{Bottom}
 	\end{subfigure}
-	\caption{Headplate holder (a) front view;
-		(b) top view; (c) bottom view}
+	\caption{Head-plate holder for spherical treadmill.
+      This head-plate holder was designed to provide a rigid connection between the head-plate - surgically fixed to each mouses cranium - and the optical table the microscope is built on.
+      It is also designed with considerations for ease of manufacture (no repositioning of the workpiece required for fabrication with a CNC mill). }
+      Most importantly it is designed to stand up to the rigors of everyday use.
+      This design is extended to work with advanced head-plate designs in \chapref{sec:critical-elements}}
 	\label{fig:headplate-holder}
 \end{figure}
 
@@ -196,10 +197,9 @@ A single reading is received at the other end of the serial connection looking s
 \subsection{Navigation Sensor Chip with Arduino}\label{sec:navigation-sensor-chip-with-arduino}
 
 The system was later improved.
-%\begin{Shaded}%\begin{Highlighting}[]%\NormalTok{> datastring = s + }\StringTok{'x'}\NormalTok{+dx + %}\StringTok{'y'}\NormalTok{+dy + %}\StringTok{'}\CharTok{\textbackslash{}n}\StringTok{'}%\end{Highlighting}%\end{Shaded}
 I wrote an Arduino compatible library that functions as a driver for for the ADNS performance precision gaming sensor.
 This driver passes {[}dx,dy{]} measurements from two ADNS-9800 laser mouse sensors (placed 45-degrees apart on surface of Styrofoam ball).
-The library has been put to use in multiple systems and enjoys collaborative development from a small number of other researchers \cite{romano2019teensy}
+The library has been put to use in multiple systems and enjoys collaborative development from a small number of other researchers \cite{Romano_2019}
 
 \begin{figure}[htb]
 	\begin{subfigure}[t]{0.45\linewidth}\centering
@@ -256,7 +256,7 @@ The trait that is the most worthy of consideration, however, is the cost.
 
 The in-vivo instrinsic-signal or fluorescent-dye imaging camera of 1 decade ago had a 0.5``-1'' monochrome CCD sensor with 0.1-1 MegaPixels, a large well-depth, and moderately low noise at speeds around 30 to 60 fps.
 Connection was often LVDS, with custom electrial connectors unique to each camera.
-A particularly popular and long-running model was the Dalsa 1M30, followed by the 1M60 in later years \cite{takahashi_vivo_2006}.
+A particularly popular and long-running model was the Dalsa 1M30, followed by the 1M60 in later years \cite{Takahashi_2006}.
 
 \subsection{Microscope Construction}\label{sec:microscope-construction}
 
