@@ -1,0 +1,1352 @@
+AA|Adhes. Age|Adhesives Age
+AA|Astron. Astrophys.|Astronomy and Astrophysics
+AAC|Antimicrob. Agents Chemother.|Antimicrobial Agents and Chemotherapy
+AAM|Adv. Appl. Math.|Advances in Applied Mathematics
+AAM|Adv. Appl. Microbiol.|Advances in Applied Microbiology
+AAMOP|Adv. At. Mol. Opt. Phys.|Advances in Atomic, Molecular, and Optical Physics
+AAQA|An. Asoc. Quim. Argent.|Anales de la Asociacion Quimica Argentina
+AB|Acta Biotechnol.|Acta Biotechnologica
+AB|Anal. Biochem.|Analytical Biochemistry
+ABB|Appl. Biochem. Biotechnol.|Applied Biochemistry and Biotechnology
+ABB|Arch. Biochem. Biophys.|Archives of Biochemistry and Biophysics
+ABEB|Adv. Biochem. Eng./Biotechnol.|Advances in Biochemical Engineering / Biotechnology
+ABP|Acta Biochim. Pol.|Acta Biochimica Polonica
+ACA|Anal. Chim. Acta|Analytica Chimica Acta
+ACA|Appl. Catal., A|Applied Catalysis A
+AC|Adv. Chromatogr.|Advances in Chromatography
+AC|Anal. Chem.|Analytical Chemistry
+AC|Anal. Chim.|Annali di Chimica
+AC|Anal. Commun.|Analytical Communications
+ACAP|Anal. Chem. A-Pages|Analytical Chemistry A-Pages
+ACB|Ann. Clin. Biochem.|Annals of Clinical Biochemistry
+ACB|Appl. Catal., B|Applied Catalysis B
+ACBSIB|Artif. Cells, Blood Substitues, Immobilization Biotechnol.|Artificial Cells Blood Substitutes and Immobilization Biotechnology
+ACC|Antiviral Chem. Chemother.|Antiviral Chemistry and Chemotherapy
+ACCB|Adv. Carbohydr. Chem. Biochem.|Advances in Carbohydrate Chemistry and Biochemistry
+ACDD|Anti-Cancer Drug Des.|Anti-Cancer Drug Design
+ACE|Adv. Cryog. Eng.|Advances in Cryogenic Engineering
+ACEJ|AlChE J.|AIChE Journal
+ACESS|AlChE Symp. Ser.|AIChE Symposium Series
+ACHMC|ACH - Models Chem.|ACH - Models in Chemistry
+ACIC|Acta Cienc. Indica, Chem.|Acta Cienceia Indica Chemistry
+ACIE|Angew. Chem. Int. Ed.|Angewandte Chemie International Edition
+ACIEE|Angew. Chem. Int. Ed. Engl.|Angewandte Chemie International Edition in English
+ACIMJ|ACI Mater. J.|ACI Materials Journal
+ACIP|Acta Cienc. Indica, Phys.|Acta Ciencia Indica Phyics
+ACIS|Adv. Colloid Interface Sci.|Advances in Colloid and Interface Science
+ACM|Adv. Compos. Mater|Advanced Composite Materials
+ACM|Appl. Compos. Mater.|Applied Composite Materials
+ACMTMS|ACM Trans. Math. Softw.|ACM Transactions on Mathematical Software
+ACP|Adv. Chem. Phys.|Advances in Chemical Physics
+ACR|Acc. Chem. Res.|Accounts of Chemical Research
+ACR|Ann. Chim. (Rome)|Annali di Chimica
+ACS|Acta Chem. Scand.|Acta Chemica Scandinavica
+ACS|Acta Chim. Sinica|Acta Chimica Sinica
+ACS|Adv. Chem. Ser.|Advances in Chemistry Series
+ACAFC|Acta Crystallogr. A Found. Crystallogr.|Acta Crystallographica Section A: Foundations of Crystallography
+ACSAMI|ACS Appl. Mater. Interfaces|ACS Applied Materials and Interfaces
+ACSB|Am. Ceram. Soc. Bull.|American Ceramic Society Bulletin
+ACBSS|Acta Crystallogr. B|Acta Crystallographica Section B: Structural Science
+ACCCSC|Acta Crystallogr. C Cryst. Struct. Commun.|Acta Crystallographica Section C: Crystal Structure Communications
+ACDBC|Acta Crystallogr. D Biol. Crystallogr.|Acta Crystallographica Section D: Biological Crystallography
+ACSESRO|Acta Crystallogr. Sect. E: Struct. Rep. Online|Acta Crystallographica Section E: Structure Reports Online
+ACSM|Ann. Chim. - Sci. Mat.|Annales de Chimie - Science des Materiaux
+ACSSS|ACS Symp. Ser.|ACS Symposium Series
+ADNDT|At. Data Nucl. Data Tables|Atomic Data and Nuclear Data Tables
+ADRTR|Adverse Drug React. Toxicol. Rev.|Adverse Drug Reactions and Toxicological Reviews
+AE|At. Energ.|Atomic Energy
+AE|Atmos. Environ.|Atmospheric Environment
+AECT|Arch. Environ. Contam. Toxicol.|Archives of Environment Contamination and Toxicology
+AEH|Arch. Environ. Health|Archives of Environment Health
+AEM|Adv. Eng. Mater.|Advanced Engineering Materials
+AEM|Appl. Environ. Microbiol.|Applied and Environment Microbiology
+AER|Adv. Enzyme Regul.|Advances in Enzyme Regulation
+AERAMB|Adv. Enzymol. Relat. Areas Mol. Biol.|Advances in Enzymology and Related Areas of Molecular Biology
+AF|Arzneim.-Forsch.|Arzneimittel-Forschung/Drug Research
+AFM|Adv. Funct. Mater.|Advanced Functional Materials
+AFST|Adv. Filtr. Sep. Technol.|Advances in Filtration and Separation Technology
+AG|Appl. Geochem.|Applied Geochemistry
+AHC|Adv. Heterocycl. Chem.|Advances in Heterocyclic Chemistry
+AHH|Acta Hydroch. Hydrob.|Acta Hydrochimica et Hydrobiologica
+AIBP|Arch. Insect Biochem. Physiol.|Archives of Insect Biochemistry and Physiology
+AIC|Adv. Inorg. Chem.|Advances in Inorganic Chemistry
+AIHAJ|Am. Ind. Hyg. Assoc. J.|American Industrial Hygiene Association Journal
+AJ|Appita J.|Appita Journal
+AJ|Astron. J.|Astronomy Journal
+AJ|Astrophys J.|Astrophysics Journal
+AJC|Asian J. Chem.|Asian Journal of Chemistry
+AJC|Aust. J. Chem.|Australian Journal of Chemistry
+AJRCMB|Am. J. Respir. Cell Mol. Biol.|American Journal of Respiratory Cell and Molecular Biology
+AJS|Asian J. Spectro.|Asian Journal of Spectroscopy
+AL|Am. Lab.|American Laboratory
+AL|Anal. Lett.|Analytical Letters
+AM|Acta Mater.|Acta Materialia
+AM|Acta Metall.|Acta Metallurgica
+AM|Adv. Mater.|Advanced Materials
+AM|Am. Mineral.|American Mineralogist
+AM|Arch. Microbiol.|Archives of Microbiology
+AMB|Appl. Microbiol. Biotechnol.|Applied Microbiology and Biotechnology
+AMC|Angew. Makromol. Chem.|Angewandte Makromolekulare Chemie
+AMC|Appl. Math. Comput.|Applied Mathematics and Computation
+AMOE|Adv. Mater. Opt. Electron.|Advanced Materials for Optics and Electronics
+AMP|Adv. Mater. Processes|Advanced Materials and Processes
+AMR|Adv. Mater. Res.|Advances in Materials Research
+AMR|Appl. Magn. Reson.|Applied Magnetic Resonance
+AMS|Adv. Mass Spectrom.|Advances in Mass Spectrometry
+ANADD|Antisense Nucleic Acid Drug Dev.|Antisense and Nucleic Acid Drug Development
+ANYAS|Ann. N.Y. Acad. Sci.|Annals of the New York Academy of Sciences
+AO|Appl. Opt.|Applied Optics
+AOC|Adv. Organomet. Chem.|Advances in Organometallic Chemistry
+AOC|Appl. Organomet. Chem.|Applied Organometallic Chemistry
+APA|Appl. Phys. A|Applied Physics A
+AP|Acta Polym.|Acta Polymerica
+AP|Arch. Pharm.|Archiv der Pharmazie
+APB|Appl. Phys. B|Applied Physics B
+APB|Arch. Physiol. Biochem.|Archives of Physiology and Biochemistry
+APC|Adv. Protein Chem.|Advances in Protein Chemistry
+APL|Appl. Phys. Lett.|Applied Physics Letters
+APMPM|Adv. Powder. Metall. Part. Mater.|Advances in Powder Metallurgy and Particulate Materials
+APOC|Adv. Phys. Org. Chem.|Advances in Physical Organic Chemistry
+APPA|Acta Phys. Pol., A|Acta Physica Polonica A
+APPB|Acta Phys. Pol., B|Acta Physica Polonica B
+APR|Arch. Pharmacal Res.|Archives of Pharmacal Research
+APS|Adv. Polym. Sci.|Advances in Polymer Science
+APSCTS|Acta Polytech. Scand., Chem. Technol. Ser|Acta Polytechnica Scandinavica - Chemical Technology Series
+APSRF|Ammonia Plant Saf. Relat. Facil|Ammonia Plant Safety and Related Facilities
+APT|Adv. Polym. Tech.|Advances in Polymer Technology
+APT|Adv. Powder Technol.|Advanced Powder Technology
+AQ|An. Quim.|Anales de Quimica
+AQC|Adv. Quantum Chem.|Advances in Quantum Chemistry
+AR|Anticancer Res.|Anticancer Research
+ARB|Annu. Rev. Biochem|Annual Review of Biochemistry
+ARBBS|Annu. Rev. Biophys. Biomol. Struct.|Annual Review of Biophysics and Biomolecular Structure
+ARCDB|Annu. Rev. Cell Dev. Biol.|Annual Review of Cell and Developmental Biology
+AREE|Annu. Rev. Energy Env.|Annual Review of Energy and the Environment
+ARI|Appl. Radiat. Isot.|Applied Radiation and Isotopes
+ARMC|Annu. Rep. Med. Chem.|Annual Reports in Medicinal Chemistry
+ARMS|Annu. Rev. Mater. Sci.|Annual Review of Materials Science
+ARPC|Annu. Rev. Phys. Chem.|Annual Review of Physical Chemistry
+ARPCSAIC|Annu. Rep. Prog. Chem. Sect. A: Inorg. Chem.|Annual Reports on the Progress of Chemistry, Section A: Inorganic Chemistry
+ARPCSBOC|Annu. Rep. Prog. Chem. Sect. B: Org. Chem.|Annual Reports on the Progress of Chemistry, Section B: Organic Chemistry
+ARPCSCPC|Annu. Rep. Prog. Chem. Sect. C: Phys. Chem.|Annual Reports on the Progress of Chemistry, Section C: Physical Chemistry
+ARPT|Annu. Rev. Pharmacool. Toxicol.|Annual Review of Pharmacology and Toxicology
+AS|Anal. Sci.|Analytical Sciences
+AS|Appl. Spectrosc.|Applied Spectroscopy
+AS|Appl. Supercond.|Applied Superconductivity
+AS|Atomization Sprays|Atomization and Sprays
+AS|At. Spectrosc.|Atomic Spectroscopy
+ASC|Adv. Synth. Catal.|Advanced Synthesis and Catalysis
+ASMPR|Adv. Second Messenger Phosphoprotein Res.|Advances in Second Messenger and Phosphoprotein Research
+ASR|Adv. Space Res.|Advances in Space Research
+ASR|Appl. Sci. Res.|Applied Scientific Research
+ASS|Appl. Surf. Sci.|Applied Surface Science
+AST|Adsorpt. Sci. Technol.|Adsorption Science and Technology
+AST|Aerosol Sci. Technol.|Aerosol Science and Technology
+ASTMSTP|ASTM Spec. Tech. Publ.|ASTM Specical Technical Publication
+AT|Aquat. Toxicol.|Aquatic Toxicology
+AT|Arch. Toxicol.|Archives of Toxicology
+ATE|Appl. Therm. Eng.|Applied Thermal Engineering
+AV|Arch. Virol|Archives of Virology
+AXRA|Adv. X-Ray Anal.|Advances in X-Ray Analysis
+BAB|Biotechnol. Appl. Biochem.|Biotechnology and Applied Biochemistry
+BA|Biochem. Arch.|Biochemical Archives
+BA|Biog. Amines|Biogenic Amines
+BA|Biotechnol. Adv.|Biotechnology Advances
+BBA|Biochim. Biophys. Acta|Biochimica et Biophysica Acta
+BBB|Biosci., Biotechnol., Biochem.|Bioscience Biotechnology and Biochemistry
+BB|Biocatal. Biotransform.|Biocatalysis and Biotransformation
+BB|Bioelectrochem. Bioenerg.|Bioelectrochemistry and Bioenergetics
+BB|Biomass Bioenergy|Biomass and Bioenergy
+BB|Biosens. Bioelectron.|Biosensors and Bioelectronics
+BB|Biotechnol. Bioeng.|Biotechnology and Bioengineering
+BBE|Biotechnol. Biotechnol. Equip.|Biotechnology and Biotechnological Equipment
+BBGPC|Ber. Bunsen-Ges. Phys. Chem.|Berichte der Bunsen-Gesellschaft fÃ¼r Physikalische Chemie
+B|Biochemistry|Biochemistry
+B|Bioinformatics|Bioinformatics
+B|Biomacromolecules|Biomacromolecules
+B|Biometrika|Biometrika
+BBRC|Biochem. Biophys. Res. Commun.|Biochemical and Biophysical Research Communications
+BCB|Biochem. Cell Biol.|Biochemistry and Cell Biology-Biochimie et Biologie Cellulaire
+BC|Bioconjugate Chem.|Bioconjugate Chemistry
+BC|Biol. Chem.|Biological Chemistry
+BC|Biomed. Chromatogr.|Biomedical Chromatography
+BC|Bioorg. Chem.|Bioorganic Chemistry
+BC|Biophys. Chem.|Biophysical Chemistry
+BCHS|Biol. Chem. Hoppe-Seyler|Biological Chemistry Hoppe-Seyler
+BCJ|Br. Corros. J.|British Corrosion Journal
+BCSJ|Bull. Chem. Soc. Jpn.|Bulletin of the Chemical Society of Japan
+BCT|Br. Ceram. Trans.|British Ceramic Transactions
+BDD|Biopharm. Drug Dispos.|Biopharmaceutics and Drug Disposition
+BE|Biomol. Eng|Biomolecular Engineering
+BE|Bioprocess. Eng.|Bioprocess Engineering
+BEBM|Bull. Exp. Biol. Med.|Bulletin of Experimental Biology and Medicine
+BE|Bull. Electrochem.|Bulletin of Electrochemistry
+BECT|Bull. Environ. Contam. Toxicol.|Bulletin of Environment Contamination and Toxicology
+BEJ|Biochem. Eng. J.|Biochemical Engineering Journal
+BG|Biochem. Genet.|Biochemical Genetics
+BH|Biotech. Histochem.|Biotechnic and Histochemistry
+BHC|Bull. Hist. Chem.|Bulletin for the History of Chemistry
+BJ|Biochem. J|Biochemical Journal
+BJ|Biophys. J.|Biophysical Journal
+BJ|Biorem. J.|Bioremediation Journal
+BJP|Br. J. Pharmacol.|British Jornal of Pharmacology
+BK|Bioorg. Khim|Bioorganicheskaya Khimiya (Russian Journal of Bioorganic Chemistry)
+BKCS|Bull. Korean Chem. Soc.|Bulletin of the Korean Chemical Society
+BL|Biotechnol. Lett|Biotechnology Letters
+BMBI|Biochem. Mol. Biol. Int.|Biochemistry and Molecular Biology International
+BM|Biol. Membr.|Biological Membranes
+BM|Biomed. Microdevices|Biomedical Microdevices
+BMC|Bioorg. Med. Chem.|Bioorganic and Medicinal Chemistry
+BMCB|BMC Bioinformatics|BioMed Central Bioinformatics
+BMCL|Bioorg. Med. Chem. Lett.|Bioorganic and Medicinal Chemistry Letters
+BMMB|Biochem. Med. Metab. Biol.|Biochemical Medicine and Metabolic Biology
+BMM|Biochem. Mol. Med.|Biochemical and Molecular Medicine
+BMME|Bio-Med. Mater. Eng.|Bio-Medical Materials and Engineering
+BMS|Bull. Mater. Sci.|Bulletin of Materials Science
+BPASC|Bull. Pol. Acad. Sci., Chem.|Bulletin of the Polish Academy of Sciences Chemistry
+BPB|Biol. Pharm. Bull.|Biological and Pharmaceutical Bulletin
+BP|Behav. Pharmacol.|Behavioural Pharmacology
+BP|Biochem. Pharmacol.|Biochemical Pharmacology
+BP|Biotechnol. Prog.|Biotechnology Progress
+BP|Biotechnol. Progr.|Biotechnology Progress
+BR|Biosci. Rep.|Bioscience Reports
+BSCB|Bull. Soc. Chim. Belg.|Bulletin des Societes Chimiques Belges
+BSCF|Bull. Soc. Chim. Fr.|Bulletin de la Societe Chimique de France
+BSCQ|Bol. Soc. Chil. Quim.|Boletin de la Sociedad Chilena de Quimica
+BSE|Biochem. Syst. Ecol.|Biochemical Systematics and Ecology
+BSS|Biochem. Soc. Symp.|Biochemical Society Symposium
+BST|Biochem. Soc. Trans.|Biochemical Society Transactions
+BT|Bioresour. Technol.|Bioresource Technology
+BT|Biotechnol. Tech.|Biotechnology Techniques
+BTER|Biol. Trace Elem. Res.|Biological Trace Element Research
+BWK|Brennst.-Warme-Kraft|Brennstoff-Warme-Kraft
+CA|Chem. Aust.|Chemistry in Australia
+CAD|Computer Aided Des.|Computer-Aided Design
+CAV|Chem. -Anlagen Verfahren|Chemie Anlagen und Verfahren
+CAW|Chem. Anal. (Warsaw)|Chemia Analityczna
+CBC|Comput. Biol. Chem.|Computational Biology and Chemistry
+CB|Chem. Ber.|Chemische Berichte
+CB|Chem. Br.|Chemistry in Britain
+CB|Clin. Biochem.|Clinical Biochemistry
+CBEQ|Chem. Biochem. Eng. Q.|Chemical and Biochemical Engineering Quarterly
+CBF|Cell Biochem. Funct.|Cell Biochemistry and Function
+CBI|Chem. Biol. Interact.|Chemico-Biological Interactions
+CBPAP|Comp. Biochem. Physiol. A: Physiol.|Comparative Biochemistry and Physiology A: Physiology
+CBPBBMB|Comp. Biochem. Physiol. B: Biochem. Mol. Biol.|Comparative Biochemistry and Physiology B: Biochemistry and Molecular Biology
+CBPCPT|Comp. Biochem. Physiol. C: Pharmacol. Toxicol.|Comparative Biochemistry and Physiology C: Pharmacology Toxicology and Endocrinology
+CBR|Chem. Ber. Recl.|Chemische Berichte-Recueil
+CCA|Clin. Chim. Acta|Clinica Chimica Acta
+CCA|Croat. Chem. Acta|Croatica Chemica Acta
+C|Calphad|Calphad - Computer Coupling of Phase Diagrams and Thermochemistry
+CC|Carbohydr. Chem.|Carbohydrate Chemistry
+CC|Catal. Commun.|Catalysis Communications
+CCCC|Collect. Czech. Chem. Commun.|Collection of Czechoslovak Chemical Communications
+CCC|Cem. Concr. Compos.|Cement and Concrete Composites
+CC|Cereal Chem.|Cereal Chemistry
+CC|Chem. Commun.|Chemical Communications
+CC|Clin. Chem.|Clinical Chemistry
+CC|Comput. Chem.|Computers and Chemistry
+CCE|Comput. Chem. Eng.|Computers and Chemical Engineering
+CCHTS|Comb. Chem. High Throughput Screening|Combinatorial Chemistry and High Throughput Screening
+CCL|Chin. Chem. Lett.|Chinese Chemical Letters
+CCM|Clays Clay Miner.|Clays and Clay Minerals
+CCO|Comput. Chem. (Oxford)|Computers and Chemistry
+CCQ|Can. Ceram. Q.|Canadian Ceramics Quarterly
+CCR|Cem. Concr. Res.|Cement and Concrete Research
+CCR|Coord. Chem. Rev.|Coordination Chemistry Reviews
+CCT|Cellul. Chem. Technol.|Cellulose Chemistry and Technology
+CEC|Chem. Eng. Commun.|Chemical Engineering Communications
+CE|Chem. Express|Chemistry Express
+CE|Compos. Eng.|Composites Engineering
+CE|Cryst. Eng.|Crystal Engineering
+CEI|Concr. Eng. Int.|Concrete Engineering International
+CEJ|Chem. Eng. J.|Chemical Engineering Journal
+CEJ|Chem. Eur. J.|Chemistry A European Journal
+CEJ|Chem. Eur. J.|Chemistry- A European Journal
+CEL|Chem. Eng. (London)|Chemical Engineer (London)
+CEN|Chem. Eng. News|Chemical and Engineering News
+CENY|Chem. Eng. (New York)|Chemical Engineering (New York)
+CEP|Chem. Eng. Process.|Chemical Engineering and Processing
+CEP|Chem. Eng. Prog.|Chemical Engineering Progress
+CERD|Chem. Eng. Res. Des.|Chemical Engineering Research and Design
+CES|Chem. Eng. Sci.|Chemical Engineering Science
+CET|Chem. Eng. Technol.|Chemical Engineering and Technology
+CF|Combust. Flame|Combustion and Flame
+CFI|Chem. Fibers Int.|Chemical Fibers International
+CG|Chem. Geol.|Chemical Geology
+CGD|Cryst. Growth Des.|Crystal Growth and Design
+CHC|Chem. Heterocycl. Compd.|Chemistry of Heterocyclic Compounds
+CIC|Comments Inorg. Chem.|Comments on Inorganic Chemistry
+CI|Ceram. Int.|Ceramics International
+CI|Chem. Ind. (London)|Chemistry and Industry
+CI|Compos. Interfaces|Composite Interfaces
+CI|Concr. Int.|Concrete International
+CILS|Chemom. Intell. Lab. Syst.|Chemometrics and Intelligent Laboratory Systems
+CIMB|CIM Bull.|CIM Bulletin
+CIT|Chem. Ing. Tech.|Chemie Ingenieur Technik
+CITRM|Cah. Inf. Tech./Rev Metall|Cahiers d'Informations Techniques / Revue de Metallurgie
+CJASS|Can. J. Anal. Sci. Spectros.|Canadian Journal of Analytical Sciences and Spectroscopy
+CJB|Can. J. Biochem.|Canadian Journal of Biochemistry
+CJC|Can. J. Chem.|Canadian Journal of Chemistry
+CJC|Chin. J. Chem .|Chinese Journal of Chemistry
+CJCE|Can. J. Chem. Eng.|Canadian Journal of Chemical Engineering
+CJCE|Chin. J. Chem. Eng.|Chinese Journal of Chemical Engineering
+CJ|Colloid J.|Colloid Journal
+CJM|Can. J. Microbiol.|Canadian Journal of Microbiology
+CJNP|Chin. J. Nucl. Phys.|Chinese Journal of Nuclear Physics
+CJP|Can. J. Phys.|Canadian Journal of Physics
+CJPP|Can. J. Physiol. Pharmacol.|Canadian Journal of Physiology and Pharmacology
+CJPS|Chin. J. Polym. Sci.|Chinese Journal of Polymer Science
+CL|Carbohydr. Lett.|Carbohydrate Letters
+CL|Catal. Lett.|Catalysis Letters
+CL|Chem. Lett.|Chemistry Letters
+CL|Chem. Listy|Chemicke Listy
+CM|Can. Mineral.|Canadian Mineralogist
+CM|Chem. Mater.|Chemistry of Materials
+CMJ|Can. Min. J.|Canadian Mining Journal
+CMP|Condens. Matter Phys.|Condensed Matter Physics
+CMP|Contrib. Mineral. Petrol.|Contributions to Mineralogy and Petrology
+CMQ|Can. Metall. Q.|Canadian Metallurgical Quarterly
+CMR|Concepts Magn. Reson.|Concepts in Magenetic Resonance
+CMS|Comput. Mater. Sci.|Computation Materials Science
+CMT|Condens. Matter Theor.|Condensed Matter Theories
+CMT|Continuum Mech. Thermodyn.|Continuum Mechanics and Thermodynamics
+CNC|Chem. Nat. Compd.|Chemistry of Natural Compounds
+COB|Curr. Opin. Biotechnol.|Current Opinion in Biotechnology
+COCB|Curr. Opin. Chem. Biol.|Current Opinion in Chemical Biology
+COC|Curr. Org. Chem.|Current Organic Chemistry
+COCIS|Curr. Opin. Colloid Interface Sci.|Current Opinion in Colloid and Interface Science
+COP|Curr. Opin. Pharmacol.|Current Opinion in Pharmacology
+COSB|Curr. Opin. Struct. Biol.|Current Opinion in Structural Biology
+COSSMS|Curr. Opin. Solid State Mater. Sci.|Current Opinion in Solid State and Materials Science
+CPA|Composites Part A|Composites Part A Applied Science and Manufacturing
+CPB|Cell. Physiol. Biochem.|Cellular Physiology and Biochemistry
+CPB|Chem. Pharm. Bull.|Chemical and Pharmaceutical Bulletin
+CPB|Composites Part B|Composites Part B Engineering
+CP|Carbohydr. Polym.|Carbohydrate Polymers
+CPC|Chem. Phys. Carbon|Chemistry and Physics of Carbon
+CPC|Comput. Phys. Commun.|Computer Physics Communications
+CP|Cell. Polym.|Cellular Polymers
+CP|Chem. Phys.|Chemical Physics
+CP|Chem. Process.|Chemical Processing
+CPCZ|Chem. Pap. - Chem. Zvesti|Chemical Papers - Chemicke Zvesti
+CPL|Chem. Phys. Lett.|Chemical Physics Letters
+CPL|Chem. Phys. Lipids|Chemistry and Physics of Lipids
+CPPCPP|CPP Chem. Plants and Process.|CPP Chemical Plants and Processing
+CPSBA|Curr. Plant Sci. Biotechnol. Agric.|Current Plant Science in Biotechnology and Agriculture
+CPS|Colloid. Polym. Sci.|Colloid and Polymer Science
+CRAC|Crit. Rev. Anal. Chem.|Critical Reviews in Analytical Chemistry
+CRASSIIC|C.R. Acad. Sci., Ser. IIc: Chim.|Comptes Rendus de l' Academie des Sciences Serie IIc:Chemie
+CRASSIII|C.R. Acad. Sci., Ser. III|Comptes Rendus de l' Academie des Sciences Serie III: Sciences de la Vie
+CRASSIIMPCA|C.R. Acad. Sci., Ser. IIb: Mec., Phys., Chim., Astron.|Comptes Rendus de l' Academie des Sciences Serie IIb:Mecanique Physique Chimie Astronomie
+CRASSIISTP|C.R. Acad. Sci., Ser. IIa: Sci. Terre Planets|Comptes Rendus de l' Academie des Sciences Serie IIa:Sciences de la Terre et des Planets
+CRB|Crit. Rev. Biotechnol.|Critical Reviews in Biotechnology
+CRBMB|Crit. Rev. Biochem. Mol. Biol.|Critical Reviews in Biochemistry and Molecular Biology
+CR|Carbohydr. Res.|Carbohydrate Research
+CR|Chem. Rev.|Chemical Reviews
+CR|Corros. Rev.|Corrosion Reviews
+CREST|Crit. Rev. Env. Sci. Technol.|Critical Reviews in Environment Science and Technology
+CRSE|Cat. Rev. - Sci. Eng.|Catalysis Reviews - Science and Engineering
+CRSSMS|Crit. Rev. Solid State Mater. Sci.|Critical Reviews in Solid State and Materials Sciences
+CRT|Chem. Res. Toxicol.|Chemical Research in Toxicology
+CRT|Crit. Rev. Toxicol.|Critical Reviews in Toxicology
+CRT|Cryst. Res. Technol.|Crystal Research and Technology
+CSA|Colloids Surf., A|Colloids and Surfaces A
+CSB|Chem. Speciation Bioavailability|Chemical Speciation and Bioavailability
+CSB|Chin. Sci. Bull.|Chinese Science Bulletin
+CSB|Colloids Surf., B|Colloids and Surfaces B
+CS|Ceram. Silik.|Ceramics - Silikaty
+CS|Chem. Senses|Chemical Senses
+CS|Compos. Struct.|Composite Structures
+CS|Corros. Sci.|Corrosion Science
+CSDA|Comput. Statist. Data Anal.|Computational Statistics and Data Analysis
+CSE|Concr. Sci. Eng.|Concrete Science and Engineering
+CSR|Chem. Soc. Rev.|Chemical Society Reviews
+CSS|Chromatogr. Sci. Ser.|Chromatographic Science Series
+CST|Combust. Sci. Technol.|Combustion Science and Technology
+CST|Compos. Sci. Technol.|Composites Science and Technology
+CT|Catal. Today|Catalysis Today
+CT|Ceram. Trans.|Ceramic Transactions
+CT|Chem. Tech.|ChemTech
+CTFO|Chem. Technol. Fuels Oils|Chemistry and Technology of Fuels and Oils
+CTL|Chem. Tech. (Leipzig)|Chemische Technik
+CTMC|Curr. Top. Med. Chem.|Current Topics in Medicinal Chemistry
+CTM|Curr. Top. Membr.|Current Topics in Membranes
+CTPS|Comput. Theor. Polym. Sci.|Computational and Theoretical Polymer Science
+CVD|Chem. Vap. Deposition|Chemical Vapor Deposition
+CW|Chem. Week|Chemical Week
+CZ|Chem. unserer Zeit|Chemie in unserer Zeit
+DAN|Dokl. Akad. Nauk|Doklady Akademii Nauk
+DCT|Drug Chem. Toxicol.|Drug and Chemical Toxicology
+DDIP|Drug Dev. Ind. Pharm.|Drug Development and Industrial Pharmacy
+DDR|Drug Dev. Res.|Drug Development Research
+DDT|Drug Discovery Today|Drug Discovery Today
+DFT|Diamond Films Technol.|Diamond Films and Technology
+DM|Dent. Mater.|Dental Materials
+DRM|Diamond Relat. Mater.|Diamond and Related Materials
+DT|Drying Technol.|Drying Technology
+EA|Electrochim. Acta|Electrochimica Acta
+EC|Educ. Chem.|Education in Chemistry
+EC|Electrochem. Commun.|Electrochemistry Communications
+ECER|Environ. Carcinog. Ecotoxicol. Rev.|Environment Carcinogenesis and Ecotoxicology Reviews
+ECM|Energy Convers. Manage.|Energy Conversion and Management
+EE|Ecol. Eng.|Ecological Engineering
+EES|Ecotoxicol. Environ. Saf.|Ecotoxicology and Environment Safety
+EF|Energy Fuels|Energy and Fuels
+EF|Exp. Fluids|Experiments in Fluids
+EG|Econ. Geol.|Economic Geology and the Bulletin of the Society of Economic Geologists
+EG|Environ. Geol.|Environmental Geology
+EGH|Environ. Geochem. Health|Environmental Geochemistry and Health
+EHP|Environ. Health Perspect.|Environmental Health Perspectives
+EJB|Eur. J. Biochem.|European Journal of Biochemistry
+EJCCCB|Eur. J. Clin. Chem. Clin. Biochem.|European Journal of Clinical Chemistry and Clinical Biochemistry
+EJIC|Eur. J. Inorg. Chem.|European Journal of Inorganic Chemistry
+EJLST|Eur. J. Lipid Sci. Technol.|European Journal of Lipid Science and Technology
+EJMC|Eur. J. Med. Chem.|European Journal of Medical Chemistry
+EJM|Eur. J. Mineral.|European Journal of Mineralogy
+EJMS|Eur. J. Mass Spectrom.|European Journal of Mass Spectrometry
+EJOC|Eur. J. Org. Chem.|European Journal of Organic Chemistry
+EJP|Eur. J. Pharmacol.|European Journal of Pharmacology
+EJSSIC|Eur. J. Solid State Inorg. Chem.|European Journal of Solid State and Inorganic Chemistry
+EKEP|Erdol and Kohle Erdgas, Petrochem.|Erdol and Kohle Erdgas, Petrochemie
+EL|Electron. Lett|Electronics Letters
+EL|Europhys. Lett.|Europhysics Letters
+EMA|Environ. Monit. Assess.|Environmental Monitoring and Assessment
+EMBOJ|EMBO J.|EMBO Journal
+EM|Electro- Magnetobiol.|Electro- and Magnetobiology
+EM|Environ. Microbiol.|Environmental Microbiology
+EMG|Explor. Min. Geol.|Exploration and Mining Geology
+EMJ|Eng. Min. J.|Engineering and Mining Journal
+EMS|Eur. Mass Spectrom.|European Mass Spectrometry
+EMT|Enzyme Microb. Technol.|Enzyme and Microbial Technology
+EP|Environ. Pollut.|Environmental Pollution
+EP|Environ. Prog.|Environmental Progress
+EP|Enzyme Protein|Enzyme and Protein
+EPJ|Eur. Polym. J.|European Polymer Journal
+EPSL|Earth. Planet. Sci. Lett.|Earth and Planetary Science Letters
+ER|Environ. Res.|Environmental Research
+ESI|Electrochem. Soc. Interface|Electrochemical Society Interface
+ESSL|Electrochem. Solid-State Lett.|Electrochemical and Solid-State Letters
+ESTAP|Environ. Sci. Technol. A-Pages|Environmental Science and Technology A-Pages
+EST|Environ. Sci. Technol.|Environmental Science and Technology
+ETC|Environ. Toxicol. Chem.|Environmental Toxicology and Chemistry
+ET|Electron Technol.|Electronic Technology
+ET|Environ. Technol.|Environmental Technology
+ETFS|Exp. Therm Fluid Sci.|Experimental Thermal and Fluid Science
+ETP|Environ. Toxicol. Pharmacol.|Environmental Toxicology and Pharmacology
+ETWQ|Environ. Toxicol. Water Qual.|Environmental Toxicology and Water Quality
+FAC|Food Addit. Contam.|Food Additives and Contaminants
+FACT|Field Anal. Chem. Technol.|Field Analytical Chemistry and Technology.
+FASEBJ|FASEB J.|FASEB Journal
+FAT|Fundam. Appl. Toxicol.|Fundamental and Applied Toxicology
+FB|Food Biotechnol.|Food Biotechnology
+FC|Food Chem.|Food Chemistry
+FCT|Food Chem. Toxicol.|Food and Chemical Toxicology
+FD|Faraday Discuss.|Faraday Discussions
+FD|Fold Des.|Folding and Design
+FEB|Fresenius Environ. Bull.|Fresenius Environment bulletin
+FEBSL|FEBS Lett.|FEBS Letters
+FED|Fusion Eng. Des.|Fusion Engineering and Design
+FEMSIMM|FEMS Immunol. Med. Microbiol.|FEMS Immunology And Medical Microbiology
+FEMSME|FEMS Microbiol. Ecol.|FEMS Microbiology Ecology
+FEMSML|FEMS Microbiol. Lett.|FEMS Microbiology Letters
+FEMSMR|FEMS Microbiol. Rev.|FEMS Microbiology Review
+FFEMS|Fatigue Fract. Eng. Mater. Struct.|Fatigue and Fracture of Engineering Materials and Structures
+FIG|Funct. Integr. Genomics|Functional and Integrative Genomics
+FIO|Fiber Integr. Opt.|Fiber and Integrated Optics
+FJAC|Fresenius J. Anal. Chem.|Fresenius Journal of Analytical Chemistry
+FL|Ferroelectr. Lett.|Ferroelectrics Letters
+FL|Fett - Lipid|Fett - Lipid
+FMM|Fiz. Met. Metalloved.|Fizika Metallov i Metallovedenie
+FPE|Fluid Phase Equilib.|Fluid Phase Equilibria
+FPSJ|Fluid/Part. Sep. J.|Fluid/Particle Separation Journal
+FPT|Fuel Process. Technol.|Fuel Processing Technology
+FRBM|Free Radical Biol. Med.|Free Radical Biology and Medicine
+FR|Ferroelectr. Rev.|Ferroelectrics Review
+FRR|Free Radical Res.|Free Radical Research
+FS|Filtr. Sep.|Filtration and Separation
+FSS|Front Sci. Ser.|Frontier Science Series
+FST|Fullerene Sci. Technol.|Fullerene Science and Technology
+FSTI|Food Sci. Technol. Int.|Food Science and Technology International
+FSTI|Fuel Sci. Technol. Int.|Fuel Science and Technology International
+FT|Fusion Technol.|Fusion Technology
+GABE|Genet. Anal. - Biomol. Eng.|Genetic Analysis - Biomolecular Engineering
+GBC|Global Biogeochem. Cycles|Global Biogeochemical Cycles
+GCA|Geochim. Cosmochim. Acta|Geochimica et Cosmochimica Acta
+GC|Glass Ceram.|Glass and Ceramics
+GC|Green Chem.|Greem Chemistry
+GCI|Gazz. Chim. Ital.|Gazzetta Chimica Italiana
+GEEA|Geochem.: Explor. Environ., Anal.|Geochemistry: Exploration, Environment, Analysis
+G|Galvanotechnik|Galvanotechnik
+GG|Geol Geofiz|Geologiya i Geofizika
+GGG|Geochem. Geophys. Geosyst.|Geochemistry, Geophysics, Geosystems
+GJ|Geochem. J.|Geochemical Journal
+GJ|Geomicrobiol. J.|Geomicrobiology Journal
+GJ|Glycoconjugate J.|Glycoconjugate Journal
+GJPAS|Global J. Pure Appl. Sci.|Global Journal of Pure and Applied Sciences
+GPC|Glass Phys. Chem|Glass Physics and Chemistry
+GR|Glass Res.|Glass Research
+GRL|Gefahrstoffe - Reinhalt. Luft|Gefahrstoffe Reinhaltung der Luft
+GSP|Gas Sep. Purif.|Gas Separation and Purification
+GST|Glass Sci. Technol.|Glass Science and Technology
+GT|Geochem. Trans.|Geochemical Transactions
+GT|Glass Technol.|Glass Technology
+GWMR|Ground Water Monit. Rem.|Ground Water Monitoring and Remediation
+HC|Heteroat. Chem|Heteroatom Chemistry
+HC|Heterocycl. Commun.|Heterocyclic Communications
+HCR|Heterogen. Chem. Rev.|Heterogeneous Chemistry Reviews
+HEC|High Energ. Chem.|High Energy Chemistry
+HEP|Handb. Exp. Pharmacol.|Handbook of Experimental Pharmacology
+HICA|HeIv. Chim. Acta|HeIvetica Chimica Acta
+HI|Hyperfine Interact.|Hyperfine Interactions
+HJIC|Hung. J. Ind. Chem.|Hungarian Journal of Industrial Chemistry
+HMT|Heat Mass Transfer.|Heat and Mass Transfer
+HP|Health Phys.|Health Physics
+HPIE|Hydrocarbon Process., Int. Ed.|Hydrocarbon Processing, International Edition
+HPP|High Perform. Polym.|High Performance Polymers
+HRCJHRC|HRC J. High Resolut. Chromatogr.|HRC Journal of High Resolution Chromatography
+HRW|Holz Roh Werkst.|Holz als Roh und Werkstoff
+HSZPC|Hoppe-Seyler's Z. Physiol. Chem.|Hoppe-Seyler's Zeitschrift fur Physiologische Chemie
+HTM|Heat Treat. Met.|Heat Treatment of Metals
+HTMPL|High Temp. Mater. Processes (London)|High Temperature Materials and Processes
+HTMPNY|High Temp. Mater. Processes (New York)|High Temperature Material Processes
+HWHM|Hazard. Waste Hazard. Mater.|Hazardous Waste and Hazardous Materials
+IBB|Int. Biodeterior. Biodegrad.|International Biodeterioration and Biodegradation
+IBMB|Insect Biochem. Mol. Biol.|Insect Biochemisry and Molecular Biology
+ICA|Inorg. Chim. Acta|Inorganica Chimica Acta
+ICC|Inorg. Chem. Commun.|Inorganic Chemistry Communications
+IC|Inorg. Chem.|Inorganic Chemistry
+ICP|Inz. Chem. Procesowa|Inzynieria Chemiczna i Procesowa
+IDATASSDMSA|Int. DATA Ser., Sel. Data Mixtures, Ser. A|International DATA Series, Selected Data on Mixtures, Series A
+IDR|Ind. Diamond Rev.|Industrial Diamond Review
+IECF|Ind. Eng. Chem. Fundam.|Industrial and Engineering Chemistry Research Fundamentals
+IEC|Ind. Eng. Chem.|Industrial and Engineering Chemistry
+IECR|Ind. Eng. Chem. Res.|Industrial and Engineering Chemistry Research
+IEEESJ|IEEE Sens. J.|IEEE Sensors Journal
+IJAA|Int. J. Adhes. Adhes.|International Journal of Adhesion and Adhesives
+IJBB|Indian J. Biochem. Biophys.|Indian Journal of Biochemistry and Biophysics
+IJBCB|Int. J. Biochem. Cell Biol.|International Journal of Biochemistry and Cell Biology
+IJBC|Int. J. Bio-Chromatogr.|International Journal of Biochromatography
+IJB|Int. J. Biochem.|International Journal of Biochemistry
+IJBM|Int. J. Biol. Macromol.|International Journal of Biological Macromolecules
+IJC|Internet J. Chem.|Internet Journal of Chemistry
+IJC|Isr. J. Chem.|Israel Journal of Chemistry
+IJCK|Int. J. Chem. Kinet.|International Journal of Chemical Kinetics
+IJCMR|Int. J. Cast Met. Res.|International Journal of Cast Metals Research
+IJCSA|Indian J. Chem., Sect A|Indian Journal of Chemistry Section A: Inorganic, Bio-inorganic, Physical, Theoretical and Analytical Chemistry
+IJCSB|Indian J. Chem., Sect B|Indian Journal of Chemistry Section B: Organic Chemistry including Medicinal Chemistry
+IJCT|Indian J. Chem. Technol.|Indian Journal of Chemical Technology
+IJEAC|Int. J. Environ. Anal. Chem.|International Journal of Environment Analytical Chemistry
+IJEMS|Indian J. Eng. Mater. Sci.|Indian Journal of Engineering and Materials Science
+IJF|Int. J. Fatigue|International Journal of Fatigue
+IJHC|Indian J. Heterocycl. Chem.|Indian Journal of Heterocyclic Chemistry
+IJHE|Int. J. Hydrogen Energy|International Journal of Hydrogen Energy
+IJHFF|Int. J. Heat Fluid Flow|International Journal of heat and fluid flow
+IJHMT|Int. J. Heat Mass Transfer|International Journal of Heat and Mass Transfer
+IJI|Int. J. Immunopharmacol|International Journal of Immunopharmacology
+IJIM|Int. J. Inorg. Mater.|International Journal of Inorganic Materials
+IJMF|Int. J. Multiphase Flow|International Journal of Multiphase Flow
+IJM|Int. J. Mass Spectrom.|International Journal of Mass Spectrometry
+IJMPB|Int. J. Mod Phys B|International Journal of Modern Physics B
+IJMP|Int. J. Miner. Process.|International Journal of Mineral Processing
+IJMSIP|Int. J. Mass Spectrom. Ion Processes|International Journal of Mass Spectrometry and Ion Processes
+IJNMF|Int. J. Numer. Methods Fluids|International Journal for Numerical Methods in Fluids
+IJO|Int. J. Oncol.|International Journal of Oncology
+IJPAC|Int. J. Polym. Anal. Charact.|International Journal of Polymer Analysis and Characterization
+IJPAP|Indian J. Pure Appl. Phys.|Indian Journal of Pure and Applied Physics
+IJP|Int. J. Pharm.|International Journal of Pharmaceutics
+IJP|Int. J. Phytorem.|International Journal of Phytoremediation
+IJP|Int. J. Plast.|International Journal of Plasticity
+IJPM|Int. J. Polymer. Mater.|International Journal of Polymeric Materials
+IJPM|Int. J. Powder Metall.|International Journal of Powder Metallurgy
+IJPPR|Int. J. Pept. Protein Res.|International Journal of Peptide and Protein Research
+IJQC|Int. J. Quantum Chem.|International Journal of Quantum Chemistry
+IJRB|Int. J. Radiat Biol.|International Journal of Radiation Biology
+IJRMHM|Int. J. Refract. Met. Hard Mater.|International Journal of Refractory Metals and Hard Materials
+IJSPHTS|Int. J. Self-Propag. High-Temp Synth.|International Journal of Self-Propagating High-Temperature Synthesis
+IJT|Indian J. Technol.|Indian Journal of Technology
+IJT|Int. J. Thermophys.|International Journal of Thermophysics
+IJVS|Internet J. Vib. Spectro.|Internet Journal of Vibrational Spectroscopy
+IM|Inorg. Mater.|Inorganic Materials
+IMR|Int. Mater. Rev.|International Materials Reviews
+IPP|Int. Polym. Proc.|International Polymer Processing
+IPT|Infrared Phys. Technol.|Infrared Physics and Technology
+IQ|Ing. Quim.|Ingeniera Quimica (Madrid)
+IRM|Inorg. React. Mech.|Inorganic Reaction Mechanisms
+IRPC|Int. Rev. Phys. Chem.|International Reviews in Physical Chemistry
+ISIJI|ISIJ Int.|ISIJ International
+IS|Inorg. Synth.|Inorganic Syntheses
+IS|Interface Sci.|Interface Science
+IS|Ironmaking Steelmaking|Ironmaking and Steelmaking
+IST|Instrum Sci. Technol.|Instrumentation Science and Technology
+JAAP|J. Anal. Appl. Pyrolysis|Journal of Analytical and Applied Pyrolysis
+JAAS|J. Anal. At. Spectrom.|Journal of Analytical Atomic Spectrometry
+JAB|J. Appl. Bacteriol.|Journal of Applied Bacteriology
+JAB|J. Appl. Biomater.|Journal of Applied Biomaterials
+JAC|J. Alloys Compd.|Journal of Alloys and Compounds
+JAC|J. Anal. Chem.|Journal of Analytical Chemistry
+JAC|J. Antimicrob. Chemother.|Journal of Antimicrobial Chemotherapy
+JAC|J. Appl. Crystallogr.|Journal of Applied Crystallography
+JAC|J. Autom. Chem.|Journal of Automatic Chemistry
+JACS0|J. Am. Ceram. Soc.|Journal of the American Ceramic Society
+JACS|J. Am. Chem. Soc.|Journal of the American Chemical Society
+JACS1|J. Amer. Chem. Soc.|Journal of the American Chemical Society
+JAE|J. Appl. Electrochem.|Journal of Applied Electrochemistry
+JAFC|J. Agric. Food. Chem.|Journal of Agricultural and Food Chemistry
+JA|J. Adhes.|Journal of Adhesion
+JA|J. Antibiot.|Journal of Antibiotics
+JAM|J. Adv. Mater.|Journal of Advanced Materials
+JAMMC|J. Autom. Methods Manage. Chem.|Journal of Automated Methods and Management in Chemistry
+JANPR|J. Asian Nat. Prod. Res.|Journal of Asian Natural Products Research
+JAOACI|J. AOAC Int.|Journal of AOAC International
+JAOCS|J. Am. Oil Chem. Soc.|Journal of the American Oil Chemists Society
+JAP|J. Appl. Phycol.|Journal of Applied Phycology
+JAP|J. Appl. Phys.|Journal of Applied Physics
+JAPS|J. Appl. Polym. Sci.|Journal of Applied Polymer Science
+JASBC|J. Am. Soc. Brew. Chem.|Journal of the American Society of Brewing Chemists
+JAS|J. Aerosol Sci|Journal of Aerosol Science
+JAS|J. Appl. Spectrosc.|Journal of Applied Spectroscopy
+JASMS|J. Am. Soc. Mass. Spectrom.|Journal of the American Society for Mass Spectrometry
+JAST|J. Adhes. Sci. Technol.|Journal of Adhesion Science and Technology
+JAT|J. Anal. Toxicol.|Journal of Analytical Toxicology
+JAT|J. Appl. Toxicol.|Journal of Applied Toxicology
+JAWMA|J. Air Waste Manage. Assoc.|Journal of the Air and Waste Management Association
+JBA|J. Biomater. Appl.|Journal of Biomaterials Applications
+JBBM|J. Biochem. Bioph. Methods|Journal of Biochemical and Biophysical Methods
+JBC|J. Biol. Chem.|Journal of Biological Chemistry
+JBC|J. Biolumin. Chemilumin.|Journal of Bioluminescence and Chemiluminescence
+JBCP|J. Bioact. Compat. Polym.|Journal of Bioactive and Bompatible Polymers
+JBIC|J. Biol. Inorg. Chem.|Journal of Biological Inorganic Chemistry
+JB|J. Bacteriol.|Journal of Bacteriology
+JB|J. Biochem.|Journal of Biochemistry
+JB|J. Biotechnol.|Journal of Biotechnology
+JBMR|J. Biomed. Mater. Res.|Journal of Biomedial Materials Research
+JBNMR|J. Biomol. NMR|Journal of Biomolecular NMR
+JBSD|J. Biomol. Struct. Dyn.|Journal of Biomolecular Structure and Dynamics
+JBSPE|J. Biomater. Sci., Polym. Ed.|Journal of Biomaterials Science Polymer Edition
+JCA|J. Chromatogr. A|Journal of Chromatography A
+JCAMD|J. Comput. Aided Mater. Des.|Journal of Computer-Aided Materials Design
+JCAMD|J. Comput. Aided Mol. Des.|Journal of Computer-Aided Molecular Design
+JCB|J. Cell. Biochem.|Journal of Cellular Biochemistry
+JCB|J. Cell Biol.|Journal of Cell Biology
+JCB|J. Chromatogr. B|Journal of Chromatography B
+JCC|J. Carbohydr. Chem.|Journal of Carbohydrate Chemistry
+JCC|J. Chem. Crystallogr.|Journal of Chemical Crystallography
+JCC|J. Comb. Chem.|Journal of Combinatorial Chemistry
+JCC|J. Comput. Chem.|Journal of Computational Chemistry
+JCC|J. Coord. Chem.|Journal of Coordination Chemistry
+JCCS|J. Chin. Chem. Soc.|Journal of the Chinese Chemical Society
+JCED|J. Chem. Eng. Data|Journal of Chemical and Engineering Data
+JCE|J. Chem. Ecol.|Journal of Chemical Ecology
+JCE|J. Chem. Educ.|Journal of Chemical Education
+JCEJ|J. Chem. Eng. Jpn.|Journal of Chemical Engineering of Japan
+JCEM|J. Clin. Endocrinol. Metab.|Journal of Clinical Endocrinology and Metabolism
+JCG|J. Cryst. Growth|Journal of Crystal Growth
+JCH|J. Contam. Hydrol.|Journal of Contaminant Hydrology
+JCICE|J. Chin. Inst. Chem. Eng,|Journal of the Chinese Institute of Chemical Engineers
+JCICS|J. Chem. Inf. Comput. Sci.|Journal of Chemical Information and Computer Sciences
+JCIM|J. Chem. Inf. Model.|Journal of Chemical Information and Modeling
+JCIS|J. Colloid Interface Sci.|Journal of Colloid and Interface Science
+JC|J. Catal.|Journal of Catalysis
+JC|J. Chemom.|Journal of Chemometrics
+JC|J. Chromatogr.|Journal of Chromatography
+JCM|J. Clin. Microbiol.|Journal of Clinical Microbiology
+JCM|J. Compos. Mater.|Journal of Composite Materials
+JCN|J. Chem. Neuroanat.|Journal of Chemical Neuroanatomy
+JCP|J. Cardiovasc. Pharmacol.|Journal of Cardiovascular Pharmacology
+JCP|J. Cell. Physiol.|Journal of Cellular Physiology
+JCP|J. Chem. Phys.|The Journal of Chemical Physics
+JCP|J. Chem. Phys.|Journal of Chemical Physics
+JCP|J. Comput. Phys.|Journal of Computational Physics
+JCPPCB|J. Chim. Phys. Phys.- Chim. Biol.|Journal de Chimie Physique et de Physico-Chimie Biologique
+JCPT|J. Can. Pet. Technol.|Journal of Canadian Petroleum Technology
+JCR|J. Controlled Release|Journal of Controlled Release
+JCRS|J. Chem. Res., Synop .|Journal of Chemical Research Synopsis
+JCSCC|J. Chem. Soc., Chem. Commun.|Journal of the Chemical Society, Chemical Communications
+JCSDT|J. Chem. Soc., Dalton Trans.|Journal of the Chemical Society, Dalton Transactions
+JCSFT|J. Chem. Soc., Faraday Trans.|Journal of the Chemical Society, Faraday Transactions
+JCS|J. Cell Sci.|Journal of Cell Science
+JCS|J. Chem. Soc.|Journal of the Chemical Society
+JCS|J. Chromatogr. Sci.|Journal of Chromatographic Science
+JCS|J. Cluster Sci.|Journal of Cluster Science
+JCSJ|J. Ceram. Soc. Jpn.|Journal of the Ceramic Society of Japan
+JCSP|J. Chem. Soc. Pak.|Journal of the Chemical Society of Pakistan
+JCSPT|J. Chem. Soc., Perkin Trans. 1|Journal of the Chemical Society, Perkin Transactions 1
+JCSPT|J. Chem. Soc., Perkin Trans. 2|Journal of the Chemical Society, Perkin Transactions 2
+JCTB|J. Chem. Technol. Biotechnol.|Journal of Chemical Technology and Biotechnology
+JCTC|J. Chem. Theory Comput.|Journal of Chemical Theory and Computation
+JCT|J. Chem. Thermodyn.|Journal of Chemical Thermodynamics
+JCT|J. Coat. Technol.|Journal of Coatings Technology
+JCTR|J. Compos. Tech. Res.|Journal of Composites Technology and Research
+JDS|J. Dairy Sci.|Journal of Dairy Science
+JDST|J. Dispersion Sci. Technol.|Journal of Dispersion Science and Technology
+JEAEE|J. Exposure Anal. Environ. Epidemiol.|Journal of Exposure Analysis and Environment Epidemiology
+JEB|J. Environ. Biol.|Journal of Environment biology
+JEB|J. Exp. Biol.|Journal of Experimental Biology
+JEB|J. Exp. Bot.|Journal of Experimental Botany
+JEC|J. Electroanal. Chem.|Journal of Electroanalytical Chemistry
+JECS|J. Eur. Ceram. Soc.|Journal of the European Ceramic Society
+JEE|J. Environ. Eng.|Journal of Environment Engineering
+JEH|J. Environ. Health|Journal of Environment Health
+JEI|J. Enzym Inhib.|Journal of Enzyme Inhibition
+JE|J. Electroceram.|Journal of Electroceramics
+JE|J. Endocrinol.|Journal of Endocrinology
+JE|J. Ethnopharmacol.|Journal of Ethnopharmacology
+JEM|J. Electron. Mater.|Journal of Electronic Materials
+JEM|J. Electron Microsc.|Journal of Electron Microscopy
+JEM|J. Environ. Manage.|Journal of Environment Management
+JEM|J. Environ. Monit.|Journal of Environmental Monitoring
+JEMT|J. Eng. Mater. Technol.|Journal of Engineering Materials and Technology
+JEOR|J. Essent. Oil Res.|Journal of Essential Oil Research
+JEP|J. Elastomers Plast.|Journal of Elastomers and Plastics
+JEQ|J. Environ. Qual.|Journal of Environment Quality
+JER|J. Endotoxin Res.|Journal of Endotoxin Research
+JER|J. Environ. Radioact.|Journal of Environment Radioactivity
+JESHPA|J. Environ. Sci. Health., Part A|Journal of Environment Science and Health, Part A Environmental Science
+JESHPB|J. Environ. Sci. Health., Part B|Journal of Environment Science and Health, Part B Pesticides
+JES|J. Electrochem. Soc.|Journal of the Electrochemical Society
+JESRP|J. Electron. Spectrosc. Relat. Phenom.|Journal of Electron Spectroscopy and Related Phenomena
+JFB|J. Ferment. Bioeng.|Journal of Fermentation and Bioengineering
+JFB|J. Food Biochem.|Journal of Food Biochemistry
+JFC|J. Fluorine Chem.|Journal of Fluorine Chemistry
+JFE|J. Fluids Eng.|Journal of Fluids Engineering
+JFE|J. Food Eng.|Journal of Food Engineering
+JFL|J. Food Lipids|Journal of Food Lipids
+JFM|J. Fluid Mech.|Journal of Fluid Mechanics
+JFP|J. Food Prot.|Journal of Food Protection
+JFS|J. Fire Sci.|Journal of Fire Sciences
+JFS|J. Food Sci.|Journal of Food Science
+JGAM|J. Gen. Appl. Microbiol.|Journal of General and Applied Microbiology
+JGM|J. Gen. Microbiol.|Journal of General Microbiology
+JHC|J. Heterocycl. Chem.|Journal of Heterocyclic Chemistry
+JHC|J. Histochem. Cytochem.|Journal of Histochemistry and Cytochemistry
+JH|J. Hypertens.|Journal of Hypertension
+JHM|J. Hazard. Mater.|Journal of Hazardous materials
+JHRC|J. High. Resolut. Chromatogr.|Journal of High Resolution Chromatography
+JHT|J. Heat Transfer|Journal of Heat Transfer
+JIB|J. Inorg. Biochem.|Journal of Inorganic Biochemistry
+JIC|J. Inst. Chem.|Journal of Institute of Chemists (India)
+JICR|J. Interferon Cytokine Res.|Journal of Interferon and Cytokine Research
+JICS|J. Indian Chem. Soc.|Journal of the Indian Chemical Society
+JIES|J. Inst. Environ. Sci.|Journal of the Institute of Environment Sciences
+JIMB|J. Ind. Microbiol. Biotechnol.|Journal of Industrial Microbiology and Biotechnology
+JIM|J. Ind. Microbiol.|Journal of Industrial Microbiology
+JIMSS|J. Intell. Mater. Syst. Struct.|Journal of Intelligent Material Systems and Structures
+JINC|J. Inorg. Nucl. Chem.|Journal of Inorganic and Nuclear Chemistry
+JIOP|J. Inorg. Organomet. Polym.|Journal of Inorganic and Organometallic Polymers
+JIPMRC|J. Inclusion Phenom. Mol. Recognit. Chem.|Journal of Inclusion Phenomena and Molecular Recognition in Chemistry
+JIR|J. Interferon Res.|Journal of Interferon Research
+JIST|J. Imaging Sci. Technol.|Journal of Imaging Science and Technology
+JIWEM|J. Inst. Water Environ. Manage.|Journal of the Institution of Water and Environment Management
+JJAPP|Jpn. J. Appl. Phys., Part 1|Japanese Journal of Applied Physics Part 1
+JJAPP|Jpn. J. Appl. Phys., Part 2|Japanese Journal of Applied Physics Part 2
+JJCR|Jpn. J. Cancer Res.|Japanese Journal of Cancer Research
+JJIM|J. Jpn. Inst. Met.|Journal of the Japan Institute of Metals
+JJP|Jpn. J. Pharmacol.|Japanese Journal of Pharmacology
+JJTEH|Jpn. J. Toxicol. Environ. Health|Japanese Journal of toxicology and Environment health
+JKCS|J. Korean Chem. Soc.|Journal of the Korean Chemical Society
+JLC|J. Liq. Chromatogr.|Journal of Liquid Chromatography
+JLCR|J. Labelled Compd. Radiopharm.|Journal of Labelled Compounds and Radiopharmaceuticals
+JLCRT|J. Liq. Chromatogr. Related Technol.|Journal of Liquid Chromatography and Related Technologies
+JL|J. Lumin.|Journal of Luminescence
+JLMCS|J. Lipid Mediators Cell Signalling|Journal of Lipid Mediators and Cell Signalling
+JLM|J. Lipid Mediators|Journal of Lipid Mediators
+JLR|J. Lipid Res.|Journal of Lipid Research
+JLTP|J. Low Temp. Phys.|Journal of Low Temperature Physics
+JMB|J. Membr. Biol.|Journal of Membrane Biology
+JMB|J. Microbiol. Biotechnol.|Journal of Microbiology and Biotechnology
+JMB|J. Mol. Biol.|Journal of Molecular Biology
+JMCAC|J. Mol. Catal. A: Chem.|Journal of Molecular Catalysis A: Chemical
+JMCBE|J. Mol. Catal. B: Enzym.|Journal of Molecular Catalysis B: Enzymatic
+JMCE|J. Mater. Civ. Eng.|Journal of Materials in Civil Engineering
+JMC|J. Mater. Chem.|Journal of Materials Chemistry
+JMC|J. Math. Chem.|Journal of Mathematical Chemistry
+JMC|J. Med. Chem.|Journal of Medicinal Chemistry
+JMC|J. Mol. Catal.|Journal of Molecular Catalysis
+JMCWM|J. Mater. Cycles Waste Manage.|Journal of Material Cycles and Waste Management
+JMEP|J. Mater. Eng. Perform.|Journal of Materials Engineering and Performance
+JMAP|J. Math. Anal. Appl.|Journal of Mathematical Analysis and Applications
+JMGM|J. Mol. Graphics Modell.|Journal of Molecular Graphics and Modelling
+JM|J. Microencapsulation|Journal of Microencapsulation
+JML|J. Mol. Liq.|Journal of Molecular Liquids
+JMMB|J. Mol. Microbiol. Biotechnol.|Journal of Molecular Microbiology and Biotechnology
+JMM|J. Microbiol. Methods|Journal of Microbiological Methods
+JMM|J. Mol. Model.|Journal of Molecular Modeling
+JMMM|J. Magn. Magn. Mater.|Journal of Magnetism and Magnetic Materials
+JMP|J. Math. Phys.|Journal of Mathematical Physics
+JMPMS|J. Mater. Process. Manuf. Sci.|Journal of Materials Processing and Manufacturing Science
+JMPT|J. Mater. Process. Technol.|Journal of Materials Processing Technology
+JMR|J. Mater. Res.|Journal of Materials Research
+JMRSA|J. Magn. Reson., Ser A|Journal of Magnetic Resonance Series A
+JMRSB|J. Magn. Reson., Ser B|Journal of Magnetic Resonance Series B
+JMS|J. Mass Spectrom.|Journal of Mass Spectrometry
+JMS|J. Membr. Sci.|Journal of Membrance Science
+JMS|J. Microcolumn Sep.|Journal of Microcolumn Separations
+JMS|J. Microelectromech. Syst.|Journal of Microelectronic Systems
+JMS|J. Mol. Spectrosc.|Journal of Molecular Spectroscopy
+JMS|J. Mol. Struct.|Journal of Molecular Structure
+JMSL|J. Mater. Sci. Lett.|Journal of Materials Science Letters
+JMSME|J. Mater. Sci. - Mater. Electron.|Journal of Materials Science - Materials in Electronics
+JMSMM|J. Mater. Sci. - Mater. Med.|Journal of Materials Science Materials in Medicine
+JMSPAC|J. Macromol. Sci., Pure Appl. Chem.|Journal of Macromolecular Science Pure and Applied Chemistry
+JMSP|J. Macromol. Sci., Phys.|Journal of Macromolecular Science - Physics
+JMSP|J. Mater. Synth. Process.|Journal of Materials Synthesis and Processing
+JMSPR|J. Macromol. Sci., Polym. Rev.|Journal of Macromolecular Science Polymer Reviews
+JMSRMCP|J. Macromol. Sci., Rev. Macromol. Chem. Phys.|Journal of Macromolecular Science - Reviews in Macromolecular Chemistry and Physics
+JMST|J. Mater. Sci. Technol.|Journal of Materials Science and Technology
+JMST|J. Mol. Struct. (Theochem)|Journal of Molecular Structure: THEOCHEM
+JNCS|J. Non-Cryst. Solids|Journal of Non-Crystalline Solids
+JNET|J. Non-Equilib. Thermodyn.|Journal of Non-Equilibrium Thermodynamics
+JNIS|J. Near Infrared Spectrosc.|Journal of Near Infrared Spectroscopy
+JN|J. Neurochem.|Journal of Neurochemistry
+JN|J. Neurosci.|Journal of Neuroscience
+JNMES|J. New Mater. Electrochem. Syst.|Journal of New Materials for Electrochemical Systems
+JNM|J. Nucl. Mater.|Journal of Nuclear Materials
+JNP|J. Nat. Prod.|Journal of Natural Products
+JNR|J. Nanopart. Res.|Journal of Nanoparticle Research
+JNR|J. Neurosci. Res.|Journal of Neuroscience Research
+JNST|J. Nucl. Sci. Technol.|Journal of Nuclear Science and Technology
+JOC|J. Organomet. Chem.|Journal of Organometallic Chemistry
+JOC|J. Org. Chem.|Journal of Organic Chemistry
+JOSABOP|J. Opt. Soc. Am. B: Opt. Phys.|Journal of the Optical Society of America B: Optical Physics
+JPAMG|J. Phys. A: Math. Gen.|Journal of Physics A: Mathematical and General
+JPBA|J. Pharm. Biomed. Anal.|Journal of Pharmaceutical and Biomedical Analysis
+JPBAMOP|J. Phys. B: At. Mol. Opt. Phys.|Journal of Physics B: Atomic, Molecular and Optical Physics
+JPBB|J. Plant Biochem. Biotechnol.|Journal of Plant Biochemistry and Biotechnology
+JPCA|J. Phys. Chem. A|The Journal of Physical Chemistry A
+JPCB|J. Phys. Chem. B|The Journal of Physical Chemistry B
+JPCC|J. Phys. Chem. C|The Journal of Physical Chemistry C
+JPCCZ|J. Prakt. Chem. /Chem-Ztg|Journal fur Praktische Chemie - Chemiker Zeitung
+JPCJPCMTLC|JPC J. Planar Chromatogr. - Mod. TLC|JPC Journal of Planar Chromatography Modern TLC
+JPC|J. Phys. Chem.|Journal of Physical Chemistry
+JPC|J. Protein Chem.|Journal of Protein Chemistry
+JPCM|J. Phys.: Condens. Matter|Journal of Physics: Condensed Matter
+JPCMTLC|J. Planar. Chromatogr. - Mod. TLC|Journal of Planar Chromatography - Modern TLC
+JPCRD|J. Phys. Chem. Ref. Data|Journal of Physical and Chemical Reference Data
+JPCS|J. Phys. Chem. Solids|Journal of Physics and Chemistry of Solids
+JPDAP|J. Phys. D: Appl. Phys.|Journal of Physics D: Applied Physics
+JPE|J. Phase Equilib.|Journal of Phase Equilibrium
+JPE|J. Polym. Eng.|Journal of Polymer Engineering
+JPE|J. Polym. Environ.|Journal of Polymers and the Environment
+JPET|J. Pharmacol. Exp. Ther.|Journal of Pharmacology and Experimental Therapeutics
+JPGNPP|J. Phys. G: Nucl. Part. Phys.|Journal of Physics G: Nuclear and Particle Physics
+JPIII|J. Phys. III|Journal de Physique III
+JPII|J. Phys. II|Journal de Physique II
+JPI|J. Phys. I|Journal de Physique I
+JPIV|J. Phys. IV|Journal de Physique IV
+JPM|J. Polym. Mater.|Journal of Polymer Materials
+JPM|J. Porous Mater.|Journal of Porous Materials
+JPOC|J. Phys. Org. Chem.|Journal of Physical Organic Chemistry
+JPPA|J. Photochem. Photobiol., A|Journal of Photochemistry and Photobiology A
+JPPB|J. Photochem. Photobiol., B|Journal of Photochemistry and Photobiology B
+JPP|J. Pharm. Pharmacol.|Journal of Pharmacy and Pharmacology
+JPP|J. Porphyrins Phthalocyanines|Journal of Porphyrins and Phthalocyanines
+JPP|J. Propul. Power|Journal of Propulsion and Power
+JPPS|J. Pulp Pap. Sci.|Journal of Pulp and Paper Science
+JPR|J. Proteome Res.|Journal of Proteome Research
+JPSJ|J. Phys. Soc. Jpn.|Journal of the Physical Society of Japan
+JPS|J. Pharm. Sci.|Journal of Pharmaceutical Sciences
+JPS|J. Power Sources|Journal of Power Sources
+JPSPAPC|J. Polym. Sci., Part A: Polym. Chem.|Journal of Polymer Science Part A: Polymer Chemistry
+JPSPBPP|J. Polym. Sci., Part B: Polym. Phys.|Journal of Polymer Science Part B: Polymer Physics
+JPST|J. Pet. Sci. Technol.|Journal of Petroleum Science and Technology
+JPST|J. Photopolym. Sci. Technol.|Journal of Photopolymer Science and Technology
+JPTM|J. Pharmacol. Toxicol. Methods|Journal of Pharmacological and Toxicological Methods
+JQSRT|J. Quant. Spectrosc. Radiat. Transfer|Journal of Quantitative Spectroscopy and Radiative Transfer
+JR|J. Rheol.|Journal of Rheology
+JRMAM|J. Rapid Methods Autom. Microbiol.|Journal of Rapid Methods and Automation in Microbiology
+JRNCA|J. Radioanal. Nucl. Chem. Art.|Journal of Radioanalytical and Nuclear Chemistry Articles
+JRNC|J. Radioanal. Nucl. Chem.|Journal of Radioanalytical and Nuclear Chemistry
+JRNCL|J. Radioanal. Nucl. Chem. Lett.|Journal of Radioanalytical and Nuclear Chemistry Letters
+JRPC|J. Reinf. Plast. Compos.|Journal of Reinforced Plastics and Composites
+JRS|J. Raman Spectrosc.|Journal of Raman Specroscopy
+JSAED|J. Strain Anal. Eng. Des.|Journal of Strain Analysis for Engineering Design
+JSAIMM|J. S. Afr. Inst. Min. Metall.|Journal of the South African Institute of Mining and Metallurgy
+JSBMB|J. Steroid Biochem. Mol. Biol.|Journal of Steroid Biochemistry and Molecular Biology
+JSC|J. Solution Chem.|Journal of Solution Chemistry
+JSC|J. Struct. Chem.|Journal of Structural Chemistry
+JSCS|J. Serb. Chem. Soc.|Journal of the Serbian Chemical Society
+JSFA|J. Sci. Food Agric.|Journal of the Science of Food and Agriculture
+JSF|J. Supercrit. Fluids|Journal of Supercritical Fluids
+JSGST|J. Sol-Gel Sci. Technol.|Journal of Sol-Gel Science and Technology
+JSIR|J. Sci. Ind. Res.|Journal of Scientific and Industrial Research
+JSMEIJSA|JSME Int J., Ser. A|JSME International Journal Series A: Mechanics and Material Engineering
+JSMEIJSB|JSME Int J., Ser. B|JSME International Journal Series B: Fluids and Thermal Engineering
+JSMEIJSC|JSME Int J., Ser. C|JSME International Journal Series C: Mechanical Systems Machine Elements and Manufacturing
+JSOCJ|J. Synth. Org. Chem Jpn.|Journal of Synthetic Organic Chemistry, Japan
+JSSC|J. Solid State Chem.|Journal of Solid State Chemistry
+JSSE|J. Solid State Electrochem.|Journal of Solid State Electrochemistry
+JSS|J. Sep. Sci.|Journal of Separation Science
+JTAC|J. Therm. Anal. Calorim.|Journal of Thermal Analysis and Calorimetry
+JTA|J. Therm. Anal.|Journal of Thermal Analysis
+JTCC|J. Theor. Comput. Chem.|Journal of Theoretical and Computational Chemistry
+JTCM|J. Thermoplast. Compos. Mater.|Journal of Thermoplastic Composite Materials
+JTCOT|J. Toxicol., Cutaneous Ocul. Toxicol.|Journal of Toxicology - Cutaneous and Ocular Toxicology
+JTCT|J. Toxicol., Clin. Toxicol.|Journal of Toxicology - Clinical Toxicology
+JTEEM|J. Trace Elem. Exp. Med.|Journal of Trace Elements in Experimental Medicine
+JTEH|J. Toxicol. Environ. Health|Journal of Toxicology and Environment Health
+JTE|J. Test. Eval.|Journal of Testing and Evaluation
+JTEMB|J. Trace Elem. Med Biol.|Journal of Trace Elements in Medicine and Biology
+JTHT|J. Thermophys Heat Transfer|Journal of Thermophysics and Heat Transfer
+JTMT|J. Trace Microprobe Tech.|Journal of Trace and Microprobe Techniques
+JTST|J. Therm. Spray Technol.|Journal of Thermal Spray Technology
+JTTR|J. Toxicol., Toxin Rev.|Journal of Toxicology - Toxin Reviews
+JVSTA|J. Vac. Sci. Technol., A|Journal of Vacuum Science and Technology A
+JVSTB|J. Vac. Sci. Technol., B|Journal of Vacuum Science and Technology B
+JWCT|J. Wood Chem. Technol.|Journal of Wood Chemistry and Technology
+KC|Kinet. Catal.|Kinetics and Catalysis
+KEM|Key Eng. Mater.|Key Engineering Materials
+KF|Khim. Fiz.|Khimicheskaya Fizika
+KGK|Kautsch. Gummi Kunstst.|Kautschuk Gummi Kunststoffe
+KJCE|Korean J. Chem. Eng.|Korean Journal of Chemical Engineering
+KK|Kinet. Katal.|Kinetika i Kataliz
+KK|Koord. Khim.|Koordinatsionnaya Khimiya (Russian Journal of Coordination Chemistry)
+KM|Kovove Mater.|Kovove Materialy Metallic Materials
+KZ|Kolloidn Zh|Kolloidn Zhurnal
+LAC|Liebigs Ann. Chem.|Liebigs Annalen der Chemie
+LAIM|Lab. Autom. Inf. Manage.|Laboratory Automation and Information Management
+LAM|Lett. Appl. Microbiol.|Letters in Applied Microbiology
+LAR|Liebigs Ann. Recl.|Liebigs Annalen - Recueil
+LCGC|LC-GC|LC-GC The Magazine of Separation Science
+LC|Laser Chem.|Laser Chemistry
+LC|Liq. Cryst.|Liquid Crystals
+LE|Lubr. Eng.|Lubrication Engineering
+LI|Lab. Invest.|Laboratory Investigation
+L|Langmuir|Langmuir
+LPS|Lett. Pept. Sci.|Letters in Peptide Science
+LRA|Lab. Rob. Autom.|Laboratory Robotics and Automation
+LS|Life Sci.|Life Sciences
+LS|Lubr. Sci.|Lubrication Science
+MA|Mikrochim. Acta|Mikrochimica Acta
+MBA|Methods Biochem. Anal.|Methods of Biochemical Analysis
+MBD|Met.-Based Drugs|Metal-Based Drugs
+MB|Mar. Biol.|Marine Biology
+MB|Mar. Biotechnol.|Marine Biotechnology
+MB|Matrix Biol.|Matrix Biology
+MCB|Mol. Cell. Biochem.|Molecular and Cellular Biochemistry
+MCG|Microb. Comp. Genomics|Microbial and Comparative Genomics
+MCLCSTSA|Mol. Cryst. Liq. Cryst. Sci. Technol., Sect. A|Molecular Crystals and Liquid Crystals Science and Technology Section A
+MCLCSTSC|Mol. Cryst. Liq. Cryst. Sci. Technol., Sect. C|Molecular Crystals and Liquid Crystals Science and Technology Section C
+MC|Manuf. Chem.|Manufacturing Chemist
+MC|Mar. Chem.|Marine Chemistry
+MC|Mater. Charact.|Materials Characterization
+MC|Mater. Corros.|Materials and Corrosion
+MC|Mendeleev Commun.|Mendeleev Communications
+MCM|Mech. Compos. Mater.|Mechanics of Composite Materials
+MC|Monatsh. Chem.|Monatshefte fur Chemie
+MCMS|Mech. Compos. Mater. Struct.|Mechanics of Composite Materials and Structures
+MCP|Macromol. Chem. Phys.|Macromolecular Chemistry and Physics
+MCP|Mater. Chem. Phys.|Materials Chemistry and Physics
+MCR|Med. Chem. Res.|Medicinal Chemistry Research
+MDD|Mod. Drug Discovery|Modern Drug Discovery
+MD|Mater. Des.|Materials and Design
+ME|Mater. Eval.|Materials Evaluation
+ME|Metab. Eng.|Metabolic Engineering
+ME|Methods Enzymol.|Methods in Enzymology
+ME|Microelectron. Eng.|Microelectronic Engineering
+ME|Miner. Eng.|Minerals Engineering
+MER|Mar. Environ. Res.|Marine Environment Research
+MF|Mater. Forum|Materials Forum
+MGC|Main Group Chem.|Main Group Chemistry
+MGMC|Main Group Met. Chem.|Main Group Metal Chemistry
+MHT|Mater. High Temp.|Materials at High Temperatures
+MIBS|Met. Ions Biol. Syst.|Metal Ions in Biological Systems
+MI|Mol. Interventions|Molecular Interventions
+MJ|Microchem. J.|Microchemical Journal
+MJ|Microelectron. J.|Microelectronics Journal
+MKF|Magy. Kem. Foly.|Magyar Kemiai Folyoirat
+ML|Mater. Lett.|Materials Letters
+M|Macromolecules|Macromolecules
+MMBB|Mol. Mar. Biol. Biotech,|Molecular Marine Biology and Biotechnology
+MM|Mech. Mater.|Mechanics of Materials
+MM|Microporous Mater.|Microporous Materials
+MM|Microsc. Microanal.|Microscopy and Microanalysis
+MMM|Microporous Mesoporous Mater.|Microporous and Mesoporous Materials
+MM|Mol. Microbiol.|Molecular Microbiology
+MMP|Mater. Manuf. Processes|Materials and Manufacturing Processes
+MMP|Miner. Metall. Process|Minerals and Metallurgical Processing
+MMTA|Metall. Mater. Trans. A|Metallurgical and Materials Transactions A: Physical Metallurgy and Materials Science
+MMTB|Metall. Mater. Trans. B|Metallurgical and Materials Transactions B: Process Metallurgy and Materials Processing Science
+MNRAS|Mon. Not. R. Astron. Soc.|Monthy Notices of the Royal Astronomical Society
+MO|Mater. Org.|Materials and Organisms
+MPB|Mar. Pollut. Bull.|Marine Pollutution Bulletin
+MPEMR|Miner. Process. Extr. Metall. Rev.|Mineral Processing and Extractive Metallurgy Review
+MPLA|Mod. Phys. Lett. A|Modern Physics Letters A
+MPLB|Mod. Phys. Lett. B|Modern Physics Letters B
+MP|Mater. Performance|Materials Performance
+MP|Mol. Pharmacol.|Molecular Pharmacology
+MP|Mol. Phys.|Molecular Physics
+MRB|Mater. Res. Bull.|Materials Research Bulletin
+MRC|Macromol. Rapid Commun.|Macromolecular Rapid Communications
+MRC|Magn. Reson. Chem.|Magnetic Resonance in Chemistry
+MRD|Mol. Reprod. Dev|Molecular Reproduction and Development
+MRI|Mater. Res. Innovations|Materials Research Innovations
+MRMC|Mini-Rev. Med. Chem.|Mini - Reviews in Medicinal Chemistry
+MR|Microbiol. Res.|Microbiological Research
+MRMPBM|Magn. Reson. Mater. Phys., Biol. Med.|Magnetic Resonance Materials in Physics, Biology and Medicine
+MRSB|MRS Bull.|MRS Bulletin
+MRSIJNSR|MRS Internet J. Nitride Semicond. Res.|MRS Internet Journal of Nitride Semiconductor Research
+MRT|Microsc. Res. Tech.|Microscopy Research and Technique
+MSEA|Mater. Sci. Eng., A|Materials Science and Engineering A
+MSEB|Mater. Sci. Eng., B|Materials Science and Engineering B
+MSEC|Mater. Sci. Eng., C|Materials Science and Engineering C
+MSER|Mater. Sci. Eng., R|Materials Science and Engineering Reports
+MSF|Mater. Sci. Forum|Materials Science Forum
+MSHT|Met. Sci. Heat Treat.|Metal Science and Heat Treatment
+MS|Macromol. Symp.|Macromolecular Symposium
+MS|Mater. Sci.|Materials Science
+MS|Mater. Struct.|Materials and Structures
+MSMSE|Modell. Simul. Mater. Sci. Eng.|Modelling and Simulation in Materials Science and Engineering
+MSP|Mol. Supramol. Photochem.|Molecular and Supramolecular Photochemistry
+MSRI|Mater. Sci. Res. Int.|Materials Science Research International
+MSR|Mass Spectrom. Rev.|Mass Spectrometry Reviews
+MSSP|Mater. Sci. Semicond. Process.|Materials Science in Semiconductor Processing
+MST|Mater. Sci. Technol.|Materials Science and Technology
+MST|Meas. Sci. Technol.|Measurement Science and Technology
+MTA|Metall. Trans. A|Metallurgical Transactions A
+MTB|Metall. Trans. B|Metallurgical Transactions B
+MTDM|Mech. Time-Depend. Mater.|Mechanics of Time Dependent Materials
+MTE|Microscale Thermophys. Eng.|Microscale Thermophysical Engineering
+MTJIM|Mater. Trans., JIM|Materials Transactions, JIM
+MT|Mater. Today|Materials Today
+MTOM|Metalloved. Term. Obrab. Met.|Metallovedenie i Termicheskaya Obrabotka Metallov
+MTS|Macromol. Theory Simul.|Macromolecular Theory and Simulations
+MWE|Mine Water Environ.|Mine Water and the Environment
+MW|Materialwiss. Werkstofftech.|Materialwissenschaft und Werkstofftechnik
+NA|Numer. Algor.|Numerical Algorithms
+NAR|Nucleic Acids Res.|Nucleic Acids Research
+NATOASISSA|NATO ASI Ser., Ser. A|NATO ASI Series, Series A Life Sciences
+NATOASISSB|NATO ASI Ser., Ser. B|NATO ASI Series, Series B Physics
+NATOASISSC|NATO ASI Ser., Ser. C|NATO ASI Series, Series C Mathematical and Physical Sciences
+NATOASISSE|NATO ASI Ser., Ser. E|NATO ASI Series, Series E Applied Physics
+NATOASISSG|NATO ASI Ser., Ser. G|NATO ASI Series, Series G Ecological Sciences
+NATOASISSH|NATO ASI Ser., Ser. H|NATO ASI Series, Series H Cell Biology
+NB|Nat. Biotechnol.|Nature Biotechnology
+NCB|New Compr. Biochem.|New Comprehensive Biochemistry
+NCSIFA|Nuovo Cimento Soc. Ital. Fis., A|Nuovo Cimento della Societa Italiana di Fisica A
+NCSIFB|Nuovo Cimento Soc. Ital. Fis., B|Nuovo Cimento della Societa Italiana di Fisica B
+NCSIFC|Nuovo Cimento Soc. Ital. Fis., C|Nuovo Cimento della Societa Italiana di Fisica C
+NCSIFD|Nuovo Cimento Soc. Ital. Fis., D|Nuovo Cimento della Societa Italiana di Fisica D
+NCTL|Nachr. Chem. Tech. Lab.|Nachrichten aus Chemie Technik und Laboratorium
+NDFCT|New Diamond Front. Carbon Technol.|New Diamond and Frontier Carbon Technology
+NDTEI|NDT and E Int.|NDT and E International
+NED|Nucl. Eng. Des.|Nuclear Engineering and Design
+NF|Nucl. Fusion|Nuclear Fusion
+NHTPA|Numer. Heat Transfer, Part A|Numerical Heat Transfer Part A
+NHTPB|Numer. Heat Transfer, Part B|Numerical Heat Transfer Part B
+NIMPRSA|Nucl. Instrum. Methods Phys. Res., Sect. A|Nuclear Instruments and Methods in Physical Research Section A
+NIMPRSB|Nucl. Instrum. Methods Phys. Res., Sect. B|Nuclear Instruments and Methods in Physical Research Section B
+NI|Neurochem. Int.|Neurochemistry International
+NJC|New J. Chem.|New Journal of Chemistry
+NK|Neft. Khoz.|Neftyanoe Khozyaistvo (Petroleum Industry)
+NL|Nano Lett.|Nano Letters
+NM|Nanostruct. Mater.|Nanostructured Materials
+NM|Neorg. Mater.|Neorganicheskie Materialy
+NMRB|NMR Biomed.|NMR in Biomedicine
+N|Nature|Nature
+NPA|Nucl. Phys. A|Nuclear Physics A
+NPB|Nucl. Phys. B|Nuclear Physics B
+NPL|Nat. Prod. Lett.|Natural Products Letters
+NPM|New Polym. Mat.|New Polymeric Materials
+NPR|Nat. Prod. Rep.|Natural Products Reports
+NPS|Nat. Prod. Sci.|Natural Product Sciences
+NR|Neurochem. Res.|Neurochemical Research
+NSAP|Naunyn-Schmiedeberg's Arch. Pharmacol.|Naunyn-Schmiedeberg's Archives of Pharmacology
+NSB|Nat. Struct. Biol.|Natural Structural Biology
+NT|Nat. Toxins|Natural Toxins
+NT|Nucl. Technol.|Nuclear Technology
+OC|Opt. Commun.|Optics Communication
+OC|Organohalogen Compd.|Organohalogen Compounds
+OC|Organomet. Chem.|Organometallic Chemistry
+OE|Opt. Express|Optics Express
+OE|Org. Electron.|Organic Electronics
+OGJ|Oil Gas J.|Oil and Gas Journal
+OG|Org. Geochem.|Organic Geochemistry
+OLEB|Origins Life Evol. Biosphere|Origins of Life and Evolution of the Biosphere
+OL|Opt. Lett.|Optics Letters
+OL|Org. Lett.|Organic Letters
+OM|Opt. Mater.|Optical Materials
+OM|Oxid. Met.|Oxidation of Metals
+OMS|Org. Mass Spectrom.|Organic Mass Spectrometry
+O|Organometallics|Organometallics
+OPPI|Org. Prep. Proced. Int.|Organic Preparations and Procedures International
+OPRD|Org. Process Res. Dev.|Organic Process Research and Development
+ORM|Org. React. Mech.|Organic Reaction Mechanics
+OSE|Ozone Sci. Eng.|Ozone Science and Engineering
+OS|Opt. Spectrosc.|Optics and Spectroscopy
+OS|Opt. Spektrosk.|Optika i Spektroskopiya
+OZ|Opt. Zh.|Opticheskii Zhurnal
+P|Peptides|Peptides
+PAC|Polycyclic Aromat. Compd.|Polycyclic Aromatic Compounds
+PAC|Pure Appl. Chem.|Pure and Applied Chemistry
+PACSDPC|Prepr. - Am. Chem. Soc., Div. Pet. Chem.|Preprints - American Chemical Society, Division of Petroleum Chemistry
+PAMS|Proc. Amer. Math. Soc.|Proceedings of the American Mathematical Society
+PA|Physica A|Physica A
+PA|Phytochem. Anal|Phytochemical Analysis
+PAT|Polym. Adv. Technol.|Polymers for Advanced Technologies
+PBB|Prep. Biochem. Biotechnol.|Preparative Biochemistry and Biotechnology
+PBMB|Prog. Biophys. Mol. Biol.|Progress in Biophysics and Molecular biology
+PB|Physica B|Physica B
+PB|Polym. Bull.|Polymer Bulletin
+PBP|Pestic. Biochem. Physiol.|Pesticide Biochemistry and Physiology
+PB|Process Biochem.|Process Biochemistry
+PB|Prog. Biotechnol.|Progress in Biotechnology
+PBZ|Physiol. Biochem. Zool.|Physiological and Biochemical Zoology
+PCCP|Phys. Chem. Chem. Phys.|Physical Chemistry Chemical Physics
+PCGCM|Prog. Cryst. Growth Charact. Mater.|Progress in Crystal Growth and Characterization of Materials
+PCG|Phys. Chem. Glasses|Physics and Chemistry of Glasses
+PCJ|Pharm. Chem. J.|Pharmaceutical Chemistry Journal
+PCL|Phys. Chem. Liq.|Physics and Chemistry of Liquids
+PCM|Phys. Chem. Miner.|Physics and Chemistry of Minerals
+PCONP|Prog. Chem. Org. Nat. Prod.|Progress in the Chemistry of Organic Natural Products
+PC|Physica C|Physica C
+PCPMNMR|Physiol. Chem. Phys. Med. NMR|Physiological Chemistry and Physics and Medical NMR
+PC|Polym. Compos.|Polymer Composites
+PCPP|Plasma Chem. Plasma Process.|Plasma Chemistry and Plasma Processing
+PC|Przem. Chem.|Przemysl Chemiczny
+PCPS|Prog. Colloid Polym. Sci.|Progress in Colloid and Polymer Science
+PCQ|Process Control Qual.|Process Control and Quality
+PDDD|Perspect. Drug Discovery Des.|Perspectives in Drug Discovery and Design
+PD|Physica D|Physica D
+PD|Powder Diffr.|Powder Diffraction
+PDS|Polym. Degrad. Stab.|Polymer Degradation and Stability
+PECS|Prog. Energy Combust. Sci.|Progress in Energy and Combustion Science
+PE|Physica E|Physica E
+PE|Plast. Eng.|Plastics Engineering
+PE|Protein Eng.|Protein Engineering
+PES|Polym. Eng. Sci.|Polymer Engineering and Science
+PFA|Phys. Fluids A|Physics of Fluids A
+PFB|Phys. Fluids B|Physics of Fluids B
+PGN|Polym. Gels Networks|Polymer Gels and Networks
+PHC|Prog. Heterocycl. Chem.|Progress in Heterocyclic Chemistry
+PIC|Prog. Inorg. Chem.|Progress in Inorganic Chemistry
+PIM|Prog. Ind. Microbiol.|Progress in Industrial Microbiology
+PI|Polym. Int.|Polymer International
+PJC|Pol. J. Chem.|Polish Journal of chemistry
+PJ|Polym. J.|Polymer Journal
+PLA|Phys. Lett. A|Physics Letters A
+PLB|Phys. Lett. B|Physics Letters B
+PLR|Prog. Lipid Res.|Progress in Lipid Research
+PMA|Philos. Mag. A|Philosophical Magazine A
+PMB|Philos. Mag. B|Philosophical Magazine B
+PML|Philos. Mag. Lett.|Philosophical Magazine Letters
+PMMC|Powder Metall. Met. Ceram.|Powder Metallurgy and Metal Ceramics
+PM|Planta Med.|Planta Medica
+PM|Powder Metall.|Powder Metallurgy
+PM|Prot. Met|Protection of Metals
+PMR|Platinum Met. Rev.|Platinum Metals Review
+PMSE|Polym. Mater. Sci. Eng.|Polymeric Materials Science and Engineering
+PMS|Prog. Mater Sci.|Progress in Materials Science
+PNASUSA|Proc. Natl. Acad. Sci. USA|Proceedings of the National Academy of Sciences of the United States of America
+PNAS|Proc. Natl. Acad. Sci. USA|Proceedings of the National Academy of Sciences
+PNB|Polym. Networks Blends|Polymer Networks and Blends
+PNMRS|Prog. Nucl. Magn. Reson. Spectrosc.|Progress in Nuclear Magnetic Resonance Spectroscopy
+POC|Prog. Org. Coat.|Progress in Organic Coatings
+PO|Pestic. Outlook|Pesticide Outlook
+PPACSDFC|Prepr. Pap. - Am. Chem. Soc., Div. Fuel Chem.|Preprint Papers - American Chemical Society, Division of Fuel Chemistry
+PPACSDPC|Polym. Prepr. (Am. Chem. Soc., Div. Polym. Chem.)|Polymeric Preprints (American Chemical Society, Division of Polymer Chemistry)
+PPB|Plant Physiol. Biochem.|Plant Physiology and Biochemistry
+PPCF|Plasma Phys. Controlled Fusion|Plasma Physics and Controlled Fusion
+PPC|Pharm. Pharmacol. Commun.|Pharmacy and Pharmacology Communications
+PPC|Polym. Polym. Compos.|Polymers and Polymer Composites
+PPL|Pharm. Pharmacol. Lett.|Pharmaceutical and Pharmacological Letters
+PP|Photochem. Photobiol.|Photochemistry and Photobiology
+PP|Physiol. Plant.|Physiologia Plantarum
+PP|Plasmas Polym.|Plasmas and Polymers
+PPR|Prog. Pap. Recycl.|Progress in Paper Recycling
+PPSC|Part. Part. Syst. Char.|Particle and Particle Systems Characterization
+PPS|Prog. Polym. Sci.|Progress in Polymer Science
+PPTE|Polym. Plast. Technol. Eng.|Polymer - Plastics Technology and Engineering
+PRAAMOP|Phys. Rev. A: At. Mol. Opt. Phys.|Physical Review A: Atomic, Molecular, and Optical Physics
+PRBCM|Phys. Rev. B: Condens. Matter|Physical Review B: Condensed Matter
+PRCNP|Phys. Rev. C: Nucl. Phys.|Physical Review C: Nuclear Physics
+PRCPA|Plast. Rubber Compos. Process. Appl.|Plastics Rubber and Composites Processing and Applications
+PRDPF|Phys. Rev. D: Part. Fields|Physical Review D: Particles and Fields
+PRE|Polym. React. Eng.|Polymer Reaction Engineering
+PRESPPF|Phys. Rev. E: Stat. Phys., Plasmas, Fluids,|Physical Review E: Statistical Physics, Plasmas, Fluids, and Related Interdisciplinary Topics
+PRK|Prog. React. Kinet.|Progress in Reaction Kinetics
+PRL|Phys. Rev. Lett.|Physical Review Letters
+PR|Pharmacol. Res.|Pharmacological Research
+PR|Pharm. Res.|Pharmaceutical Research
+PR|Photosynth. Res.|Photosynthesis Research
+PR|Phys. Rev.|Physical Review
+PR|Polym. Recycl.|Polymer Recycling
+PRSLSA|Proc. R. Soc. London, Ser. A|Proceedings of the Royal Society of London Series A
+PRSLSB|Proc. R. Soc. London, Ser. B|Proceedings of the Royal Society of London Series B
+PSEP|Process Saf. Environ. Prot.|Process Safety and Environment Protection
+PSFB|Proteins|Proteins: Structure, Function, and Bioinformatics
+PSFG|Protein-Struct. Funct. Genet.|Proteins: Structure, Function, and Genetics
+PSF|Plat. Surf. Finish.|Plating and Surface Finishing
+PS|Phys. Scr.|Physica Scripta
+PSP|Process Saf. Prog.|Process Safety Progress
+PS|Protein Sci.|Protein Science
+PSSA|Phys. Status Solidi A|Physical Status Solidi A
+PSSB|Phys. Status Solidi B|Physical Status Solidi B
+PSSC|Prog. Solid State Chem.|Progress in Solid State Chemistry
+PSS|Prog. Surf. Sci.|Progress in Surface Science
+PSSRE|Phosphorus, Sulfur Silicon Relat. Elem.|Phosphorus Sulfur Silicon and the Related Elements
+PSST|Plasma Sources Sci. Technol.|Plasma Sources Science and Technology
+PST|Part. Sci. Technol.|Particulate Science and Technology
+PST|Pet. Sci. Technol.|Petroleum Science and Technology
+PT|Pharm. Technol.|Pharmaceutical Technology
+PT|Phase Transitions|Phase Transitions
+PT|Polym. Test.|Polymer testing
+PT|Powder Technol.|Powder Technology
+PTRSLSA|Philos. Trans. R. Soc. London, Ser. A|Philosophical Transactions of the Royal Society of London, Series A
+PTRSLSB|Philos. Trans. R. Soc. London, Ser. B|Philosophical Transactions of the Royal Society of London, Series B
+QAB|Quim. Anal. (Barcelona)|Quimica Analitica
+QN|Quim. Nova|Quimica Nova
+QSAR|Quant. Struct.-Act. Relat.|Quantitative Structure-Activity Relationships
+RAC|Rev. Anal. Chem|Reviews in Analytical Chemistry
+RA|Radiochim. Acta|Radiochima Acta
+RA|Rheol. Acta|Rheologica Acta
+RCB|Russ. Chem. Bull.|Russian Chemical Bulletin
+RCC|Rev. Comput. Chem.|Reviews in Computational Chemistry
+RCE|Rev. Chem. Eng.|Reviews in Chemical Engineering
+RCI|Res. Chem. Intermed.|Research on Chemical Intermediates
+RCMPP|Res. Commun. Mol. Pathol. Pharmacol.|Research Communications in Molecular Pathology and Pharmacology
+RCMS|Rapid Commun. Mass Spectrom.|Rapid Communications in Mass Spectrometry
+RC|Rev. Chim.|Revista de Chimie
+RCT|Rubber Chem. Technol.|Rubber Chemistry and Technology
+RECT|Rev. Environ. Contam. Toxicol.|Reviews of Environment Contamination and Toxicology
+REDS|Radiat Eff. Defects Solids|Radiation Effects and Defects in Solids
+RFP|React. Funct. Polym.|Reactive and Functional Polymers
+RGT|Rev. Gen. Therm.|Revue Generale de Thermique
+RIC|Refract. Ind. Ceram|Refractories and Industrial Ceramics
+RJAC|Russ. J. Appl. Chem.|Russian Journal of Applied Chemistry
+RJBC|Russ. J. Bioorg. Chem.|Russian Journal of Bioorganic Chemistry
+RJCC|Russ. J. Coord. Chem.|Russion Journal of Coordination Chemistry
+RJE|Russ. J. Electrochem.|Russian Journal of Electrochemistry
+RJGC|Russ. J. Gen. Chem.|Russian Journal of General Chemistry
+RJNT|Russ. J. Nondestr. Test.|Russian Journal of Nondestructive Testing
+RJOC|Russ. J. Org. Chem.|Russian Journal of Organic Chemistry
+RKCL|React. Kinet. Catal. Lett.|Reaction Kinetics and Catalysis Letters
+RMCIT|Rev. Metall. / Cah. Inf. Tech.|Revue de Metallurgie / Cahiers d'Informations Techniques
+RM|Res. Microbiol.|Research in Microbiology
+RM|Russ. Metall.|Russian Metallurgy
+RPBP|Rev. Physiol., Biochem. Pharmacol.|Reviews of Physiology Biochemistry and Pharmacology
+RPC|Radiat. Phys. Chem.|Radiation Physics and Chemistry
+RPD|Radiat. Prot. Dosim.|Radiation Protection Dosimetry
+RPP|Rep. Prog. Phys.|Reports on Progress in Physics
+RRC|Rev. Roum. Chim.|Revue Roumaine de Chimie
+RR|Radiat. Res.|Radiation Research
+RRR|Rapra Rev. Rep.|RAPRA Review Reports
+RSI|Rev. Sci. Instrum.|Review of Scientific Instruments
+RTCPB|Recl. Trav. Chim. Pays-Bas|Recueil des Travaux Chimiques des Pays-Bas Journal of the Royal Netherlands Chemical Society
+RTP|Regul. Toxicol. Pharm.|Regulatory Toxicology and Pharmacology
+SAA|Sens. Actuators, A|Sensors and Actuators, A
+SAB|Sens. Actuators, B|Sensors and Actuators, B
+SAJC|S. Afr. J. Chem.|South African Journal of Chemistry
+SAMPEJ|SAMPE J.|SAMPE Journal
+SAPA|Spectrochim. Acta, Part A|Spectrochimica Acta, Part A
+SAPB|Spectrochim. Acta, Part B|Spectrochimica Acta, Part B
+SA|Spectrochim. Acta|Spectrochimica Acta
+SBB|Soil Biol. Biochem.|Soil Biology and Biochemistry
+SB|Struct. Bond.|Structure and Bonding
+SCI|Surf. Coat. Int.|Surface Coatings International
+SCSB|Sci. China, Ser. B|Science in China, Series B Chemistry
+SCSE|Sci. China, Ser. E|Science in China, Series E Technological Sciences
+SC|Struct. Chem.|Structural Chemistry
+SC|Supramol. Chem.|Supramolecular Chemistry
+SC|Synth. Commun.|Synthetic Communications
+SCT|Surf. Coat. Technol.|Surface and Coatings Technology
+SEIE|Solvent Extr. Ion Exch.|Solvent Extraction and Ion Exchange
+SEMSC|Sol. Energy Mater. Sol. Cells|Solar Energy Materials and Solar Cells
+SE|Spectrosc. Eur.|Spectroscopy Europe
+SE|Surf. Eng.|Surface Engineering
+SIA|Surf. Interface Anal.|Surface and Interface Analysis
+SISC|SIAM J. Sci. Comp.|SIAM Journal on Scientific Computing
+SI|Silic. Indus.|Silicates Industriels
+SJM|Scand. J. Metall.|Scandinavian Journal of Metallurgy
+SL|Spectrosc. Lett.|Spectroscopy Letters
+SM|Scripta Mater.|Scripta Materialia
+SMS|Smart Mater. Struct.|Smart Materials and Structures
+SM|Superlattices Microstruct.|Superlattices and Microstructures
+SM|Synth. Met.|Synthetic Metals
+SNPC|Stud. Nat. Prod. Chem.|Studies in Natural Products Chemistry
+SPEM|Supramol. Photosensit. Electroact. Mater.|Supramolecular Photosensitive and Electroactive Materials
+SPIOC|Spectrosc. Prop. Inorg. Organomet. Compd.|Spectroscopic Properties of Inorganic and Organometallic Compounds
+SPM|Sep. Purif. Methods|Separation and Purification Methods
+SP|Sci. Prog.|Science Progress
+SPT|Sep. Purif. Technol.|Separation and Purification Technology
+SRIMOC|Synth. React. Inorg. Met.-Org. Chem.|Synthesis and Reactivity in Inorganic and Metal-Organic Chemistry
+SRL|Surf. Rev. Lett.|Surface Review and Letters
+S|Science|Science
+SSCP|Springer Ser. Chem. Phys.|Springer Series in Chemical Physics
+SSC|Solid State Commun.|Solid State Communications
+SSE|Solid-State Electron.|Solid State Electronics
+SSI|Solid State Ionics|Solid State Ionics
+SSNMR|Solid State Nucl. Magn. Reson.|Solid State Nuclear Magnetic Resonance
+SSR|Surf. Sci. Rep.|Surface Science Reports
+SSSC|Stud. Surf. Sci. Catal.|Studies in Surface Science and Catalysis
+SSSSS|Springer Ser. Solid-State Sci.|Springer Series in Solid-State Sciences
+SSS|Surf. Sci. Spectra|Surface Science Spectra
+SS|Supramol. Sci.|Supramolecular Science
+SS|Surf. Sci.|Surface Science
+SSTB|Spill Sci. Technol. Bull.|Spill Science and Technology Bulletin
+SST|Semicond. Sci. Technol.|Semiconductor Science and Technology
+SST|Sep. Sci. Technol.|Separation Science and Technology
+SST|Speculations Sci. Technol.|Speculations in Science and Technology
+SST|Supercond. Sci. Technol.|Superconductor Science and Technology
+STE|Sci. Total Environ.|Science of the Total Environment
+STWJ|Sci. Technol. Weld. Joining|Science and Technology of Welding and Joining /font>
+TACTAC|TrAC, Trends Anal. Chem.|TRAC Trends in Analytical Chemistry
+TAP|Top. Appl. Phys.|Topics in Applied Physics
+TAP|Toxicol. Appl. Pharmacol.|Toxicology and Applied Pharmacology
+TA|Tetrahedron: Asymmetry|Tetrahedron: Asymmetry
+TA|Thermochim. Acta|Thermochimica Acta
+TBIC|Top. Biol. Inorg. Chem.|Topics in Biological and Inorganic Chemistry
+TBS|Trends Biochem. Sci.|Trends in Biochemical Sciences
+TB|Trends Biotechnol.|Trends in Biotechnology
+TCA|Theor. Chem. Acc.|Theoretical Chemistry Accounts
+TCC|Top. Curr. Chem.|Topics in Current Chemistry
+TC|Top. Catal.|Topics in Catalysis
+TEC|Theor. Exp. Chem.|Theoretical and Experimental Chemistry
+TEC|Toxicol. Environ. Chem.|Toxicological and Environmental Chemistry
+TEE|Trace Elem. Electrolytes|Trace Elements and Electrolytes
+TE|Tissue Eng.|Tissue Engineering
+TFCE|Theor. Found. Chem. Eng.|Theoretical Foundations of Chemical Engineering
+TFS|Top. Fluoresc. Spectrosc.|Topics in Fluorescence Spectroscopy
+TIC|Top. Inorg. Chem.|Topics in Inorganic Chemistry
+TIMF|Trans. Inst. Met. Finish.|Transactions of the Institution of Metal Finishing
+TIMMSA|Trans. Inst. Min. Metall., Sect. A|Transactions of the Institution of Mining and Metallurgy Section A
+TIMMSB|Trans. Inst. Min. Metall., Sect. B|Transactions of the Institution of Mining and Metallurgy Section B
+TIMMSC|Trans. Inst. Min. Metall., Sect. C|Transactions of the Institution of Mining and Metallurgy Section C
+TJ|Tappi J.|Tappi Journal
+TL|Tetrahedron Lett.|Tetrahedron Letters
+TL|Toxicol. Lett.|Toxicology Letters
+TMC|Transition Met. Chem.|Transition Metal Chemistry
+TMM|Tsvetn. Met. (Moscow)|Tsvetnaya Metally
+TSF|Thin Solid Films|Thin Solid Films
+TS|Toxicol. Sci.|Toxicological Sciences
+UFZ|Ukr. Fiz. Zh.|Ukrainskii Fizicheskii Zhurnal
+UK|Usp. Khim.|Uspekhi Khimii
+UKZ|Ukr. Khim. Zh.|Ukrainskii Khimicheskii Zhurnal
+US|Ultrason. Sonochem.|Ultrasonics Sonochemistry
+VS|Vib. Spectrosc|Vibrational Spectroscopy
+WASP|Water, Air, Soil Pollut.|Water, Air, and Soil Pollution
+WER|Water Environ. Res|Water Environment Research
+WJMB|World J. Microbiol. Biotechnol.|World Journal of Microbiology and Biotechnology
+WMO|Waste Manage. (Oxford)|Waste Management
+WMR|Waste Manage. Res.|Waste Management and Research
+WRR|Water Resour. Res.|Water Resources Research
+WR|Water Res.|Water Research
+WST|Water Sci. Technol.|Water Science and Technology
+XRS|X-Ray Spectrom.|X-Ray Spectrometry
+ZAAC|Z. Anorg. Allg. Chem.|Zeitschrift fur Anorganische und Allgemeine Chemie
+ZFK|Zh. Fiz. Khim.|Zhurnal Fizicheskoi Khimii
+ZKNCS|Z. Kristallogr. - New Cryst. Struct.|Zeitschrift fur Kristallograhie - New Crystral Stuctures
+ZK|Z. Kristallogr.|Zeitschrift fur Kristallograhie
+ZMI|Z. MetaIlkd.|Zeitschrift fur MetaIlkunde
+ZNAPS|Z. Naturforsch., A: Phys. Sci.|Zeitschrift fur Naturforschung A: Journal of Physical Sciences
+ZNBCS|Z. Naturforsch., B: Chem. Sci.|Zeitschrift fur Naturforschung B: Journal of Chemical Sciences
+ZNCB|Z. Naturforsch., C: Biosci.|Zeitschrift fur Naturforschung C: Journal of Biosciences
+ZNK|Zh. Neorg. Khim.|Zhurnal Neorganicheskoi Khimii
+ZOK|Zh. Obshch. Khim.|Zhurnal Obshchei Khimii
+ZOK|Zh. Org. Khim.|Zhurnal Organicheskoi Khimii
+ZPAHN|Z. Phys. A: Hadrons Nucl.|Zeitschrift fur Physik A: Hadrons and Nuclei
+ZPBCM|Z. Phys. B: Condens. Matter|Zeitschrift fur Physik B: Condensed Matter
+ZPCPF|Z. Phys. C: Part. Fields|Zeitschrift fur Physik C: Particle Fields
+ZPC|Z. Phys. Chem.|Zeitschrift fur Physikalische Chemie
+ZPDAMC|Z. Phys. D: At., Mol. Clusters|Zeitschrift fur Physik D: Atoms, Molecules and Clusters
+ZPK|Zh. Prikl. Khim.|Zhurnal Prikladnoi Khimi
