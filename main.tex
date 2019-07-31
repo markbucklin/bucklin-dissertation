@@ -85,99 +85,88 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PRELIMINARY PAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \include{prelim/prelim}
-\input{prelim/titleauthorinfo}
+\input{titleauthorinfo}
 
-% According to the BU guide the preliminary pages consist of:
-% title, copyright (optional), approval,  acknowledgments (opt.),
-% abstract, preface (opt.), Table of contents, List of tables (if
-% any), List of illustrations (if any). The \tableofcontents,
-% \listoffigures, and \listoftables commands can be used in the
-% appropriate places. For other things like preface, do it manually
-% with something like \newpage\section*{Preface}.
+% Order
+% - title
+% - copyright
+% - approval
+% - dedication
+% - acknowledgements
+% - abstract
+% - preface
+% - table-of-contents
+% - list-of-tables
+% - list-of-figures
+% - list-of-source-code
+% - list-of-abbreviations
+% - glossary
 
-% This is an additional page to print a boxed-in title, author name and
-% degree statement so that they are visible through the opening in BU
-% covers used for reports. This makes a nicely bound copy. Uncomment only
-% if you are printing a hardcopy for such covers. Leave commented out
-% when producing PDF for library submission.
-%\buecethesistitleboxpage
+% - chapter1
+% - chapter2
+% - chapter3
+% - chapter4
 
-% Make the titlepage based on the above information.  If you need
-% something special and can't use the standard form, you can specify
-% the exact text of the titlepage yourself.  Put it in a titlepage
-% environment and leave blank lines where you want vertical space.
-% The spaces will be adjusted to fill the entire page.
+% - appendices
+% - bibliography
+% - curriculum-vita
+
+% TITLE
 \maketitle
-\cleardoublepage{}
+\clearpage{}
 
-% The copyright page is blank except for the notice at the bottom. You
-% must provide your name in capitals.
+% COPYRIGHT
 \copyrightpage
-\cleardoublepage{}
+\clearpage{}
 
-% Now include the approval page based on the readers information
+% APPROVAL-PAGE
 \approvalpage
-\cleardoublepage{}
+\clearpage{}
 
-% Here goes your favorite quote. This page is optional.
-% \newpage
-%\thispagestyle{empty}
-% \input{prelim/quote}
-% \cleardoublepage{}
-
+% DEDICATION
 \newpage
 \input{prelim/dedication}
-\cleardoublepage{}
+\clearpage{}
 
-% The acknowledgment page should go here. Use something like
-% \newpage\section*{Acknowledgments} followed by your text.
+% ACKNOWLEDGEMENTS
 \newpage
 \input{prelim/acknowledgements}
-\cleardoublepage{}
+\clearpage{}
 
-% The abstractpage environment sets up everything on the page except
-% the text itself.  The title and other header material are put at the
-% top of the page, and the supervisors are listed at the bottom.  A
-% new page is begun both before and after.  Of course, an abstract may
-% be more than one page itself.  If you need more control over the
-% format of the page, you can use the abstract environment, which puts
-% the word "Abstract" at the beginning and single spaces its text.
-
+% ABSTRACT
 \begin{abstractpage}
 \input{prelim/abstract}
 \end{abstractpage}
-\cleardoublepage{}
+\clearpage{}
 
+% PREFACE
 \newpage
 \input{prelim/preface}
-\cleardoublepage{}
-% Now you can include a preface. Again, use something like
-% \newpage\section*{Preface} followed by your text
+\clearpage{}
 
 % Table of contents comes after preface
 \tableofcontents
-\cleardoublepage{}
+\clearpage{}
 
 % If you do not have tables, comment out the following lines
 % \newpage
 % \listoftables
-% \cleardoublepage{}
+% \clearpage{}
 
 % If you have figures, uncomment the following line
 \newpage
 \listoffigures
-\cleardoublepage{}
+\clearpage{}
 
 % List of Code
 \newpage
 \listoflistings
-\cleardoublepage{}
+\clearpage{}
 
 % List of Abbrevs is NOT optional (Martha Wellman likes all abbrevs listed)
 \newpage
 \input{prelim/abbreviations}
-\cleardoublepage{}
+\clearpage{}
 
 \newpage
 \endofprelim
@@ -229,7 +218,7 @@
 % BIBLIOGRAPHY
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \nocite{*}
-\cleardoublepage
+\clearpage
 \phantomsection
 \singlespace{}
 \raggedright{}
@@ -241,11 +230,11 @@
 \bibliographystyle{apalike}
 \bibliography{thesis}
 % \thebibliography{thesis}
-\cleardoublepage{}
+\clearpage{}
 
 % Curriculum Vitae
-\input{prelim/cv}
+\input{prelim/curriculum-vita}
 
-\cleardoublepage{}
+\clearpage{}
 
 \end{document}
