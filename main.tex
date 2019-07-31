@@ -83,7 +83,7 @@
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% PRELIMINARY PAGES
+% preINARY PAGES
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{titleauthorinfo}
 
@@ -125,51 +125,51 @@
 
 % DEDICATION
 \newpage
-\input{prelim/dedication}
+\input{pre/dedication}
 \clearpage{}
 
 % ACKNOWLEDGEMENTS
 \newpage
-\input{prelim/acknowledgements}
+\input{pre/acknowledgements}
 \clearpage{}
 
 % ABSTRACT
 \begin{abstractpage}
-\input{prelim/abstract}
+\input{pre/abstract}
 \end{abstractpage}
 \clearpage{}
 
 % PREFACE
 \newpage
-\input{prelim/preface}
+\input{pre/preface}
 \clearpage{}
 
-% Table of contents comes after preface
+% TABLE OF CONTENTS
 \tableofcontents
 \clearpage{}
 
-% If you do not have tables, comment out the following lines
+% LIST OF TABLES
 % \newpage
 % \listoftables
 % \clearpage{}
 
-% If you have figures, uncomment the following line
+% LIST OF FIGURES
 \newpage
 \listoffigures
 \clearpage{}
 
-% List of Code
+% LIST OF CODE
 \newpage
 \listoflistings
 \clearpage{}
 
-% List of Abbrevs is NOT optional (Martha Wellman likes all abbrevs listed)
+% LIST OF ABBREVIATIONS
 \newpage
-\input{prelim/abbreviations}
+\input{pre/abbreviations}
 \clearpage{}
 
-\newpage
-\endofprelim
+% \newpage
+\endofpre
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % CHAPTERS (MAIN BODY OF DOCUMENT)
@@ -194,24 +194,7 @@
 
 % \appendix
 \begin{appendices}
-\chapter{Published Abstracts}
-\label{sec:published-abstracts}
-\thispagestyle{myheadings}
-\input{appendix/published/ali}
-\input{appendix/published/kk}
-\input{appendix/published/jm}
-\input{appendix/published/mr}
-\input{appendix/published/hg}
-% \section{Project contribution 1 (2016)}
-% \includepdf[pages=-,templatesize={120mm}{175mm},scale=0.85]{appendix/ali.pdf}
-% \section{Project contribution 2 (2016)}
-% \includepdf[pages=-,templatesize={120mm}{175mm},scale=0.85]{appendix/kk.pdf}
-% \section{Project contribution 3 (2016)}
-% \includepdf[pages=-,templatesize={120mm}{175mm},scale=0.85]{appendix/jm.pdf}
-% \section{Project contribution 4 (2019)}
-% \includepdf[pages=-,templatesize={120mm}{175mm},scale=0.85]{appendix/mr.pdf}
-% \section{Project contribution 5 (2019)}
-% \includepdf[pages={1-17},templatesize={120mm}{175mm},scale=.85]{appendix/hg.pdf}
+  \input{post/appendix-published-abstracts}
 \end{appendices}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -233,7 +216,7 @@
 \clearpage{}
 
 % Curriculum Vitae
-\input{prelim/curriculum-vita}
+\input{pre/curriculum-vita}
 
 \clearpage{}
 
