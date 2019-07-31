@@ -149,9 +149,15 @@ In this context, the first spatial moment M\textsubscript{00} indicates the mean
 
 \subsection{Tone mapping and Filtering}\label{sec:tonemapping-and-filtering}
 
+Visualization is greatly aided by continuous normalizing/tonemapping operations that operate on moving averages of each image stream.
+By adding operations specifically meant to bring the range and intensity of image frames in the stream to be compatible with modern displays, the original streams can retain their original values.
+This is useful in situations where the absolute pixel value of a particular image stream actually represents some real-world measure, such as a count, a distance, a probability, or a length of time.
+\figref{fig:distance-to-bbox-corner} shows one such type of measure, normalized in this case to fill the range of brightness that fits on a digital display, and tonemapping distances on the xy plane (stored as complex pixel values) to colors in a 2-dimensional cylindrical colorspace.
+
 \begin{figure}[htb]\centering
 	\includegraphics[height=12cm]{figures/sw-video-processing-feature-generation.png}
 	\caption{Feature generation showing complex-valued moving average of distance of each pixel to bounding box corners (post segmentation)}
+    \label{fig:distance-to-bbox-corner}
 \end{figure}
 
 % \begin{figure}[htb]\centering
