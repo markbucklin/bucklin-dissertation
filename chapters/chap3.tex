@@ -33,6 +33,10 @@ This essentially leads to a 16x speedup, though the latency is also increased sl
 The best size to use is difficult to pre-determine, and typically must be measured for varying size `chunks' using the benchmarking functions indicated above.
 The system objects manage the details necessary to allow buffered chunks of video to be passed to each stage without introducing artifacts at the temporal edges between chunks.
 
+\subsection{User Interface for Parameter Tuning}\label{sec:user-interface-for-parameter-tuning}
+
+Some system-objects also incorporate a user interface to aid in parameter selection for tuning.
+
 \begin{figure}[htb]\centering
 	\includegraphics[width=12cm]{figures/screenshot_20150608180058.png}
 	\caption{Interactive parameter adjustment for homomorphic filter operation (local contrast enhancement)}
@@ -48,8 +52,6 @@ Aligning to the first template is usually more stable as the brightness of cells
 
 The displacement of each frame is found to sub-pixel precision, then used with a custom bicubic resampling kernel that replaces any pixels at the edges with images from the moving average.
 
-
-
 \begin{figure}[htb]\centering
 	\includegraphics[width=12cm]{figures/motion_correction_sample.png}
 	\caption{Motion compensated; comparison of uncompensated and compensated frames overlayed with mean image}
@@ -64,14 +66,18 @@ Code implementing these incremental pixel-wise statistic updates in MATLAB is sh
 
 Furthermore, the value used to update each central moment at each point in time can be used as a measure of change in the distribution of each pixel caused by the current pixel intensity, as explained next.
 
+\begin{figure}[htb]\centering
+	\includegraphics[width=12cm]{figures/statistics_of_128_frames_contrast_enhanced.jpg}
+	\caption{Pixel-wise statistics of 128 frames (min, max, mean, standard deviation, skewness, kurtosis)}
+\end{figure}
+
 \subsubsection{Non-Stationarity \& Differential Moments}\label{sec:non-stationarity-differential-moments}
 
 Stationary refers to the property of a signal such that its statistics do not vary over time, i.e.~its distribution is stable.
-Neural signals tend to specifically \emph{not} have this property, in contrast to other measurable components such as those contributed by physiologic noise (heart-rate, respirations, etc.)
-.
+Neural signals tend to specifically \emph{not} have this property, in contrast to other measurable components such as those contributed by physiologic noise (heart-rate, respirations, etc.).
 Thus, by analyzing the evolution of statistical measures calculated for each pixel as frames are added in sequence gives a highly sensitive indicator of neural activity.
 This is done using a routine analogous to that for updating central moments given above, except the values returned are not only the updated moment, but also the updating component -- essentially the partial derivative with respect to time.
-This is illustrated below, including the normalization functions which convert the partial-moment values to their variance, skewness, and kurtosis analogues:
+This is illustrated below, including the normalization functions which convert the partial-moment values to their variance, skewness, and kurtosis analogues.
 
 
 These functions run on images representing the image intensity, and also on images taken from sequential differences indicating the temporal derivative of image intensity.
@@ -109,6 +115,10 @@ end
 
 This type of function is also easily translated to stencil functions on for computation on the GPU.
 
+\begin{figure}[htb]\centering
+	\includegraphics[width=12cm]{figures/sw-sequence-bw.png}
+	\caption{Normalized differential skewness}
+\end{figure}
 
 \subsection{Surface Classification: Peaks, Edges, Curvature}\label{sec:surface-classification-peaks-edges-curvature}
 
@@ -131,12 +141,14 @@ The weights given by this function can take on values between -1 and 1, and can 
 Additionally, spatial moments can indicate the subcellular distribution of activity across the identified region.
 In this context, the first spatial moment M\textsubscript{00} indicates the mean signal intensity.
 
+\begin{figure}[htb]\centering
+	\includegraphics[height=12cm]{figures/sw-video-processing-feature-pointwise-mutual-information.png}
+	\caption{Feature generation of single motion-compensated frame using complex-valued normalized pointwise mutual information of each pixel with its local neighborhood}
+\end{figure}
 
-\subsection{User Interface for Parameter Tuning}\label{sec:user-interface-for-parameter-tuning}
 
-Some system-objects also incorporate a user interface to aid in parameter selection for tuning.
+\subsection{Tone mapping and Filtering}\label{sec:tonemapping-and-filtering}
 
-\subsection{Image Processing: Tone mapping and Filtering}\label{sec:image-processing-tonemapping-and-filtering}
 \begin{figure}[htb]\centering
 	\includegraphics[height=12cm]{figures/sw-video-processing-feature-generation.png}
 	\caption{Feature generation showing complex-valued moving average of distance of each pixel to bounding box corners (post segmentation)}
@@ -147,10 +159,6 @@ Some system-objects also incorporate a user interface to aid in parameter select
 % 	\caption{caption}
 % \end{figure}
 
-\begin{figure}[htb]\centering
-	\includegraphics[height=12cm]{figures/sw-video-processing-feature-pointwise-mutual-information.png}
-	\caption{Feature generation of single motion-compensated frame using complex-valued normalized pointwise mutual information of each pixel with its local neighborhood}
-\end{figure}
 
 
 % \begin{figure}[htb]\centering
@@ -158,20 +166,12 @@ Some system-objects also incorporate a user interface to aid in parameter select
 % 	\caption{caption}
 % \end{figure}
 
-\begin{figure}[htb]\centering
-	\includegraphics[width=12cm]{figures/statistics_of_128_frames_contrast_enhanced.jpg}
-	\caption{Pixel-wise statistics of 128 frames (min, max, mean, standard deviation, skewness, kurtosis)}
-\end{figure}
 
 
-\begin{figure}[htb]\centering
-	\includegraphics[width=12cm]{figures/sw-sequence-bw.png}
-	\caption{Normalized differential skewness}
-\end{figure}
 
 % \clearpage
 
 
 % \end{document}
 
-\cleardoublepage{}
+\clearpage{}
