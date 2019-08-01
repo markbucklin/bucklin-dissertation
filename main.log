@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.31)  31 JUL 2019 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.31)  31 JUL 2019 23:30
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1275,12 +1275,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
  [15
 
 
-] (./pre/abbreviations.tex
-Overfull \hbox (53.35889pt too wide) in paragraph at lines 4--30
- [] 
- []
-
-) [16
+] (./pre/abbreviations.tex)
+[16
 
 
 ] (./chapters/chap1.tex
@@ -1388,27 +1384,25 @@ File: figures/03-water-delivery-zoom.jpg Graphic file (type jpg)
 Package pdftex.def Info: figures/03-water-delivery-zoom.jpg  used on input line
  143.
 (pdftex.def)             Requested size: 158.68185pt x 99.58464pt.
-<figures/photo-front.jpg, id=515, 828.09375pt x 828.09375pt>
+! Too many }'s.
+l.153 ...uired for fabrication with a CNC mill). }
+                                                  
+? 
+<figures/photo-front.jpg, id=516, 828.09375pt x 828.09375pt>
 File: figures/photo-front.jpg Graphic file (type jpg)
 <use figures/photo-front.jpg>
-Package pdftex.def Info: figures/photo-front.jpg  used on input line 154.
+Package pdftex.def Info: figures/photo-front.jpg  used on input line 159.
 (pdftex.def)             Requested size: 128.0374pt x 128.03731pt.
-<figures/photo-top.jpg, id=516, 1680.2775pt x 1680.2775pt>
+<figures/photo-top.jpg, id=517, 1680.2775pt x 1680.2775pt>
 File: figures/photo-top.jpg Graphic file (type jpg)
 <use figures/photo-top.jpg>
-Package pdftex.def Info: figures/photo-top.jpg  used on input line 159.
+Package pdftex.def Info: figures/photo-top.jpg  used on input line 164.
 (pdftex.def)             Requested size: 128.0374pt x 128.01521pt.
-<figures/photo-bottom.jpg, id=517, 1451.4225pt x 1451.4225pt>
+<figures/photo-bottom.jpg, id=518, 1451.4225pt x 1451.4225pt>
 File: figures/photo-bottom.jpg Graphic file (type jpg)
 <use figures/photo-bottom.jpg>
-Package pdftex.def Info: figures/photo-bottom.jpg  used on input line 163.
+Package pdftex.def Info: figures/photo-bottom.jpg  used on input line 168.
 (pdftex.def)             Requested size: 128.0374pt x 128.0312pt.
-! Extra }, or forgotten \endgroup.
-\@endfloatbox ...pagefalse \outer@nobreak \egroup 
-                                                  \color@endbox 
-l.172 \end{figure}
-                  
-? 
 [16 <./figures/01-treadmill-mouse-running.jpg> <./figures/01-water-port.jpg> <.
 /figures/03-water-delivery-zoom.jpg>] [17 <./figures/photo-front.jpg> <./figure
 s/photo-top.jpg> <./figures/photo-bottom.jpg>]
@@ -1416,92 +1410,92 @@ s/photo-top.jpg> <./figures/photo-bottom.jpg>]
 File: figures/01-motion-sensors-installed.jpg Graphic file (type jpg)
 <use figures/01-motion-sensors-installed.jpg>
 Package pdftex.def Info: figures/01-motion-sensors-installed.jpg  used on input
- line 206.
+ line 207.
 (pdftex.def)             Requested size: 198.06079pt x 128.0374pt.
 
-Overfull \hbox (2.93312pt too wide) in paragraph at lines 206--207
+Overfull \hbox (2.93312pt too wide) in paragraph at lines 207--208
  [][] 
  []
 
 <figures/02-motion-sensors.jpg, id=529, 1668.2325pt x 2222.3025pt>
 File: figures/02-motion-sensors.jpg Graphic file (type jpg)
 <use figures/02-motion-sensors.jpg>
-Package pdftex.def Info: figures/02-motion-sensors.jpg  used on input line 211.
+Package pdftex.def Info: figures/02-motion-sensors.jpg  used on input line 212.
 
 (pdftex.def)             Requested size: 96.09317pt x 128.0374pt.
 <figures/striatum_figure2.png, id=530, 273.4215pt x 288.5982pt>
 File: figures/striatum_figure2.png Graphic file (type png)
 <use figures/striatum_figure2.png>
-Package pdftex.def Info: figures/striatum_figure2.png  used on input line 215.
+Package pdftex.def Info: figures/striatum_figure2.png  used on input line 216.
 (pdftex.def)             Requested size: 188.6944pt x 199.16928pt.
-[18 <./figures/01-motion-sensors-installed.jpg> <./figures/02-motion-sensors.jp
-g> <./figures/striatum_figure2.png>] [19] [20]
-<figures/widefield_microscope_diagram.png, id=546, 184.5294pt x 438.438pt>
+[18] [19 <./figures/01-motion-sensors-installed.jpg> <./figures/02-motion-senso
+rs.jpg> <./figures/striatum_figure2.png>] [20] [21]
+<figures/widefield_microscope_diagram.png, id=551, 184.5294pt x 438.438pt>
 File: figures/widefield_microscope_diagram.png Graphic file (type png)
 <use figures/widefield_microscope_diagram.png>
 Package pdftex.def Info: figures/widefield_microscope_diagram.png  used on inpu
-t line 265.
+t line 266.
 (pdftex.def)             Requested size: 95.80379pt x 227.62204pt.
-<figures/setup1.jpg, id=547, 800.9925pt x 1328.965pt>
+<figures/setup1.jpg, id=552, 800.9925pt x 1328.965pt>
 File: figures/setup1.jpg Graphic file (type jpg)
 <use figures/setup1.jpg>
-Package pdftex.def Info: figures/setup1.jpg  used on input line 270.
+Package pdftex.def Info: figures/setup1.jpg  used on input line 271.
 (pdftex.def)             Requested size: 137.18135pt x 227.62204pt.
-<figures/setup3-front.jpg, id=548, 1999.47pt x 3705.845pt>
+<figures/setup3-front.jpg, id=553, 1999.47pt x 3705.845pt>
 File: figures/setup3-front.jpg Graphic file (type jpg)
 <use figures/setup3-front.jpg>
-Package pdftex.def Info: figures/setup3-front.jpg  used on input line 281.
+Package pdftex.def Info: figures/setup3-front.jpg  used on input line 282.
 (pdftex.def)             Requested size: 153.49287pt x 284.52756pt.
-<figures/setup3-side.jpg, id=549, 2059.695pt x 3657.665pt>
+<figures/setup3-side.jpg, id=554, 2059.695pt x 3657.665pt>
 File: figures/setup3-side.jpg Graphic file (type jpg)
 <use figures/setup3-side.jpg>
-Package pdftex.def Info: figures/setup3-side.jpg  used on input line 286.
+Package pdftex.def Info: figures/setup3-side.jpg  used on input line 287.
 (pdftex.def)             Requested size: 160.22185pt x 284.52756pt.
-<figures/setup3-closeup.jpg, id=550, 3164.82375pt x 2716.1475pt>
+<figures/setup3-closeup.jpg, id=555, 3164.82375pt x 2716.1475pt>
 File: figures/setup3-closeup.jpg Graphic file (type jpg)
 <use figures/setup3-closeup.jpg>
-Package pdftex.def Info: figures/setup3-closeup.jpg  used on input line 290.
+Package pdftex.def Info: figures/setup3-closeup.jpg  used on input line 291.
 (pdftex.def)             Requested size: 199.16928pt x 170.91927pt.
-<figures/setup4-front.jpg, id=551, 1148.29pt x 3994.925pt>
+<figures/setup4-front.jpg, id=556, 1148.29pt x 3994.925pt>
 File: figures/setup4-front.jpg Graphic file (type jpg)
 <use figures/setup4-front.jpg>
-Package pdftex.def Info: figures/setup4-front.jpg  used on input line 299.
+Package pdftex.def Info: figures/setup4-front.jpg  used on input line 300.
 (pdftex.def)             Requested size: 113.81102pt x 395.9194pt.
-<figures/setup4-side.jpg, id=552, 1702.36pt x 3689.785pt>
+<figures/setup4-side.jpg, id=557, 1702.36pt x 3689.785pt>
 File: figures/setup4-side.jpg Graphic file (type jpg)
 <use figures/setup4-side.jpg>
-Package pdftex.def Info: figures/setup4-side.jpg  used on input line 304.
+Package pdftex.def Info: figures/setup4-side.jpg  used on input line 305.
 (pdftex.def)             Requested size: 113.81102pt x 246.65692pt.
-<figures/setup4-closeup.jpg, id=553, 1683.28876pt x 2418.03375pt>
+<figures/setup4-closeup.jpg, id=558, 1683.28876pt x 2418.03375pt>
 File: figures/setup4-closeup.jpg Graphic file (type jpg)
 <use figures/setup4-closeup.jpg>
-Package pdftex.def Info: figures/setup4-closeup.jpg  used on input line 308.
+Package pdftex.def Info: figures/setup4-closeup.jpg  used on input line 309.
 (pdftex.def)             Requested size: 113.81102pt x 163.48695pt.
- [21 <./figures/widefield_microscope_diagram.png> <./figures/setup1.jpg>] [22 <
+ [22 <./figures/widefield_microscope_diagram.png> <./figures/setup1.jpg>] [23 <
 ./figures/setup3-front.jpg> <./figures/setup3-side.jpg> <./figures/setup3-close
-up.jpg>] [23 <./figures/setup4-front.jpg> <./figures/setup4-side.jpg> <./figure
+up.jpg>] [24 <./figures/setup4-front.jpg> <./figures/setup4-side.jpg> <./figure
 s/setup4-closeup.jpg>])
 (./chapters/chap3.tex
 Chapter 3.
-[24
+[25
 
 
 ]
-<figures/screenshot_20150608180058.png, id=573, 1933.97531pt x 1225.57875pt>
+<figures/screenshot_20150608180058.png, id=577, 1933.97531pt x 1225.57875pt>
 File: figures/screenshot_20150608180058.png Graphic file (type png)
 <use figures/screenshot_20150608180058.png>
 Package pdftex.def Info: figures/screenshot_20150608180058.png  used on input l
 ine 41.
 (pdftex.def)             Requested size: 341.43306pt x 216.36827pt.
- [25]
-<figures/motion_correction_sample.png, id=578, 1141.26375pt x 592.46344pt>
+ [26]
+<figures/motion_correction_sample.png, id=582, 1141.26375pt x 592.46344pt>
 File: figures/motion_correction_sample.png Graphic file (type png)
 <use figures/motion_correction_sample.png>
 Package pdftex.def Info: figures/motion_correction_sample.png  used on input li
 ne 56.
 (pdftex.def)             Requested size: 341.43306pt x 177.24318pt.
- [26 <./figures/screenshot_20150608180058.png>]
-<figures/statistics_of_128_frames_contrast_enhanced.jpg, id=585, 2240.37pt x 14
+ [27 <./figures/screenshot_20150608180058.png>]
+<figures/statistics_of_128_frames_contrast_enhanced.jpg, id=590, 2240.37pt x 14
 92.57625pt>
 File: figures/statistics_of_128_frames_contrast_enhanced.jpg Graphic file (type
  jpg)
@@ -1509,7 +1503,7 @@ File: figures/statistics_of_128_frames_contrast_enhanced.jpg Graphic file (type
 Package pdftex.def Info: figures/statistics_of_128_frames_contrast_enhanced.jpg
   used on input line 70.
 (pdftex.def)             Requested size: 341.43306pt x 227.45242pt.
- [27 <./figures/motion_correction_sample.png>] [28 <./figures/statistics_of_128
+ [28 <./figures/motion_correction_sample.png>] [29 <./figures/statistics_of_128
 _frames_contrast_enhanced.jpg>]
 \openout5 = `main.pyg'.
 
@@ -1519,13 +1513,13 @@ _frames_contrast_enhanced.jpg>]
 3.pygtex)
 Package hyperref Info: bookmark level for unknown listing defaults to 0 on inpu
 t line 112.
-<figures/sw-sequence-bw.png, id=597, 2578.63374pt x 1574.88374pt>
+<figures/sw-sequence-bw.png, id=602, 2578.63374pt x 1574.88374pt>
 File: figures/sw-sequence-bw.png Graphic file (type png)
 <use figures/sw-sequence-bw.png>
 Package pdftex.def Info: figures/sw-sequence-bw.png  used on input line 119.
 (pdftex.def)             Requested size: 341.43306pt x 208.51491pt.
- [29] [30 <./figures/sw-sequence-bw.png>]
-<figures/sw-video-processing-feature-pointwise-mutual-information.png, id=609, 
+ [30] [31 <./figures/sw-sequence-bw.png>]
+<figures/sw-video-processing-feature-pointwise-mutual-information.png, id=613, 
 1263.72125pt x 1263.72125pt>
 File: figures/sw-video-processing-feature-pointwise-mutual-information.png Grap
 hic file (type png)
@@ -1533,7 +1527,7 @@ hic file (type png)
 Package pdftex.def Info: figures/sw-video-processing-feature-pointwise-mutual-i
 nformation.png  used on input line 145.
 (pdftex.def)             Requested size: 341.44069pt x 341.43306pt.
-<figures/sw-video-processing-feature-generation.png, id=611, 1401.235pt x 1401.
+<figures/sw-video-processing-feature-generation.png, id=615, 1401.235pt x 1401.
 235pt>
 File: figures/sw-video-processing-feature-generation.png Graphic file (type png
 )
@@ -1541,21 +1535,21 @@ File: figures/sw-video-processing-feature-generation.png Graphic file (type png
 Package pdftex.def Info: figures/sw-video-processing-feature-generation.png  us
 ed on input line 158.
 (pdftex.def)             Requested size: 341.43474pt x 341.43306pt.
- [31] [32 <./figures/sw-video-processing-feature-pointwise-mutual-information.p
-ng>] [33 <./figures/sw-video-processing-feature-generation.png>]) (./chapters/c
+ [32] [33 <./figures/sw-video-processing-feature-pointwise-mutual-information.p
+ng>] [34 <./figures/sw-video-processing-feature-generation.png>]) (./chapters/c
 hap4.tex
 Chapter 4.
-[34
+[35
 
 
-] [35] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46]) [47
+] [36] [37] [38] [39] [40] [41] [42] [43] [44] [45] [46] [47]) [48
 
 
 
 ]
 (./post/appendix-published-abstracts.tex
 Appendix A.
-(./post/published/ali.tex [48
+(./post/published/ali.tex [49
 
 ]) (./post/published/kk.tex
 Overfull \hbox (3.53088pt too wide) in paragraph at lines 1--1
@@ -1563,9 +1557,9 @@ Overfull \hbox (3.53088pt too wide) in paragraph at lines 1--1
  mo-tor deficits 
  []
 
-[49
+[50
 
-]) (./post/published/jm.tex [50
+]) (./post/published/jm.tex [51
 
 ]) (./post/published/mr.tex
 Overfull \hbox (4.54381pt too wide) in paragraph at lines 9--10
@@ -1573,34 +1567,37 @@ Overfull \hbox (4.54381pt too wide) in paragraph at lines 9--10
 at is eas-ily pro-grammable,
  []
 
-[51
+[52
 
-] [52]) (./post/published/hg.tex [53
+] [53]) (./post/published/hg.tex [54
 
-])) (./post/bibliography.tex (./main.bbl [54
-
-
-] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68]
-[69] [70] [71] [72] [73] [74] [75] [76] [77] [78] [79]) [80])
-(./post/curriculum-vita.tex [81
+])) (./post/bibliography.tex (./main.bbl [55
 
 
-] [82]) [83]
+] [56] [57] [58] [59] [60] [61] [62] [63] [64] [65] [66] [67] [68] [69]
+[70] [71] [72] [73] [74] [75] [76] [77] [78] [79] [80]) [81])
+(./post/curriculum-vita.tex [82
+
+] [83]) [84]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 216.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 216.
  (./main.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 216.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 216.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: AD4520C4E3DDDDEEE874BBE372791BD8;12076.
+(rerunfilecheck)             Checksum: 681647844FDCA28EC9B74530DB936343;12087.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 216.
 runsystem(rm main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 33381 strings out of 492609
- 628672 string characters out of 6129033
- 782336 words of memory out of 5000000
+ 33382 strings out of 492609
+ 628679 string characters out of 6129033
+ 782422 words of memory out of 5000000
  36195 multiletter control sequences out of 15000+600000
  21453 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1621,10 +1618,10 @@ e/2019/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/
 19/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/local/texlive/2019
 /texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb></usr/local/texlive/2019/t
 exmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on main.pdf (99 pages, 20110961 bytes).
+Output written on main.pdf (100 pages, 20111563 bytes).
 PDF statistics:
- 1282 PDF objects out of 1440 (max. 8388607)
- 1114 compressed objects within 12 object streams
- 465 named destinations out of 1000 (max. 500000)
+ 1286 PDF objects out of 1440 (max. 8388607)
+ 1117 compressed objects within 12 object streams
+ 466 named destinations out of 1000 (max. 500000)
  613 words of extra memory for PDF output out of 10000 (max. 10000000)
 
