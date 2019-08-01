@@ -9,7 +9,6 @@ main.pdf
 .vscode
 main.nlo
 .examples
-.*
 *.nlo
 *.bbl
 *.blg
