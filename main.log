@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.31)  31 JUL 2019 23:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2019.7.31)  1 AUG 2019 00:24
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1860,15 +1860,14 @@ runsystem(rm main.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 32039 strings out of 494923
- 596928 string characters out of 6180742
- 706636 words of memory out of 5000000
- 34265 multiletter control sequences out of 15000+600000
- 21453 words of font info for 52 fonts, out of 8000000 for 9000
+ 32027 strings out of 494923
+ 596777 string characters out of 6180742
+ 706421 words of memory out of 5000000
+ 34258 multiletter control sequences out of 15000+600000
+ 21076 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  69i,8n,69p,561b,582s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/tcti1200.600p
-k> </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600p
+ </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx2488.600p
 k> </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm0800.600p
 k> </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ectt1000.600p
 k> </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1095.600p
@@ -1884,10 +1883,10 @@ k> </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1440.600p
 k> </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600p
 k> </home/mark/.texlive2017/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1440.600p
 k></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on main.pdf (100 pages, 19999070 bytes).
+Output written on main.pdf (100 pages, 19996423 bytes).
 PDF statistics:
- 1824 PDF objects out of 2073 (max. 8388607)
- 1129 compressed objects within 12 object streams
- 466 named destinations out of 1000 (max. 500000)
+ 1811 PDF objects out of 2073 (max. 8388607)
+ 1120 compressed objects within 12 object streams
+ 462 named destinations out of 1000 (max. 500000)
  613 words of extra memory for PDF output out of 10000 (max. 10000000)
 
