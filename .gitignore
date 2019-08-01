@@ -18,3 +18,5 @@ main.run.xml
 main.bcf
 main.docx
 main.pyg
+.deps
+.spell
